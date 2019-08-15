@@ -1,2 +1,3 @@
-# national-oceanographic-data-centre
-Metadata and formally published data
+# National Oceanographic Data Centre
+
+Metadata and formally published data from Ireland's National Oceanographic Data Centre.
