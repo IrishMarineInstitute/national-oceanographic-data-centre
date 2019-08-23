@@ -1,0 +1,27 @@
+# To Do
+
+## RDF Export
+- Complete the DCAT mapping
+- Schema.org
+  - variableMeasured from P01
+  - measurementTechnique from L22
+- Geolink
+  - hasMeasurementType from P02 and P03
+  - isDatasetOf from C17
+    - hasPlatformType from L06
+	
+## HTML export
+- Complete HTML export
+- Investigate generating the Schema.org JSON-LD on the fly
+- Minify and concatenate the CSS and JS files
+- Investigate font hosting to remove CDN dependency
+- Add related resource titles
+- Set the nodcLeafletMapFunctions.js script to be an autorun function
+- Fix GeoJSON export issues
+
+## HTML home page
+- Add a search function
+
+## Grunt build
+- Rename files
+- Build HTML and RDF from ISO XML

@@ -1,0 +1,141 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #1c71b8;
+}
+
+h2 {
+	padding-bottom: 11px;
+	padding-top: 11px;
+	border-bottom: 1px solid black;
+	color: #024586;
+}
+
+.header-img-logo{
+	max-height: 40px;
+}
+
+.logo,.catalogueName{
+	display:inline-block;
+}
+
+.catalogueName{
+	padding-left: 12px;
+}
+
+.blockLabel{
+	display:inline-block;
+	width: 18%;
+	font-style: italic;
+	vertical-align: top;
+	text-align: right;
+	color: #074b90;
+}
+
+.blockValue{
+	display:inline-block;
+	padding-left: 18px;
+}
+
+.blockRow{
+	padding-bottom:12px;
+}
+
+.headerLeft{
+	width: 79%;
+	display: inline-block;
+	height: 50px;
+}
+
+.headerRight{
+	display: inline-block;
+	width: 20%;
+	height: 50px;
+	text-align: right;
+}
+
+.header{
+	vertical-align: middle;
+	background-color: #00a4d1;
+	border-bottom: 1px solid #e7f5fd;
+	color: white;
+	font-size: 18pt;
+	padding-top: 20px;
+}
+
+.container,.header{
+	padding-left: 12.5%;
+	padding-right: 12.5%
+}
+
+.menu-item{
+	padding-left: 10%
+}
+
+.footer{
+	background-color: #c0e6f9;
+	color: #024586;
+	padding: 24px 12.5% 24px 12.5%;
+}
+
+.map{
+	height: 350px;
+}
+
+.footer-logo-left, .footer-logo-right{	
+	display: inline-block;
+	width: 25%;
+}
+
+.footer-logo-right{
+	text-align: right;
+}
+
+.footer_img_ido_logo, .footer_img_emff_logo{
+	max-width: 90px;
+}
+
+.footer-text{
+	display: inline-block;
+	width: 49%;
+	text-align:center;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../site-assets/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../site-assets/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../site-assets/MaterialIcons-Regular.woff) format('woff'),
+    url(../site-assets/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

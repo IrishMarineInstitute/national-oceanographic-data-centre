@@ -8,15 +8,16 @@
     xmlns:gl="http://schema.geolink.org/1.0/base/main#"
     xmlns:gml="http://www.opengis.net/gml"
     xmlns:gmx="http://www.isotc211.org/2005/gmx"
+    xmlns:locn="http://www.w3.org/ns/locn#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:sdo="https://schema.org/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:time="http://www.w3.org/2006/time#"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     exclude-result-prefixes="xs gmd gco gmx xlink"
     version="2.0">
     
-    <xsl:strip-space elements="*"/>
+    <!--<xsl:strip-space elements="*"/>-->
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:template match="/gmd:MD_Metadata">
@@ -36,6 +37,8 @@
                 <xsl:apply-templates select="/gmd:MD_Metadata/gmd:fileIdentifier/gco:CharacterString"/>
                 <xsl:apply-templates select="/gmd:MD_Metadata/gmd:dateStamp/gco:Date" />
                 <xsl:apply-templates select="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition" />
+                <xsl:apply-templates select="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox" />
+                <xsl:apply-templates select="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_BoundingPolygon" />
                 <xsl:for-each select="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword" >
                     <xsl:apply-templates select="gmx:Anchor"/>
                 </xsl:for-each>
@@ -141,4 +144,81 @@
         </sdo:temporalCoverage>
     </xsl:template>
 
+    <xsl:template match="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox">
+        <dct:spatial>
+            <dct:Location rdf:about="#boundingBox">
+                <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+                    POLYGON((<xsl:value-of select="gmd:westBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:northBoundLatitude/gco:Decimal"/>,&#160;<xsl:value-of select="gmd:eastBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:northBoundLatitude/gco:Decimal"/>,&#160;<xsl:value-of select="gmd:eastBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:southBoundLatitude/gco:Decimal"/>,&#160;<xsl:value-of select="gmd:westBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:southBoundLatitude/gco:Decimal"/>&#160;,<xsl:value-of select="gmd:westBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:northBoundLatitude/gco:Decimal"/>))
+                </locn:geometry>
+            </dct:Location>
+        </dct:spatial>
+        <sdo:spatial>
+            <sdo:Place rdf:about="#sdoBoundingBox">
+                <sdo:geo>
+                    <sdo:Geoshape rdf:about="#boundingBoxGeometry">
+                        <sdo:polygon>
+                            <xsl:value-of select="gmd:northBoundLatitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:westBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:northBoundLatitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:eastBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:southBoundLatitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:eastBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:southBoundLatitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:westBoundLongitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:northBoundLatitude/gco:Decimal"/>&#160;<xsl:value-of select="gmd:westBoundLongitude/gco:Decimal"/>
+                        </sdo:polygon>
+                    </sdo:Geoshape>
+                </sdo:geo>
+            </sdo:Place>
+        </sdo:spatial>            
+    </xsl:template>
+
+    <xsl:template match="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_BoundingPolygon">
+        <xsl:apply-templates select="gmd:polygon" />
+    </xsl:template>
+    
+    <xsl:template match="gmd:polygon">
+        <dct:spatial>
+            <dct:Location rdf:about="#geographicFeature">
+                <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+                    <xsl:apply-templates select="gml:Point" />
+                    <xsl:apply-templates select="gml:LineString" />
+                    <xsl:apply-templates select="gml:Polygon" />
+                </locn:geometry>
+            </dct:Location>
+        </dct:spatial>    
+    </xsl:template>
+    
+    <xsl:template match="gml:LineString">
+        LINESTRING(<xsl:for-each select="gml:pos"><xsl:value-of select="(.)"/><xsl:if test="position() != last()">, </xsl:if></xsl:for-each>)
+    </xsl:template>
+    <xsl:template match="gml:Point">
+        POINT(<xsl:for-each select="gml:pos"><xsl:value-of select="(.)"/><xsl:if test="position() != last()">, </xsl:if></xsl:for-each>)
+    </xsl:template>
+    <xsl:template match="gml:Polygon">
+        POLYGON((<xsl:apply-templates select="gml:exterior/gml:LinearRine/gml:posList" />))
+    </xsl:template>
+    
+    <xsl:template match="gml:exterior/gml:LinearRing/gml:posList">
+        <xsl:call-template name="split">
+            <xsl:with-param name="str" select="normalize-space(.)" />
+        </xsl:call-template>
+    </xsl:template>
+    
+    <xsl:template name="split">
+        <xsl:param name="str" />
+        <xsl:choose>
+            <xsl:when test="contains($str,' ')">
+                <xsl:variable name="first">
+                    <xsl:value-of select="format-number(number(substring-before($str,' ')),'00.000000')" />
+                </xsl:variable>
+                <xsl:variable name="second">
+                    <xsl:value-of select="format-number(number(substring-before(substring-after(concat($str,' '),' '),' ')),'00.000000')" />
+                </xsl:variable>
+                <xsl:value-of select="concat('[',$first,',',$second,']')" />
+                
+                <xsl:if test="substring-after(substring-after($str,' '),' ')">
+                    <xsl:text>, </xsl:text>
+                    <xsl:call-template name="split">
+                        <xsl:with-param name="str">
+                            <xsl:value-of select="substring-after(substring-after($str,' '),' ')"/>
+                        </xsl:with-param>
+                    </xsl:call-template>
+                </xsl:if>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
 </xsl:stylesheet>

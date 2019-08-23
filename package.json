@@ -1,0 +1,20 @@
+{
+  "name": "national-oceanographic-data-centre",
+  "version": "1.0.0",
+  "description": "Node.js packages required for NODC operations",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Adam Leadbetter",
+  "license": "CC-BY 4.0",
+  "bugs": {
+    "url": "https://github.com/IrishMarineInstitute/national-oceanographic-data-centre/issues"
+  },
+  "homepage": "https://github.com/IrishMarineInstitute/national-oceanographic-data-centre#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-watch": "^1.1.0",
+    "xsltjs": "0.0.28"
+  },
+  "dependencies": {}
+}
