@@ -23,5 +23,11 @@ def rename(c, dataset=False, sensor=False):
                 os.rename("./iso-xml/" + f,
                           "./iso-xml/" + getNewFileName("./iso-xml/" +
                                                         f,'dataset') + ".xml")
+
+@task
+def applyxslt(c, dataset = False, sensor=False):
+    if dataset:
+        for f in (os.listdir("./iso-xml")):
+            print("applying xslt")
         
     
