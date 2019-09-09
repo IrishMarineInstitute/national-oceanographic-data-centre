@@ -4,8 +4,8 @@ This page describes known issues and actions to complete for the Irish National 
 
 ## GitHub
 - Add license
-- Website up badge from shields.io
-- Build passing badge when Travis integration set up
+- ~~Website up badge from shields.io~~
+- ~~Build passing badge when Travis integration set up~~
 
 ## RDF Export
 - Complete the DCAT mapping
@@ -35,10 +35,10 @@ This page describes known issues and actions to complete for the Irish National 
 ## HTML pages
 - About
 - Services
-- Generic header,footer for iFraming / injecting via CSS/JS
+- Generic header,footer for iFraming / injecting via CSS/JS (preferably HTML or CSS)
 - Submission standards and guidelines
 
 ## Build process
 - ~~Rename metadata files~~
 - Build HTML and RDF from ISO XML
-- Generate a sitemap
+- ~~Generate a sitemap~~

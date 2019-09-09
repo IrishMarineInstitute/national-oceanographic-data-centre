@@ -10,27 +10,35 @@ As much of this process as possible should be automated through the use of task 
 - [Sensor Metadata](#sensor-metadata)
 - [Web Site Build Process](#website-build-process)
 
+##
+
+Build command `invoke rename --dataset buildsitemap`
+
 ## Dataset Metadata
 
-__ A Business Process Model and Notation process flow is to go here __
+__A Business Process Model and Notation process flow is to go here__
 
 Process Step | Script | Description
 --- | --- | ---
-1. | | XML metadata dump to `~/iso-xml`. XML should be ISO19139 compliant.
+1. | - | XML metadata dump to `~/iso-xml`. XML should be ISO19139 compliant.
 2. | `invoke rename --dataset` | Force consistent naming of the ISO XML files.
-3. | | Transform ISO XML to HTML, resulting files are saved to `~/html`.
-4. | | Transform ISO XML to RDF/XML, resulting files are saved to `~/xml`. The RDF mapping uses World Wide Web Consortium Data Catalog Vocabulary; Schema.org; and EarthCube GeoLink concepts.
+3. | - | Transform ISO XML to HTML, resulting files are saved to `~/html`.
+4. | - | Transform ISO XML to RDF/XML, resulting files are saved to `~/xml`. The RDF mapping uses World Wide Web Consortium Data Catalog Vocabulary; Schema.org; and EarthCube GeoLink concepts.
 
 ## Sensor Metadata
 
-__ A Business Process Model and Notation process flow is to go here __
+__A Business Process Model and Notation process flow is to go here__
 
 Process Step | Script | Description
 --- | --- | ---
 
 ## Website Build Process
 
-__ A Business Process Model and Notation process flow is to go here __
+Process Step | Script | Description
+--- | --- | ---
+1. | `invoke buildsitemap` | Create a sitemap from the files in the `~/html/` folder
+
+__A Business Process Model and Notation process flow is to go here__
 
 Process Step | Script | Description
 --- | --- | ---
