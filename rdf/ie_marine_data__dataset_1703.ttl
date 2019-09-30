@@ -1,0 +1,29 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1703> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1703";
+    sdo:identifier "ie.marine.data:dataset.1703";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE12010 ECO2@NorthSea";
+    sdo:name "CE12010 ECO2@NorthSea";
+    dct:abstract "Night time activity will mainly consist of the  following: Deployments of a video-guided Pump-CTD connected to Membrane Inlet Mass Spectrometry.
+Hydroacoustic detection of gas bubbles using single/split beam echo sounders.
+
+The following activity will largely be undertaken during day time :
+Deployment of landers to perform in situ gas flux measurements.
+Deployment of ROV Kiel 6000 for detailed sampling of sediments and deployment of instruments on the seafloor.
+Deployment of a vibrocorer for recovery of long sediment cores for porewater analysis. (10 cores total)";
+    sdo:description "Night time activity will mainly consist of the  following: Deployments of a video-guided Pump-CTD connected to Membrane Inlet Mass Spectrometry.
+Hydroacoustic detection of gas bubbles using single/split beam echo sounders.
+
+The following activity will largely be undertaken during day time :
+Deployment of landers to perform in situ gas flux measurements.
+Deployment of ROV Kiel 6000 for detailed sampling of sediments and deployment of instruments on the seafloor.
+Deployment of a vibrocorer for recovery of long sediment cores for porewater analysis. (10 cores total)";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1703".
+    

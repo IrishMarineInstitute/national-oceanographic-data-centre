@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1151> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1151";
+    sdo:identifier "ie.marine.data:dataset.1151";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0917 Celtic Sea Acoustic Survey";
+    sdo:name "CE0917 Celtic Sea Acoustic Survey";
+    dct:abstract "Celtic Sea Herring Acoustic Survey Acoustic surveys are generally carried out on spawning and pre-spawning aggregations of fish. Outside of the spawning season many pelagic species are generally very scattered over a large geographical area and difficult to detect using acoustic methods. A cruise track is first formulated with data from previous surveys, commercial catch data and the help of the fishermen and fishing industry. The aim of an acoustic survey is to determine the relative abundance of the target species. This information is then used to determine catch rates and management advice for the following year. Every year FSS carries out two Herring Acoustic Surveys on the RV Celtic Explorer, the Northwest Herring Acoustic Survey (NWHAS) and the Celtic Sea Herring Acoustic Survey (CSHAS).";
+    sdo:description "Celtic Sea Herring Acoustic Survey Acoustic surveys are generally carried out on spawning and pre-spawning aggregations of fish. Outside of the spawning season many pelagic species are generally very scattered over a large geographical area and difficult to detect using acoustic methods. A cruise track is first formulated with data from previous surveys, commercial catch data and the help of the fishermen and fishing industry. The aim of an acoustic survey is to determine the relative abundance of the target species. This information is then used to determine catch rates and management advice for the following year. Every year FSS carries out two Herring Acoustic Surveys on the RV Celtic Explorer, the Northwest Herring Acoustic Survey (NWHAS) and the Celtic Sea Herring Acoustic Survey (CSHAS).";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1151".
+    

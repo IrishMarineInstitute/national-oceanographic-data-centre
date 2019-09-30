@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_792> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.792";
+    sdo:identifier "ie.marine.data:dataset.792";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Local Authority Boundary";
+    sdo:name "Local Authority Boundary";
+    dct:abstract "The current system of Local Government in the Republic of Ireland comprises of 31 Local Authorities. Local Government and the right of local self-government is a cornerstone of any modern democracy. Irish Local Authorities are the closest and most accessible form of Government to people in their local community. They also have responsibility for delivery of a wide range of services in their local area with a focus on making towns and cities attractive places to live, work and invest. 
+
+These services generally include housing; planning; roads; water supply; environmental protection; provision of recreation and amenities and community infrastructure. Local Authorities also play a key role in supporting economic development and enterprise at a local level. 
+
+Local Government support on the ground is critical to the success of many initiatives which drive local communities. These range from local festivals and events; design of streetscapes and village renewal schemes; support for micro-enterprises, business parks and incubation units; involvement in energy efficiency projects; promotion of rural broadband; planning for major investments in the green economy. ";
+    sdo:description "The current system of Local Government in the Republic of Ireland comprises of 31 Local Authorities. Local Government and the right of local self-government is a cornerstone of any modern democracy. Irish Local Authorities are the closest and most accessible form of Government to people in their local community. They also have responsibility for delivery of a wide range of services in their local area with a focus on making towns and cities attractive places to live, work and invest. 
+
+These services generally include housing; planning; roads; water supply; environmental protection; provision of recreation and amenities and community infrastructure. Local Authorities also play a key role in supporting economic development and enterprise at a local level. 
+
+Local Government support on the ground is critical to the success of many initiatives which drive local communities. These range from local festivals and events; design of streetscapes and village renewal schemes; support for micro-enterprises, business parks and incubation units; involvement in energy efficiency projects; promotion of rural broadband; planning for major investments in the green economy. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.792".
+    

@@ -1,0 +1,27 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1631> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1631";
+    sdo:identifier "ie.marine.data:dataset.1631";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14011 Slope Collapses on Rockall Bank and Escarpment Habitats (SORBEH) Survey";
+    sdo:name "CE14011 Slope Collapses on Rockall Bank and Escarpment Habitats (SORBEH) Survey";
+    dct:abstract "This survey, led by University College Dublin (UCD), took place in July 2014 on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean.
+
+Originally there had been three objectives for SORBEH;  1) Lithological characterisation of the Eastern Rockall Bank by sampling areas in and around the Rockall Bank Slide Complex.  2) Habitat investigation of steep escarpments and seabed pinnacles using the Holland I ROV (Remotely Operated Vehicle).  3) Make measurements of wave-induced seafloor microseisms using a bespoke sensor array deployed on the way out and retrieved on the way in after 10 days.   
+ 
+The third objective was not undertaken. A total of 12 core sites had been planned with two cores intended to be collected from every location. Six ROV dive sites had been targeted for video imaging and five of them for multibeam mapping.  The Holland I performed 13 dives. In total  conducting and obtaining video footage,  still photographs, multibeam mapping, biological sampling,  push cores and  rock samples.
+ ";
+    sdo:description "This survey, led by University College Dublin (UCD), took place in July 2014 on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean.
+
+Originally there had been three objectives for SORBEH;  1) Lithological characterisation of the Eastern Rockall Bank by sampling areas in and around the Rockall Bank Slide Complex.  2) Habitat investigation of steep escarpments and seabed pinnacles using the Holland I ROV (Remotely Operated Vehicle).  3) Make measurements of wave-induced seafloor microseisms using a bespoke sensor array deployed on the way out and retrieved on the way in after 10 days.   
+ 
+The third objective was not undertaken. A total of 12 core sites had been planned with two cores intended to be collected from every location. Six ROV dive sites had been targeted for video imaging and five of them for multibeam mapping.  The Holland I performed 13 dives. In total  conducting and obtaining video footage,  still photographs, multibeam mapping, biological sampling,  push cores and  rock samples.
+ ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1631".
+    

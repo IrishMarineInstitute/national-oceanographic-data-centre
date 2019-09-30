@@ -1,0 +1,41 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1144> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1144";
+    sdo:identifier "ie.marine.data:dataset.1144";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0914 Irish Whale and Dolphin Group Marine Mammals Observations Survey";
+    sdo:name "CE0914 Irish Whale and Dolphin Group Marine Mammals Observations Survey";
+    dct:abstract "
+Cetacean survey carried out by the Irish Whale and Dolphin Group (IWDG) and Galway-Mayo Institute of Technology (GMIT) in  2009 on board the  Celtic Explorer research vessel. 
+The main objective of the survey was to conduct a habitat specific survey of deep diving cetaceans, particularly the beaked whale species. The survey area covered waters over the Porcupine Bank, Porcupine Slopes and Irish Shelf and slopes to the west of Mayo. 
+
+The survey vessel travelled at an average speed of 8 knots while on transect, except in heavy swell. The ship spent from 08:30 – 20:30 each day on visual and acoustic transect, and from 20:30 – 08:30 altered between steaming at 8 knots and being stationary while conducting Conductivity, Temperature and Depth (CTD),
+water sampling and plankton hauls. 
+
+Both visual observations of cetaceans and acoustic surveys took place (using a Towed Hydrophone Array, Deep C-Pods and ABCD Hydrophone Array).
+
+The abundance, distribution and behaviour of the various seabird species was recorded. In addition, visual observations for aggregations of gelatinous zooplankton were conducted.
+
+11 oceanographic stations were sampled, with Conductivity, Temperature and Depth (CTD) data recorded at all stations. Zooplankton samples were not taken at every
+station due to time constraints ";
+    sdo:description "
+Cetacean survey carried out by the Irish Whale and Dolphin Group (IWDG) and Galway-Mayo Institute of Technology (GMIT) in  2009 on board the  Celtic Explorer research vessel. 
+The main objective of the survey was to conduct a habitat specific survey of deep diving cetaceans, particularly the beaked whale species. The survey area covered waters over the Porcupine Bank, Porcupine Slopes and Irish Shelf and slopes to the west of Mayo. 
+
+The survey vessel travelled at an average speed of 8 knots while on transect, except in heavy swell. The ship spent from 08:30 – 20:30 each day on visual and acoustic transect, and from 20:30 – 08:30 altered between steaming at 8 knots and being stationary while conducting Conductivity, Temperature and Depth (CTD),
+water sampling and plankton hauls. 
+
+Both visual observations of cetaceans and acoustic surveys took place (using a Towed Hydrophone Array, Deep C-Pods and ABCD Hydrophone Array).
+
+The abundance, distribution and behaviour of the various seabird species was recorded. In addition, visual observations for aggregations of gelatinous zooplankton were conducted.
+
+11 oceanographic stations were sampled, with Conductivity, Temperature and Depth (CTD) data recorded at all stations. Zooplankton samples were not taken at every
+station due to time constraints ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1144".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2747> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2747";
+    sdo:identifier "ie.marine.data:dataset.2747";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Harmful Algal Bloom (HABs) Inshore Shellfish Monitoring";
+    sdo:name "Harmful Algal Bloom (HABs) Inshore Shellfish Monitoring";
+    dct:abstract "Harmful Algal Bloom (HABS) inshore shellfish sample survey monitoring results since 2002. Monitoring results include the following for shellfish samples from designated aquaculture sites: Sample Code, Location Code, Location Name, Location XY, Species, Species Parameter Test, Bioassay Result [Positive/Negative], Chemistry Result [Value] and Site Status [Shellfish Production]. Quality data is available with the full metadata lineage. Note HABs Disclaimer applies to the provision of this data.";
+    sdo:description "Harmful Algal Bloom (HABS) inshore shellfish sample survey monitoring results since 2002. Monitoring results include the following for shellfish samples from designated aquaculture sites: Sample Code, Location Code, Location Name, Location XY, Species, Species Parameter Test, Bioassay Result [Positive/Negative], Chemistry Result [Value] and Site Status [Shellfish Production]. Quality data is available with the full metadata lineage. Note HABs Disclaimer applies to the provision of this data.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2747".
+    

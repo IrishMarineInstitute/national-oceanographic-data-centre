@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2752> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2752";
+    sdo:identifier "ie.marine.data:dataset.2752";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Lough Furnace Automatic Water Quality Monitoring Station (AWQMS) profiles 2009-2014";
+    sdo:name "Lough Furnace Automatic Water Quality Monitoring Station (AWQMS) profiles 2009-2014";
+    dct:abstract "Full water column profiles of temperature, conductivity, pressure and dissolved oxygen are routinely measured in the coastal basin Lough Furnace as part of the LTER (long-term ecological research) monitoring programme. Profiles are measured by a multi-parameter sonde attached to an automated undulating winch that initiates downcasts at 4 daily intervals (00, 06, 12, 18 hours). This dataset includes profiles recorded during the period 2009-2014. Analysis of this dataset can be found here:  Kelly, S., Eyto, E. de, Dillane, M., Poole, R., Brett, G., and White, M. (2018). Hydrographic maintenance of deep anoxia in a tidally influenced saline lagoon. Marine and Freshwater Research 69(3) 432-445 https://doi.org/10.1071/MF17199";
+    sdo:description "Full water column profiles of temperature, conductivity, pressure and dissolved oxygen are routinely measured in the coastal basin Lough Furnace as part of the LTER (long-term ecological research) monitoring programme. Profiles are measured by a multi-parameter sonde attached to an automated undulating winch that initiates downcasts at 4 daily intervals (00, 06, 12, 18 hours). This dataset includes profiles recorded during the period 2009-2014. Analysis of this dataset can be found here:  Kelly, S., Eyto, E. de, Dillane, M., Poole, R., Brett, G., and White, M. (2018). Hydrographic maintenance of deep anoxia in a tidally influenced saline lagoon. Marine and Freshwater Research 69(3) 432-445 https://doi.org/10.1071/MF17199";
+    dct:issued "2018-12-19"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2752".
+    

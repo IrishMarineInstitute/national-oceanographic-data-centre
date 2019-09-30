@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2198> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2198";
+    sdo:identifier "ie.marine.data:dataset.2198";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Arklow Bank Connection Cable";
+    sdo:name "Arklow Bank Connection Cable";
+    dct:abstract "Arklow Bank Connection Cable between Arklow coastline and offshore wind park on the Arklow Bank.";
+    sdo:description "Arklow Bank Connection Cable between Arklow coastline and offshore wind park on the Arklow Bank.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2198".
+    

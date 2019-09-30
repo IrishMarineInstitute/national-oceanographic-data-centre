@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2160> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2160";
+    sdo:identifier "ie.marine.data:dataset.2160";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "IHO World Seas";
+    sdo:name "IHO World Seas";
+    dct:abstract "This dataset represents the boundaries of the major oceans and seas of the world. The source for the boundaries is the publication 'Limits of Oceans & Seas, Special Publication No. 23' published by the IHO in 1953. The dataset was composed by the Flanders Marine Data and Information Centre.
+
+NB: The Southern Ocean is not included in the IHO publication and its limits are subject of discussion among the scientific community. The Flanders Marine Institute acknowledges the controversy around this subject but decided to include the Southern Ocean in the dataset as this term is often used by scientists working in this area.";
+    sdo:description "This dataset represents the boundaries of the major oceans and seas of the world. The source for the boundaries is the publication 'Limits of Oceans & Seas, Special Publication No. 23' published by the IHO in 1953. The dataset was composed by the Flanders Marine Data and Information Centre.
+
+NB: The Southern Ocean is not included in the IHO publication and its limits are subject of discussion among the scientific community. The Flanders Marine Institute acknowledges the controversy around this subject but decided to include the Southern Ocean in the dataset as this term is often used by scientists working in this area.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2160".
+    

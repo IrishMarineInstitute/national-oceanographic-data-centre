@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1899> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1899";
+    sdo:identifier "ie.marine.data:dataset.1899";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17010 Undergraduate shipboard training in methods of oceanographic, benthic, megafauna and fisheries research";
+    sdo:name "CV17010 Undergraduate shipboard training in methods of oceanographic, benthic, megafauna and fisheries research";
+    dct:abstract "Galway Mayo Institute of Technology (GMIT) training survey in Cork Harbour, Galway Bay and Clew Bay.";
+    sdo:description "Galway Mayo Institute of Technology (GMIT) training survey in Cork Harbour, Galway Bay and Clew Bay.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1899".
+    

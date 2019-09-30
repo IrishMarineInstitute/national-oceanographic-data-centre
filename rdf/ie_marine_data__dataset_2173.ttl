@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2173> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2173";
+    sdo:identifier "ie.marine.data:dataset.2173";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Offshore Commercial Field";
+    sdo:name "Offshore Commercial Field";
+    dct:abstract "The location and areas where offshore non-renewable energy is taking place and due to begin production around Ireland. The main commercial fields include the Corrib field off the Belmullet Peninsula and the Kinsale field in the Celtic Sea.";
+    sdo:description "The location and areas where offshore non-renewable energy is taking place and due to begin production around Ireland. The main commercial fields include the Corrib field off the Belmullet Peninsula and the Kinsale field in the Celtic Sea.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2173".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1786> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1786";
+    sdo:identifier "ie.marine.data:dataset.1786";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0904 Galway Bay ROV Survey";
+    sdo:name "CE0904 Galway Bay ROV Survey";
+    dct:abstract "This survey took place on board the R.V. Celtic Explorer in 2009 in Galway Bay using the Remotely Operated Vehicle (ROV) Latis.";
+    sdo:description "This survey took place on board the R.V. Celtic Explorer in 2009 in Galway Bay using the Remotely Operated Vehicle (ROV) Latis.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1786".
+    

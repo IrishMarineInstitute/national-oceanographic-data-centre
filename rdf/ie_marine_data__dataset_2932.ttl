@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2932> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2932";
+    sdo:identifier "ie.marine.data:dataset.2932";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Nutrient data along the May 2017 GO-SHIP A02 transect";
+    sdo:name "Nutrient data along the May 2017 GO-SHIP A02 transect";
+    dct:abstract "The GO-SHIP A02 survey was completed in April/May 2017 on the RV Celtic Explorer, travelling from St. John's, Newfoundland, Canada, across the North Atlantic to Galway, Ireland. A total of 67 stations were occupied along the A02 transect, with 1231 nutrient samples analysed for total oxidised nitrogen (TOxN), nitrite, phosphate and silicate on a Skalar San continuous flow auto-analyser. Sampling, sample preservation and analytical procedures on both systems followed methods outlined in the GO-SHIP guidelines for nutrient analysis at sea (Hydes et al., 2010), while also incorporating existing laboratory methods and quality control. TOxN, silicate and phosphate were analysed at sea, typically within 12 hours of sampling.
+
+This dataset, which includes results from 288 samples along 12 stations, was processed at Dalhousie University, Canada in addition to those analysed by the Marine Institute, Ireland which are available as a separate dataset (doi:10/cms5).";
+    sdo:description "The GO-SHIP A02 survey was completed in April/May 2017 on the RV Celtic Explorer, travelling from St. John's, Newfoundland, Canada, across the North Atlantic to Galway, Ireland. A total of 67 stations were occupied along the A02 transect, with 1231 nutrient samples analysed for total oxidised nitrogen (TOxN), nitrite, phosphate and silicate on a Skalar San continuous flow auto-analyser. Sampling, sample preservation and analytical procedures on both systems followed methods outlined in the GO-SHIP guidelines for nutrient analysis at sea (Hydes et al., 2010), while also incorporating existing laboratory methods and quality control. TOxN, silicate and phosphate were analysed at sea, typically within 12 hours of sampling.
+
+This dataset, which includes results from 288 samples along 12 stations, was processed at Dalhousie University, Canada in addition to those analysed by the Marine Institute, Ireland which are available as a separate dataset (doi:10/cms5).";
+    dct:issued "2018-12-19"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2932".
+    

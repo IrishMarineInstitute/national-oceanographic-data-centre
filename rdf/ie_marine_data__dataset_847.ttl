@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_847> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.847";
+    sdo:identifier "ie.marine.data:dataset.847";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE17002 Ocean Climate Section Survey";
+    sdo:name "CE17002 Ocean Climate Section Survey";
+    dct:abstract "This survey took place on board the RV Celtic Explorer in  February 2017 led by the Marine Institute.
+
+The south Rockall Trough cruise facilitates long-term monitoring of the deep water environment to the west of Ireland. Oceanographic data collected contributes to the Atlantic observing system and survey results are included in Ireland’s national report submitted each year to the International Council for the Exploration of the Sea (ICES) Working Group on Oceanic Hydrography (WGOH).  
+
+During the survey, an Argo float and the M6 weather buoy were also deployed. ";
+    sdo:description "This survey took place on board the RV Celtic Explorer in  February 2017 led by the Marine Institute.
+
+The south Rockall Trough cruise facilitates long-term monitoring of the deep water environment to the west of Ireland. Oceanographic data collected contributes to the Atlantic observing system and survey results are included in Ireland’s national report submitted each year to the International Council for the Exploration of the Sea (ICES) Working Group on Oceanic Hydrography (WGOH).  
+
+During the survey, an Argo float and the M6 weather buoy were also deployed. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.847".
+    

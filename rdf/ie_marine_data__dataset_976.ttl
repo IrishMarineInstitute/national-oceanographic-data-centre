@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_976> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.976";
+    sdo:identifier "ie.marine.data:dataset.976";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16004 Fisheries Anglerfish and Megrim Trawl Survey";
+    sdo:name "CE16004 Fisheries Anglerfish and Megrim Trawl Survey";
+    dct:abstract "This survey (leg 3 and 4) of the 2016 Irish Anglerfish and Megrim Survey (IAMS) took place from 25th February to 6th March 2016 on RV Celtic Explorer, led by the Marine Institute. Leg one and two took place in January.  The IAMS survey is coordinated with the Scottish Anglerfish and Megrim survey (SIAMISS) and uses the same gear and fishing practices. 
+
+The main objective of the survey was to obtain biomass estimates for anglerfish (Lophius piscatorius and L. budegassa) and establish an abundance index for megrim (Lepidorhombus whiffiagonis and L. boscii) in VIa (south of 58°N) and VII (west of 8°W). 
+
+Sampling stations were selected at random. A standard commercial otter trawl was used, and trawled at 3kn for one hour at each station. All fish and invertebrate species were sorted and weighed. One CTD transect was completed during leg 3.";
+    sdo:description "This survey (leg 3 and 4) of the 2016 Irish Anglerfish and Megrim Survey (IAMS) took place from 25th February to 6th March 2016 on RV Celtic Explorer, led by the Marine Institute. Leg one and two took place in January.  The IAMS survey is coordinated with the Scottish Anglerfish and Megrim survey (SIAMISS) and uses the same gear and fishing practices. 
+
+The main objective of the survey was to obtain biomass estimates for anglerfish (Lophius piscatorius and L. budegassa) and establish an abundance index for megrim (Lepidorhombus whiffiagonis and L. boscii) in VIa (south of 58°N) and VII (west of 8°W). 
+
+Sampling stations were selected at random. A standard commercial otter trawl was used, and trawled at 3kn for one hour at each station. All fish and invertebrate species were sorted and weighed. One CTD transect was completed during leg 3.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.976".
+    

@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1768> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1768";
+    sdo:identifier "ie.marine.data:dataset.1768";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE10009 Cetaceans on the Frontier 2010 Survey";
+    sdo:name "CE10009 Cetaceans on the Frontier 2010 Survey";
+    dct:abstract "Benthic Sampling - Conducting sampling stations, using plankton and bongo nets, for phytoplankton, zooplankton and krill which form the basis of the food chain which supports cetaceans, seabirds and other marine megafauna in these habitats.
+Condcuting CTD stations to measure salinity, water temperature and other key features of the water column overlying the slopes and canyon systems of the Porcupine Bank, Sea Bight and Whittard Canyon.
+There may be scope to reduce the number of sampling stations to facilitate a project requiring night-time trawls and/or benthic sampling. (tbc)";
+    sdo:description "Benthic Sampling - Conducting sampling stations, using plankton and bongo nets, for phytoplankton, zooplankton and krill which form the basis of the food chain which supports cetaceans, seabirds and other marine megafauna in these habitats.
+Condcuting CTD stations to measure salinity, water temperature and other key features of the water column overlying the slopes and canyon systems of the Porcupine Bank, Sea Bight and Whittard Canyon.
+There may be scope to reduce the number of sampling stations to facilitate a project requiring night-time trawls and/or benthic sampling. (tbc)";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1768".
+    

@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2783> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2783";
+    sdo:identifier "ie.marine.data:dataset.2783";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Weather Buoy Network Real Time Data ";
+    sdo:name "Weather Buoy Network Real Time Data ";
+    dct:abstract "*The buoy previously stationed at M1 was relocated to M6 at the request of the Met Services. At the M1 station data collection was discontinued in 2007. FS1 is an archive dataset. Please note the weather buoys maybe intermittently inoperative during periods of servicing, or due to severe weather damage, vessel strikes or component failure. Any periods of in operation may result in gaps in the data record depending on the nature of the failure.*
+
+Real time meteorological and oceanographic data collected from the Irish moored Weather Buoy network of stations. Parameters collected include: DateTime (yyyy-mm-ddThh:mm:ss.sss), Atmospheric Pressure (mbar), Air Temperature (degreeCelsius), DewPoint Temperature (degreeCelsius), Wind Speed (knots), Max Gust Wind Speed (knots), Wind Direction (degreeTrue), Sea Surface Temperature (degreeCelsius), Wave Period (seconds), Wave Height (metres) and Relative Humidity (%). Real time data available for M2, M3, M4, M5 and M6. Historical data available for M1, FS1 and original M4 spatial location. Users of the download service can choose a station, time period, parameter(s) and output file type. Advanced download allows a user define a bounding box area of interest selecting one or more buoys from the network. 'NaN' or '-999' describes missing or unavailable data.";
+    sdo:description "*The buoy previously stationed at M1 was relocated to M6 at the request of the Met Services. At the M1 station data collection was discontinued in 2007. FS1 is an archive dataset. Please note the weather buoys maybe intermittently inoperative during periods of servicing, or due to severe weather damage, vessel strikes or component failure. Any periods of in operation may result in gaps in the data record depending on the nature of the failure.*
+
+Real time meteorological and oceanographic data collected from the Irish moored Weather Buoy network of stations. Parameters collected include: DateTime (yyyy-mm-ddThh:mm:ss.sss), Atmospheric Pressure (mbar), Air Temperature (degreeCelsius), DewPoint Temperature (degreeCelsius), Wind Speed (knots), Max Gust Wind Speed (knots), Wind Direction (degreeTrue), Sea Surface Temperature (degreeCelsius), Wave Period (seconds), Wave Height (metres) and Relative Humidity (%). Real time data available for M2, M3, M4, M5 and M6. Historical data available for M1, FS1 and original M4 spatial location. Users of the download service can choose a station, time period, parameter(s) and output file type. Advanced download allows a user define a bounding box area of interest selecting one or more buoys from the network. 'NaN' or '-999' describes missing or unavailable data.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2783".
+    

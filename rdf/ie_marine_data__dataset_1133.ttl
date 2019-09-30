@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1133> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1133";
+    sdo:identifier "ie.marine.data:dataset.1133";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0910 SALSEA Survey";
+    sdo:name "CE0910 SALSEA Survey";
+    dct:abstract "SALSEA-Merge was a three year scientific project to investigate the migration and distribution of salmon in the North-East Atlantic. The project was supported by the European Commission under the 7th Framework Programme for Research and Technological development. Funding was also provided by the Partner organisations, the Total Foundation and the Atlantic Salmon Trust. SALSEA-Merge was officially launched on the 16 May 2008 in Killybegs, Ireland.
+
+This survey took place in the summer of 2009 on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean and Norwegian Sea. Trawling was carried out to sample post salmon smolts and other pelagic fish. CTD (Conductivity - Temperature - Depth) profiles were carried out to profile the water column. ";
+    sdo:description "SALSEA-Merge was a three year scientific project to investigate the migration and distribution of salmon in the North-East Atlantic. The project was supported by the European Commission under the 7th Framework Programme for Research and Technological development. Funding was also provided by the Partner organisations, the Total Foundation and the Atlantic Salmon Trust. SALSEA-Merge was officially launched on the 16 May 2008 in Killybegs, Ireland.
+
+This survey took place in the summer of 2009 on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean and Norwegian Sea. Trawling was carried out to sample post salmon smolts and other pelagic fish. CTD (Conductivity - Temperature - Depth) profiles were carried out to profile the water column. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1133".
+    

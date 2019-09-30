@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1986> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1986";
+    sdo:identifier "ie.marine.data:dataset.1986";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17032 SMART Science@Sea 2017";
+    sdo:name "CV17032 SMART Science@Sea 2017";
+    dct:abstract "Galway Mayo Institute of Technology SMART Science@Sea 2017 training survey in Cork Harbour.";
+    sdo:description "Galway Mayo Institute of Technology SMART Science@Sea 2017 training survey in Cork Harbour.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1986".
+    

@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_858> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.858";
+    sdo:identifier "ie.marine.data:dataset.858";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "INFOMAR Bathymetry";
+    sdo:name "INFOMAR Bathymetry";
+    dct:abstract "The term bathymetry refers to the ocean's depth relative to sea level, it can also be used to describe submarine topography or underwater terrain. INFOMAR bathymetry data is measured primarily by multibeam (MBES) and also singlebeam(SBES) echosounder devices.
+
+MBES transducers transmit multiple high frequency pulses of sound in a fan shape beneath the vessel, enabling a large swath of seabed to be mapped at high resolution as the vessel moves along. The time taken for the sound to travel to and be reflected from the seabed back to the ship provides the water depth. Sound velocity profiles are taken to calibrate systems as data acquisition is ongoing. 
+
+The SBES operates in the same way as the MBES but just a single pulse of sound is emitted directly beneath the vessel.";
+    sdo:description "The term bathymetry refers to the ocean's depth relative to sea level, it can also be used to describe submarine topography or underwater terrain. INFOMAR bathymetry data is measured primarily by multibeam (MBES) and also singlebeam(SBES) echosounder devices.
+
+MBES transducers transmit multiple high frequency pulses of sound in a fan shape beneath the vessel, enabling a large swath of seabed to be mapped at high resolution as the vessel moves along. The time taken for the sound to travel to and be reflected from the seabed back to the ship provides the water depth. Sound velocity profiles are taken to calibrate systems as data acquisition is ongoing. 
+
+The SBES operates in the same way as the MBES but just a single pulse of sound is emitted directly beneath the vessel.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.858".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2055> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2055";
+    sdo:identifier "ie.marine.data:dataset.2055";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16019 Fisheries Sea Bass II Survey";
+    sdo:name "CV16019 Fisheries Sea Bass II Survey";
+    dct:abstract "Sea Bass survey in the Celtic Sea.";
+    sdo:description "Sea Bass survey in the Celtic Sea.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2055".
+    

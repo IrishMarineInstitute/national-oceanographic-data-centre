@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2832> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2832";
+    sdo:identifier "ie.marine.data:dataset.2832";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Aquaculture Sites";
+    sdo:name "Aquaculture Sites";
+    dct:abstract "Aquaculture data has been provided via special request, by the Department of Agriculture, Food and the Marine for reporting on aquaculture activities under Ireland's Marine Strategy Framework Directive article reporting. Aquaculture sites include shellfish, finfish and seaweed as monitored for licensing purposes. Data has been displayed by theme, Shellfish By Culture Type and By Species Type; Finfish By Culture Type and By Species Type; Seaweed By Culture Type and By Species Type. Aquaculture sites are updated periodically.";
+    sdo:description "Aquaculture data has been provided via special request, by the Department of Agriculture, Food and the Marine for reporting on aquaculture activities under Ireland's Marine Strategy Framework Directive article reporting. Aquaculture sites include shellfish, finfish and seaweed as monitored for licensing purposes. Data has been displayed by theme, Shellfish By Culture Type and By Species Type; Finfish By Culture Type and By Species Type; Seaweed By Culture Type and By Species Type. Aquaculture sites are updated periodically.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2832".
+    

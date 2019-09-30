@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1622> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1622";
+    sdo:identifier "ie.marine.data:dataset.1622";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14003 GATEWAYS II Survey";
+    sdo:name "CE14003 GATEWAYS II Survey";
+    dct:abstract "Possible deployment of vibrocoring equipment.  Night time coring will only be envisaged if adverse weather conditions severely hamper core recovery during day time operations.";
+    sdo:description "Possible deployment of vibrocoring equipment.  Night time coring will only be envisaged if adverse weather conditions severely hamper core recovery during day time operations.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1622".
+    

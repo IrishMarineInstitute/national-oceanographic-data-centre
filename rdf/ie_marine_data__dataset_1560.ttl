@@ -1,0 +1,31 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1560> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1560";
+    sdo:identifier "ie.marine.data:dataset.1560";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16008 Fisheries Western European Shelf Pelagic Acoustic Survey (WESPAS) Leg 1 ";
+    sdo:name "CE16008 Fisheries Western European Shelf Pelagic Acoustic Survey (WESPAS) Leg 1 ";
+    dct:abstract "Acoustic surveys are generally carried out on spawning and pre-spawning aggregations of fish. Outside of the spawning season many pelagic species are generally very scattered over a large geographical area and difficult to detect using acoustic methods. A cruise track is first formulated with data from previous surveys, commercial catch data and the help of the fishermen and fishing industry. This survey took place on board the RV Celtic Explorer in June 2016.
+
+The Western European Shelf Pelagic Acoustic Survey (WESPAS) survey program is the consolidation of two existing survey programs carried out by Fisheries Ecosystems Advisory Service (FEAS) in the Marine Institute. The Main Shelf herring acoustic survey has been carried out annually since 2008 and reports on the annual abundance of summer feeding aggregations of herring to the west of Scotland and north of Ireland. The boarfish survey has been carried out since 2011using a chartered fishing vessel and reports on the abundance of spawning aggregations of boarfish 47N to 57N. In 2016 both surveys were combined and carried out onboard the RV Celtic Explorer over a 42 day period providing synoptic coverage of shelf waters from 59N southwards to 47N.
+
+Age stratified relative stock abundance estimates of boarfish, herring and horse mackerel within the survey area were calculated using acoustic data and biological data from trawl sampling. 
+
+Conductivity, Temperature and Depth (CTD) data was aquired at 77 predetermined stations. Zooplankton sampling was carried out alongside CTD stations. Marine mammal visual and acoustic surveys (passive acoustic monitoring) were also conducted.  
+";
+    sdo:description "Acoustic surveys are generally carried out on spawning and pre-spawning aggregations of fish. Outside of the spawning season many pelagic species are generally very scattered over a large geographical area and difficult to detect using acoustic methods. A cruise track is first formulated with data from previous surveys, commercial catch data and the help of the fishermen and fishing industry. This survey took place on board the RV Celtic Explorer in June 2016.
+
+The Western European Shelf Pelagic Acoustic Survey (WESPAS) survey program is the consolidation of two existing survey programs carried out by Fisheries Ecosystems Advisory Service (FEAS) in the Marine Institute. The Main Shelf herring acoustic survey has been carried out annually since 2008 and reports on the annual abundance of summer feeding aggregations of herring to the west of Scotland and north of Ireland. The boarfish survey has been carried out since 2011using a chartered fishing vessel and reports on the abundance of spawning aggregations of boarfish 47N to 57N. In 2016 both surveys were combined and carried out onboard the RV Celtic Explorer over a 42 day period providing synoptic coverage of shelf waters from 59N southwards to 47N.
+
+Age stratified relative stock abundance estimates of boarfish, herring and horse mackerel within the survey area were calculated using acoustic data and biological data from trawl sampling. 
+
+Conductivity, Temperature and Depth (CTD) data was aquired at 77 predetermined stations. Zooplankton sampling was carried out alongside CTD stations. Marine mammal visual and acoustic surveys (passive acoustic monitoring) were also conducted.  
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1560".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1745> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1745";
+    sdo:identifier "ie.marine.data:dataset.1745";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE11011 Seismic investigation of the geology and oceanography of the northern Rockall Trough survey";
+    sdo:name "CE11011 Seismic investigation of the geology and oceanography of the northern Rockall Trough survey";
+    dct:abstract "Seismic data acquisition, once streamer and airguns are deployed no deck hands are needed unless there is a problem and they need to be hauled in. The compressors will be operating in order to provide air to the guns but the watch scientist will be attending to that.";
+    sdo:description "Seismic data acquisition, once streamer and airguns are deployed no deck hands are needed unless there is a problem and they need to be hauled in. The compressors will be operating in order to provide air to the guns but the watch scientist will be attending to that.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1745".
+    

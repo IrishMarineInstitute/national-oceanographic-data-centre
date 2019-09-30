@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_897> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.897";
+    sdo:identifier "ie.marine.data:dataset.897";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "INFOMAR Gravity";
+    sdo:name "INFOMAR Gravity";
+    dct:abstract "Gravity is the measure of the force of attraction at any point on the Earth's surface. This force will vary depending on the rock type present. Gravity data is used for interpreting sub-seabed geology often in the context of the hydrocarbon exploration and mining industry, as well as to define the boundaries of the sedimentary basins. Gravity data is collected along survey lines.";
+    sdo:description "Gravity is the measure of the force of attraction at any point on the Earth's surface. This force will vary depending on the rock type present. Gravity data is used for interpreting sub-seabed geology often in the context of the hydrocarbon exploration and mining industry, as well as to define the boundaries of the sedimentary basins. Gravity data is collected along survey lines.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.897".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_901> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.901";
+    sdo:identifier "ie.marine.data:dataset.901";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "INFOMAR Sediment Grab Samples";
+    sdo:name "INFOMAR Sediment Grab Samples";
+    dct:abstract "A grab sample is a sample of sediment taken from the seabed using a grab sampler. Samples are used in combination with backscatter charts to produce seabed classification charts.  Samples can be further analysed for sediment composition and chemical analysis.";
+    sdo:description "A grab sample is a sample of sediment taken from the seabed using a grab sampler. Samples are used in combination with backscatter charts to produce seabed classification charts.  Samples can be further analysed for sediment composition and chemical analysis.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.901".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2768> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2768";
+    sdo:identifier "ie.marine.data:dataset.2768";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Shellfish Stocks and Fisheries Review 2011 ";
+    sdo:name "Shellfish Stocks and Fisheries Review 2011 ";
+    dct:abstract "This review presents information on the status of selected shellfish stocks in Ireland. In addition data on the fleet (<13m) and landings for all species of shellfish (excluding Nephrops) are presented. The intention of the annual reviews is to present stock assessment and scientific advice for shellfisheries which may be subject to new management proposals or where scientific advice is required in relation to assessing the environmental impact of shellfisheries especially in conservation areas designated under European Directives.";
+    sdo:description "This review presents information on the status of selected shellfish stocks in Ireland. In addition data on the fleet (<13m) and landings for all species of shellfish (excluding Nephrops) are presented. The intention of the annual reviews is to present stock assessment and scientific advice for shellfisheries which may be subject to new management proposals or where scientific advice is required in relation to assessing the environmental impact of shellfisheries especially in conservation areas designated under European Directives.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2768".
+    

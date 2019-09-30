@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2770> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2770";
+    sdo:identifier "ie.marine.data:dataset.2770";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Atlas of Commercial Fisheries around Ireland second edition";
+    sdo:name "Atlas of Commercial Fisheries around Ireland second edition";
+    dct:abstract "The Atlas of Commercial Fisheries Around Ireland uses informatics, the science of processing data into information, to give useful new insights into fishing activities and fisheries resources. Fishing is one of the most significant ocean uses in the waters around Ireland with around 1000 vessels active on a daily basis. More than 8 million hours of fishing effort spent annually are mapped by gear and country. Landings statistics are summarised by port. Fishing activities and landings values and volumes within the Irish Exclusive Economic Zone are estimated for 2012. Landings of the key commercial species are mapped individually and by gear. This information is put into context by maps of effort and landings at a broader European scale and by the historical time series of landings that are provided for each species.";
+    sdo:description "The Atlas of Commercial Fisheries Around Ireland uses informatics, the science of processing data into information, to give useful new insights into fishing activities and fisheries resources. Fishing is one of the most significant ocean uses in the waters around Ireland with around 1000 vessels active on a daily basis. More than 8 million hours of fishing effort spent annually are mapped by gear and country. Landings statistics are summarised by port. Fishing activities and landings values and volumes within the Irish Exclusive Economic Zone are estimated for 2012. Landings of the key commercial species are mapped individually and by gear. This information is put into context by maps of effort and landings at a broader European scale and by the historical time series of landings that are provided for each species.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2770".
+    

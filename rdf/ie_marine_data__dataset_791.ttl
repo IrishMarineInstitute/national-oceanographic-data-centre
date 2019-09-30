@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_791> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.791";
+    sdo:identifier "ie.marine.data:dataset.791";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Electoral Division";
+    sdo:name "Electoral Division";
+    dct:abstract "Central Statistics Office administrative unit created for population statistics for census profiling. There are 3409 boundary features defined as a Electoral Division. Metadata attributes follow the INSPIRE schema for Administrative units.";
+    sdo:description "Central Statistics Office administrative unit created for population statistics for census profiling. There are 3409 boundary features defined as a Electoral Division. Metadata attributes follow the INSPIRE schema for Administrative units.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.791".
+    

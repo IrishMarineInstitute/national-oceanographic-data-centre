@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2282> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2282";
+    sdo:identifier "ie.marine.data:dataset.2282";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Mean Offshore Wind Speed 2013 - height 125m above mean sea level";
+    sdo:name "Mean Offshore Wind Speed 2013 - height 125m above mean sea level";
+    dct:abstract "SEAI Wind Atlas 2013 mean offshore wind speed measurements in metres per second at a height 125m above sea level. Offshore wind speeds have been mapped to a distance of 25km from the coastline. The wind resource displayed here has been constrained to exclude areas where wind energy projects will not be permitted such as areas where seabed cables and gas pipelines are located, indicative navigation channels, Department of Marine traffic separation / exclusion zones, Department of Defence Danger Areas and near-shore anchorages.";
+    sdo:description "SEAI Wind Atlas 2013 mean offshore wind speed measurements in metres per second at a height 125m above sea level. Offshore wind speeds have been mapped to a distance of 25km from the coastline. The wind resource displayed here has been constrained to exclude areas where wind energy projects will not be permitted such as areas where seabed cables and gas pipelines are located, indicative navigation channels, Department of Marine traffic separation / exclusion zones, Department of Defence Danger Areas and near-shore anchorages.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2282".
+    

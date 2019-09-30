@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2163> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2163";
+    sdo:identifier "ie.marine.data:dataset.2163";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Atlantic Marine Licensing Round 2015";
+    sdo:name "Atlantic Marine Licensing Round 2015";
+    dct:abstract "Licensing rounds awarded by the Petroleum Affairs Division (PAD) in the Irish Atlantic Margin. The 2015 licensing round includes three regions. The Irish Atlantic Margin geographic coverage includes foreshore and offshore waters in what is known as the Currently Designated Irish Continental Shelf. Licensing awarded in 2015. PAD awarded licences to oil and gas exploration companies via licensing options upon application. The role in the Petroleum Affairs Division is to maximise the benefits to the State from exploration for and production (E%amp;P) of indigenous oil and gas resources. In doing this PAD ensure that activities are conducted with due regard to their impact on the environment and other land/sea users through appropriate licensing.";
+    sdo:description "Licensing rounds awarded by the Petroleum Affairs Division (PAD) in the Irish Atlantic Margin. The 2015 licensing round includes three regions. The Irish Atlantic Margin geographic coverage includes foreshore and offshore waters in what is known as the Currently Designated Irish Continental Shelf. Licensing awarded in 2015. PAD awarded licences to oil and gas exploration companies via licensing options upon application. The role in the Petroleum Affairs Division is to maximise the benefits to the State from exploration for and production (E%amp;P) of indigenous oil and gas resources. In doing this PAD ensure that activities are conducted with due regard to their impact on the environment and other land/sea users through appropriate licensing.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2163".
+    

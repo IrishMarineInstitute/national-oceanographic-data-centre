@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2798> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2798";
+    sdo:identifier "ie.marine.data:dataset.2798";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Surface water temperatures of Lough Furnace, Co. Mayo";
+    sdo:name "Surface water temperatures of Lough Furnace, Co. Mayo";
+    dct:abstract "The water temperature is measured at a depth of 1 metre, using a StowAway TidbiT temperature data logger from Onset (TBI32-05+37) (https://www.onsetcomp.com/products/data-loggers/tbi32-0537 ).  The logger is permanently moored over the deepest point of the lake, and records every 30 minutes. Lough Furnace is a coastal lagoon, protected under the EU Habitats Directive as an Annex I priority habitat (“in danger of disappearance”). This dataset comprises data that have been downloaded, checked and quality controlled. For more recent data, check www.marine.ie.";
+    sdo:description "The water temperature is measured at a depth of 1 metre, using a StowAway TidbiT temperature data logger from Onset (TBI32-05+37) (https://www.onsetcomp.com/products/data-loggers/tbi32-0537 ).  The logger is permanently moored over the deepest point of the lake, and records every 30 minutes. Lough Furnace is a coastal lagoon, protected under the EU Habitats Directive as an Annex I priority habitat (“in danger of disappearance”). This dataset comprises data that have been downloaded, checked and quality controlled. For more recent data, check www.marine.ie.";
+    dct:issued "2018-12-18"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2798".
+    

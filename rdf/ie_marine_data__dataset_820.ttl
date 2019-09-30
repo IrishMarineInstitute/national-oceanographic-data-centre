@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_820> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.820";
+    sdo:identifier "ie.marine.data:dataset.820";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Currently Designated Irish Continental Shelf";
+    sdo:name "Currently Designated Irish Continental Shelf";
+    dct:abstract "The continental shelf is an underwater landmass which extends from a continent, resulting in an area of relatively shallow water known as a shelf sea. Much of the shelves were exposed during glacial periods and interglacial periods. The shelf surrounding an island is known as an insular shelf. The continental margin, between the continental shelf and the abyssal plain, comprises a steep continental slope followed by the flatter continental rise. Sediment from the continent above cascades down the slope and accumulates as a pile of sediment at the base of the slope, called the continental rise. Extending as far as 500 km (310 mi) from the slope, it consists of thick sediments deposited by turbidity currents from the shelf and slope.  The continental rise's gradient is intermediate between the slope and the shelf, on the order of 0.5–1°. Under the United Nations Convention on the Law of the Sea, the name continental shelf was given a legal definition as the stretch of the seabed adjacent to the shores of a particular country to which it belongs. Area represents what is currently designated as the Irish Continental Shelf.";
+    sdo:description "The continental shelf is an underwater landmass which extends from a continent, resulting in an area of relatively shallow water known as a shelf sea. Much of the shelves were exposed during glacial periods and interglacial periods. The shelf surrounding an island is known as an insular shelf. The continental margin, between the continental shelf and the abyssal plain, comprises a steep continental slope followed by the flatter continental rise. Sediment from the continent above cascades down the slope and accumulates as a pile of sediment at the base of the slope, called the continental rise. Extending as far as 500 km (310 mi) from the slope, it consists of thick sediments deposited by turbidity currents from the shelf and slope.  The continental rise's gradient is intermediate between the slope and the shelf, on the order of 0.5–1°. Under the United Nations Convention on the Law of the Sea, the name continental shelf was given a legal definition as the stretch of the seabed adjacent to the shores of a particular country to which it belongs. Area represents what is currently designated as the Irish Continental Shelf.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.820".
+    

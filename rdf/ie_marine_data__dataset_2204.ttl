@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2204> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2204";
+    sdo:identifier "ie.marine.data:dataset.2204";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "OREDP Irish Tidal Resource Potential within 5-10 km Coastline";
+    sdo:name "OREDP Irish Tidal Resource Potential within 5-10 km Coastline";
+    dct:abstract "Irish Tidal Resource Potential within 5-10 km off coastline.";
+    sdo:description "Irish Tidal Resource Potential within 5-10 km off coastline.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2204".
+    

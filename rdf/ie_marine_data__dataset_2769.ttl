@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2769> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2769";
+    sdo:identifier "ie.marine.data:dataset.2769";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Species Spawning and Nursery Areas ";
+    sdo:name "Species Spawning and Nursery Areas ";
+    dct:abstract "The spawning and nursery grounds of commercially important species in the area of the Irish Box, and in particular: hake, mackerel, horse mackerel, cod, herring, megrim, blue whiting, black belly angler monkfish, white belly angler monkfish and whiting. Assess whether the spawning and nursery grounds so described, especially for hake, coincide with the boundaries of the Irish Box, and if not, which criteria could be used for a new definition of such boundaries, and which would then be the description of such boundaries; Assess the Irish Box effort constraint in the context of other conservation measures adopted in the area, in particular the gear restriction in Regulation 494/2002. In particular, evaluate the relative importance of these measures, whether any results in terms of resource conservation can be attributed to them, their coherence in terms of boundaries and content, and whether they depend in their effectiveness one on another.";
+    sdo:description "The spawning and nursery grounds of commercially important species in the area of the Irish Box, and in particular: hake, mackerel, horse mackerel, cod, herring, megrim, blue whiting, black belly angler monkfish, white belly angler monkfish and whiting. Assess whether the spawning and nursery grounds so described, especially for hake, coincide with the boundaries of the Irish Box, and if not, which criteria could be used for a new definition of such boundaries, and which would then be the description of such boundaries; Assess the Irish Box effort constraint in the context of other conservation measures adopted in the area, in particular the gear restriction in Regulation 494/2002. In particular, evaluate the relative importance of these measures, whether any results in terms of resource conservation can be attributed to them, their coherence in terms of boundaries and content, and whether they depend in their effectiveness one on another.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2769".
+    

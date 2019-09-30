@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_953> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.953";
+    sdo:identifier "ie.marine.data:dataset.953";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0609 Fisheries Groundfish Intercalibrations Survey";
+    sdo:name "CE0609 Fisheries Groundfish Intercalibrations Survey";
+    dct:abstract "GroundFish Intercalibrations: Fisheries Science Services (FSS) carries out the annual Irish Groundfish Survey (IGFS) in the fourth quarter of each year as part of a larger coordinated survey effort with our EU neighbours (France to the south; and the UK to the north).";
+    sdo:description "GroundFish Intercalibrations: Fisheries Science Services (FSS) carries out the annual Irish Groundfish Survey (IGFS) in the fourth quarter of each year as part of a larger coordinated survey effort with our EU neighbours (France to the south; and the UK to the north).";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.953".
+    

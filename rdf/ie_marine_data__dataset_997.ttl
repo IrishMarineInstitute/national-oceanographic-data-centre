@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_997> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.997";
+    sdo:identifier "ie.marine.data:dataset.997";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0612 Fisheries Deepwater Survey";
+    sdo:name "CE0612 Fisheries Deepwater Survey";
+    dct:abstract "This multidisciplinary deepwater survey was conducted by the Marine Institute on board the R.V. Celtic Explorer in September 2006. 
+
+The survey was designed to revisit earlier survey areas from the nineties and investigate the impact of the high levels of exploitation on the abundance and biological parameters of the deepwater species. The survey was carried out in three areas, two of which were located on the western continental slope and the third on the northern slope of the Porcupine Bank. Hauls were made at four depths, 500m, 750m, 1000m and 1500 meters. Eight comparative tows were made with the Scottish research vessel, R.V. Scotia.
+
+In addition, one Conductivity, Temperature and Depth (CTD) transect was carried out in each area, and sediment grabs taken at each of the CTD stations for plankton and benthic invertebrate sampling. A single Marine Mammal Observer (MMO) was also onboard to conduct visual surveys for cetaceans.";
+    sdo:description "This multidisciplinary deepwater survey was conducted by the Marine Institute on board the R.V. Celtic Explorer in September 2006. 
+
+The survey was designed to revisit earlier survey areas from the nineties and investigate the impact of the high levels of exploitation on the abundance and biological parameters of the deepwater species. The survey was carried out in three areas, two of which were located on the western continental slope and the third on the northern slope of the Porcupine Bank. Hauls were made at four depths, 500m, 750m, 1000m and 1500 meters. Eight comparative tows were made with the Scottish research vessel, R.V. Scotia.
+
+In addition, one Conductivity, Temperature and Depth (CTD) transect was carried out in each area, and sediment grabs taken at each of the CTD stations for plankton and benthic invertebrate sampling. A single Marine Mammal Observer (MMO) was also onboard to conduct visual surveys for cetaceans.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.997".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2778> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2778";
+    sdo:identifier "ie.marine.data:dataset.2778";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Shoreline Coastline";
+    sdo:name "Shoreline Coastline";
+    dct:abstract "Produced by the OSi, this displays the coordinates of the coastal shoreline of Ireland. The vertical datum for the shoreline should be mean sea high water in tidal maritime zone or normal water.";
+    sdo:description "Produced by the OSi, this displays the coordinates of the coastal shoreline of Ireland. The vertical datum for the shoreline should be mean sea high water in tidal maritime zone or normal water.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2778".
+    

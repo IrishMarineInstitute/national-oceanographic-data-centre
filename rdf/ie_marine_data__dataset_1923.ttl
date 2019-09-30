@@ -1,0 +1,19 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1923> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1923";
+    sdo:identifier "ie.marine.data:dataset.1923";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17018 Celtic Sea Nephrops Underwater TV (UWTV) Survey";
+    sdo:name "CV17018 Celtic Sea Nephrops Underwater TV (UWTV) Survey";
+    dct:abstract "Annual underwater television (UWTV) survey of abundance and distribution of Nephrops in the Celtic Sea Nephrops Grounds. The prawn (Nephrops norvegicus) are common in the Celtic Sea occurring in geographically distinct sandy/muddy areas where the sediment is suitable for them to construct their burrows.  The Celtic Sea area supports a large multi-national targeted Nephrops fishery mainly using otter trawls. This survey was carried out by the Marine Institute on board the R.V. Celtic Voyager in July 2017 in the Celtic Sea. Underwater television surveys and assessment methodologies have been developed to provide a fishery independent estimate of stock size, exploitation status and catch advice.
+";
+    sdo:description "Annual underwater television (UWTV) survey of abundance and distribution of Nephrops in the Celtic Sea Nephrops Grounds. The prawn (Nephrops norvegicus) are common in the Celtic Sea occurring in geographically distinct sandy/muddy areas where the sediment is suitable for them to construct their burrows.  The Celtic Sea area supports a large multi-national targeted Nephrops fishery mainly using otter trawls. This survey was carried out by the Marine Institute on board the R.V. Celtic Voyager in July 2017 in the Celtic Sea. Underwater television surveys and assessment methodologies have been developed to provide a fishery independent estimate of stock size, exploitation status and catch advice.
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1923".
+    

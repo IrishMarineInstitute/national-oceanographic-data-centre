@@ -1,0 +1,23 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1128> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1128";
+    sdo:identifier "ie.marine.data:dataset.1128";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14006 NUI Galway Transatlantic Cruise Survey";
+    sdo:name "CE14006 NUI Galway Transatlantic Cruise Survey";
+    dct:abstract "The transatlantic crossing has been carried out since 2011 gathering fisheries acoustic data, underway temperature profiles and carrying out a number of fishing sets for ground truthing of the acoustics dataset.  The Transatlantic Added Value cruise in April 2014, led by Fisheries and Marine Institute of Memorial University of Newfoundland and National University of Ireland Galway, took place on board the Marine Institute's R.V. Celtic Explorer and aimed to add to the pre-existing data sets and to included and develop other scientific areas during the transit. 
+
+During the survey CTD profiles were conducted, phytoplankton sampling was carried out, surface plastics collected using a manta net and  XBT Temperature Profiles taken every 30NM. The M6 weather buoy was  deployed after coming adrift during winter storms. A visual survey for seabirds was also carried out. Extensive sampling around the eddy region did not take place due to bad weather. 
+ ";
+    sdo:description "The transatlantic crossing has been carried out since 2011 gathering fisheries acoustic data, underway temperature profiles and carrying out a number of fishing sets for ground truthing of the acoustics dataset.  The Transatlantic Added Value cruise in April 2014, led by Fisheries and Marine Institute of Memorial University of Newfoundland and National University of Ireland Galway, took place on board the Marine Institute's R.V. Celtic Explorer and aimed to add to the pre-existing data sets and to included and develop other scientific areas during the transit. 
+
+During the survey CTD profiles were conducted, phytoplankton sampling was carried out, surface plastics collected using a manta net and  XBT Temperature Profiles taken every 30NM. The M6 weather buoy was  deployed after coming adrift during winter storms. A visual survey for seabirds was also carried out. Extensive sampling around the eddy region did not take place due to bad weather. 
+ ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1128".
+    

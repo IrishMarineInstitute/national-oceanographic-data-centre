@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1813> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1813";
+    sdo:identifier "ie.marine.data:dataset.1813";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0920 Ulster University Student Training ";
+    sdo:name "CE0920 Ulster University Student Training ";
+    dct:abstract "This training survey took place in December 2009 on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean. The over-arching scientific objective of the proposed training programme was to provide the next generation of marine scientists graduating from the University of Ulster with the necessary offshore seabed survey and data processing skills. Specifically, the proposed training programme can be divided into two main sets of objectives; a) field-based survey skills training and b) post-cruise data processing and interpretation skills training.  
+
+a) Field-based survey skills training Field-based training focused on acoustic and ground-truthing survey techniques. The training successfully provided a solid understanding and experience in the acquisition and processing of data whilst at sea in the following areas: [1] Multibeam sonar (MBES) data collection and processing [2] Seismic (pinger) data collection and processing [3] Benthic grab sample collection and processing (sediments and biology) [4] Benthic corer sample collection and processing (sediments and biology) [5] Fisheries sample collection and processing (epifauna and demersal fish) [6] Underwater video surveys using a passive dropdown video system.";
+    sdo:description "This training survey took place in December 2009 on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean. The over-arching scientific objective of the proposed training programme was to provide the next generation of marine scientists graduating from the University of Ulster with the necessary offshore seabed survey and data processing skills. Specifically, the proposed training programme can be divided into two main sets of objectives; a) field-based survey skills training and b) post-cruise data processing and interpretation skills training.  
+
+a) Field-based survey skills training Field-based training focused on acoustic and ground-truthing survey techniques. The training successfully provided a solid understanding and experience in the acquisition and processing of data whilst at sea in the following areas: [1] Multibeam sonar (MBES) data collection and processing [2] Seismic (pinger) data collection and processing [3] Benthic grab sample collection and processing (sediments and biology) [4] Benthic corer sample collection and processing (sediments and biology) [5] Fisheries sample collection and processing (epifauna and demersal fish) [6] Underwater video surveys using a passive dropdown video system.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1813".
+    

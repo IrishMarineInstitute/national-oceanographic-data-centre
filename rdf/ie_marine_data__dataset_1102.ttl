@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1102> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1102";
+    sdo:identifier "ie.marine.data:dataset.1102";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0807 Celtic Sea/North Atlantic Ocean Oceanographic Survey";
+    sdo:name "CE0807 Celtic Sea/North Atlantic Ocean Oceanographic Survey";
+    dct:abstract "This survey was carried out by the Marine Institute and National University of Ireland, Galway (NUIG) in May 2008 on board the R.V. Celtic Explorer along the Irish Continental Shelf . It was a collaborative multi-disciplinary research effort between the Earth and Ocean Sciences department of NUI, Galway and the Marine Institute. The objectives of the survey were to occupy a set of standard hydrographic transects across the Irish continental shelf to both provide data for climate status reports for ICES and other bodies, as well as to study the bio-geochemistry of Irish shelf waters in relation to plankton ecology and also Carbon cycling (and associated ocean acidification aspects). ";
+    sdo:description "This survey was carried out by the Marine Institute and National University of Ireland, Galway (NUIG) in May 2008 on board the R.V. Celtic Explorer along the Irish Continental Shelf . It was a collaborative multi-disciplinary research effort between the Earth and Ocean Sciences department of NUI, Galway and the Marine Institute. The objectives of the survey were to occupy a set of standard hydrographic transects across the Irish continental shelf to both provide data for climate status reports for ICES and other bodies, as well as to study the bio-geochemistry of Irish shelf waters in relation to plankton ecology and also Carbon cycling (and associated ocean acidification aspects). ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1102".
+    

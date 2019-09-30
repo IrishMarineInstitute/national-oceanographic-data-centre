@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2131> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2131";
+    sdo:identifier "ie.marine.data:dataset.2131";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16048 Nephrops Underwater Television (UWTV) Trials 2016";
+    sdo:name "CV16048 Nephrops Underwater Television (UWTV) Trials 2016";
+    dct:abstract "This survey was carried out to trial the Underwater TV (UWTV) system for surveying the abundance and distribution of Nephrops. It was conducted by the Marine Institute (MI) in Galway Bay in December 2016. 
+
+Nephrops is a genus of lobsters comprising a single extant species, Nephrops norvegicus (the Norway lobster or Dublin Bay prawn). It is common around the Irish coast occurring in geographically distinct sandy/muddy areas where the sediment is suitable for them to construct their burrows. The Nephrops fishery is extremely valuable. Underwater television surveys are carried out annually to survey the distribution and abundances of Nephrops, and are used to provide a fishery independent estimate of stock size, exploitation status and catch advice. ";
+    sdo:description "This survey was carried out to trial the Underwater TV (UWTV) system for surveying the abundance and distribution of Nephrops. It was conducted by the Marine Institute (MI) in Galway Bay in December 2016. 
+
+Nephrops is a genus of lobsters comprising a single extant species, Nephrops norvegicus (the Norway lobster or Dublin Bay prawn). It is common around the Irish coast occurring in geographically distinct sandy/muddy areas where the sediment is suitable for them to construct their burrows. The Nephrops fishery is extremely valuable. Underwater television surveys are carried out annually to survey the distribution and abundances of Nephrops, and are used to provide a fishery independent estimate of stock size, exploitation status and catch advice. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2131".
+    

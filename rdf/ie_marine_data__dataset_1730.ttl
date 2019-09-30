@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1730> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1730";
+    sdo:identifier "ie.marine.data:dataset.1730";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE11006 Biodiscovery and Deep-ocean Ecosystems Survey";
+    sdo:name "CE11006 Biodiscovery and Deep-ocean Ecosystems Survey";
+    dct:abstract "Biodiscovery and deep-ocean ecosystems survey including CTD, Boxcore, Megacore and 12 hour ROV operations.";
+    sdo:description "Biodiscovery and deep-ocean ecosystems survey including CTD, Boxcore, Megacore and 12 hour ROV operations.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1730".
+    

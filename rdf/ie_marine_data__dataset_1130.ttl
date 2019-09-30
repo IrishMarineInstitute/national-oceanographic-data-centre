@@ -1,0 +1,19 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1130> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1130";
+    sdo:identifier "ie.marine.data:dataset.1130";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14008 Ocean climate sections and geology: Porcupine,Rockall, Hatton area survey";
+    sdo:name "CE14008 Ocean climate sections and geology: Porcupine,Rockall, Hatton area survey";
+    dct:abstract "Conduct the standard oceanographic stations across the Porcupine Bank, Rockall Trough to Rockall and Hatton Banks intersecting with OVIDE line at 54N 25W. Work includes 24 hour CTD operations. Cetacean monitoring is also planned. Nutrient station sampling will also take place on the cruise subject to weather conditions permitting but will not outside standard sections. Some anchor dredging on the Edoras Bank for EPI fauna is planned as weather and time allows.
+";
+    sdo:description "Conduct the standard oceanographic stations across the Porcupine Bank, Rockall Trough to Rockall and Hatton Banks intersecting with OVIDE line at 54N 25W. Work includes 24 hour CTD operations. Cetacean monitoring is also planned. Nutrient station sampling will also take place on the cruise subject to weather conditions permitting but will not outside standard sections. Some anchor dredging on the Edoras Bank for EPI fauna is planned as weather and time allows.
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1130".
+    

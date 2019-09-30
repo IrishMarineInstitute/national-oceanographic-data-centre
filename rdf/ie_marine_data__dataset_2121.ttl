@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2121> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2121";
+    sdo:identifier "ie.marine.data:dataset.2121";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16040 University College Cork (UCC) MSc Marine Biology 2016";
+    sdo:name "CV16040 University College Cork (UCC) MSc Marine Biology 2016";
+    dct:abstract "Led by University College Cork (UCC), this 2 day training survey was conducted in November 2016 on board the R.V. Celtic Voyager in Cork Harbour. The survey was carried out to provide training to MSc Marine Biology students in oceanographic and biological sampling techniques. ";
+    sdo:description "Led by University College Cork (UCC), this 2 day training survey was conducted in November 2016 on board the R.V. Celtic Voyager in Cork Harbour. The survey was carried out to provide training to MSc Marine Biology students in oceanographic and biological sampling techniques. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2121".
+    

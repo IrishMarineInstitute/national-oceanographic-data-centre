@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1999> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1999";
+    sdo:identifier "ie.marine.data:dataset.1999";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17041 A multidisciplinary approach to studying deep diving whales and their habitat";
+    sdo:name "CV17041 A multidisciplinary approach to studying deep diving whales and their habitat";
+    dct:abstract "A multidisciplinary approach to studying deep diving whales and their habitat. Operations will be 24 hours therefore acoustic tows will be taking place day and night. Visual operations will only take place during daylight hours. Due to the daily vertical migration cycle of these deep species where fish and cephalopods migrate into shallower waters during night time and back to depths during daylight combined with the Voyagers limitation of trawling to 400m we will be carrying out all our fishing activities on deck between dusk and dawn. We will use a mid-water trawl to a depth of 400m although we can also consider using a nueston net to slightly deeper depths. In addition, CTDs and plankton tows will be carried out at regular intervals along transects. If these stations fall during night time hours then these will be carried out then also.";
+    sdo:description "A multidisciplinary approach to studying deep diving whales and their habitat. Operations will be 24 hours therefore acoustic tows will be taking place day and night. Visual operations will only take place during daylight hours. Due to the daily vertical migration cycle of these deep species where fish and cephalopods migrate into shallower waters during night time and back to depths during daylight combined with the Voyagers limitation of trawling to 400m we will be carrying out all our fishing activities on deck between dusk and dawn. We will use a mid-water trawl to a depth of 400m although we can also consider using a nueston net to slightly deeper depths. In addition, CTDs and plankton tows will be carried out at regular intervals along transects. If these stations fall during night time hours then these will be carried out then also.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1999".
+    

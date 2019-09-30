@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2258> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2258";
+    sdo:identifier "ie.marine.data:dataset.2258";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Mean Winter Theoretical Wave Power Flux kW/m";
+    sdo:name "Mean Winter Theoretical Wave Power Flux kW/m";
+    dct:abstract "The Accessible Wave Energy Resource Atlas published in 2005 describes an initial comparison between several years of hourly wave forecasts (using WAM) on a grid of points located off the Irish coast with corresponding records from a number of buoys installed in recent years. Based on the level of agreement found the wave forecasts were then modified slightly and used to estimate the mean annual and seasonal (Spring, Summer, Autumn, Winter) theoretical wave power resource around Ireland.";
+    sdo:description "The Accessible Wave Energy Resource Atlas published in 2005 describes an initial comparison between several years of hourly wave forecasts (using WAM) on a grid of points located off the Irish coast with corresponding records from a number of buoys installed in recent years. Based on the level of agreement found the wave forecasts were then modified slightly and used to estimate the mean annual and seasonal (Spring, Summer, Autumn, Winter) theoretical wave power resource around Ireland.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2258".
+    

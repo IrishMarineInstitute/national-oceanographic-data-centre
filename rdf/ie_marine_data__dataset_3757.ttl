@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_3757> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.3757";
+    sdo:identifier "ie.marine.data:dataset.3757";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Water quality and meteorological data from the Lough Feeagh Automatic Water Quality Monitoring Station (AWQMS), 2004-2017";
+    sdo:name "Water quality and meteorological data from the Lough Feeagh Automatic Water Quality Monitoring Station (AWQMS), 2004-2017";
+    dct:abstract "Lough Feeagh is a deep humic (brown coloured) lake, typical of many lakes in the west of Ireland. This dataset consists of data from the AWQMS (automatic water quality monitoring station) situated in Lough Feeagh, which is run as part of the Marine Institute’s BurrishooleLTER program in the Burrishoole catchment. The AWQMS is permanently moored in 45 meters of water and includes sensors measuring surface water quality, water temperature profiles and meteorological parameters. All data are recorded at a 2-minute resolution. These data are real time (GMT) and raw - they have not yet been through any quality checking procedures. There may be short term data gaps when we are experiencing technical difficulties. Lough Feeagh is a site in the Global Lake Ecological Observatory Network (www.gleon.org). Sensor information is given in the “Feeagh AWQMS sesnsor Metadata.csv” file, along with other pertinent information. The “Feeagh AWQMS Maintenance Comments” log details routine maintenance which the Burrishoole catchment team record. Quality controlled version of these data may be available as they are processed. Check data.marine.ie for updates";
+    sdo:description "Lough Feeagh is a deep humic (brown coloured) lake, typical of many lakes in the west of Ireland. This dataset consists of data from the AWQMS (automatic water quality monitoring station) situated in Lough Feeagh, which is run as part of the Marine Institute’s BurrishooleLTER program in the Burrishoole catchment. The AWQMS is permanently moored in 45 meters of water and includes sensors measuring surface water quality, water temperature profiles and meteorological parameters. All data are recorded at a 2-minute resolution. These data are real time (GMT) and raw - they have not yet been through any quality checking procedures. There may be short term data gaps when we are experiencing technical difficulties. Lough Feeagh is a site in the Global Lake Ecological Observatory Network (www.gleon.org). Sensor information is given in the “Feeagh AWQMS sesnsor Metadata.csv” file, along with other pertinent information. The “Feeagh AWQMS Maintenance Comments” log details routine maintenance which the Burrishoole catchment team record. Quality controlled version of these data may be available as they are processed. Check data.marine.ie for updates";
+    dct:issued "2019-05-16"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.3757".
+    

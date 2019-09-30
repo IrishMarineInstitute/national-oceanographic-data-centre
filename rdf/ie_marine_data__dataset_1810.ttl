@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1810> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1810";
+    sdo:identifier "ie.marine.data:dataset.1810";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0919 Fisheries Deepwater Survey";
+    sdo:name "CE0919 Fisheries Deepwater Survey";
+    dct:abstract "The Marine Institute and the National University of Ireland, Galway conducted a deepwater survey in December 2009. This survey was the fourth in an annual series, carried out on the RV Celtic Explorer, gathering fishery and hydrographical data on the continental slope to the north and west of Ireland, and on the Porcupine Bank. The survey objectives were to collect biological data on the main deepwater fish species and invertebrates.
+
+Fishing hauls were carried out at four of five depths, 500m, 750m, 1000m, 1500m, and 1800m, in each of two distinct Areas. CTD data was collected along transects in each area. Cetacean observations were carried out by an observer from the Irish Whale and Dolphin Group.";
+    sdo:description "The Marine Institute and the National University of Ireland, Galway conducted a deepwater survey in December 2009. This survey was the fourth in an annual series, carried out on the RV Celtic Explorer, gathering fishery and hydrographical data on the continental slope to the north and west of Ireland, and on the Porcupine Bank. The survey objectives were to collect biological data on the main deepwater fish species and invertebrates.
+
+Fishing hauls were carried out at four of five depths, 500m, 750m, 1000m, 1500m, and 1800m, in each of two distinct Areas. CTD data was collected along transects in each area. Cetacean observations were carried out by an observer from the Irish Whale and Dolphin Group.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1810".
+    

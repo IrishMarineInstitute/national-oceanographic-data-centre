@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1203> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1203";
+    sdo:identifier "ie.marine.data:dataset.1203";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "INFOMAR Side Scan Sonar";
+    sdo:name "INFOMAR Side Scan Sonar";
+    dct:abstract "A side scan sonar is used when high resolution information on specific seabed features is required (e.g. habitat mapping or wreck investigations). The unit is towed behind the vessel in close proximity to the seabed and transmits high frequency sound pulses that map the seabed on either side.";
+    sdo:description "A side scan sonar is used when high resolution information on specific seabed features is required (e.g. habitat mapping or wreck investigations). The unit is towed behind the vessel in close proximity to the seabed and transmits high frequency sound pulses that map the seabed on either side.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1203".
+    

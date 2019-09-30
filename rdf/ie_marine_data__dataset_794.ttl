@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_794> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.794";
+    sdo:identifier "ie.marine.data:dataset.794";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Townland";
+    sdo:name "Townland";
+    dct:abstract "A townland is a small geographical division of land used in Ireland. The townland system is of Gaelic origin, pre-dating the Norman invasion, and most have names of Irish Gaelic origin. However, some townland names and boundaries come from Norman manors, plantation divisions, or later creations of the Ordnance Survey. The total number of inhabited townlands was 60,679 in 1911.  The total number recognised by the Irish Place Names database as of 2014 was 61,098, including uninhabited townlands, mainly small islands. Features included in this data cover 50,534 boundaries.";
+    sdo:description "A townland is a small geographical division of land used in Ireland. The townland system is of Gaelic origin, pre-dating the Norman invasion, and most have names of Irish Gaelic origin. However, some townland names and boundaries come from Norman manors, plantation divisions, or later creations of the Ordnance Survey. The total number of inhabited townlands was 60,679 in 1911.  The total number recognised by the Irish Place Names database as of 2014 was 61,098, including uninhabited townlands, mainly small islands. Features included in this data cover 50,534 boundaries.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.794".
+    

@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1992> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1992";
+    sdo:identifier "ie.marine.data:dataset.1992";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17039 Microplastics in Galway Bay: an ecosystem approach to seafloor integrity";
+    sdo:name "CV17039 Microplastics in Galway Bay: an ecosystem approach to seafloor integrity";
+    dct:abstract "This survey took place in December 2017 on board the Marine Institute's R.V. Celtic Voyager, led by Galway-Mayo Institute of Technology (GMIT).
+
+The survey was conducted to assess microplastic pollution and seafloor integrity within Galway Bay and its environs. 12 stations were sampled  in order to cover the entire area of Galway Bay and its environs.  Sampling sites were chosen to help illustrate the potential broad distribution of microplastics in this area, using the circulatory pattern within the bay as a guide. Station sampling included surface water (using a  manta trawl) ; sediment (using a box corer); biota (benthic fauna and beam trawl) and CTD (Conductivity-Temperature-Depth) data collection.";
+    sdo:description "This survey took place in December 2017 on board the Marine Institute's R.V. Celtic Voyager, led by Galway-Mayo Institute of Technology (GMIT).
+
+The survey was conducted to assess microplastic pollution and seafloor integrity within Galway Bay and its environs. 12 stations were sampled  in order to cover the entire area of Galway Bay and its environs.  Sampling sites were chosen to help illustrate the potential broad distribution of microplastics in this area, using the circulatory pattern within the bay as a guide. Station sampling included surface water (using a  manta trawl) ; sediment (using a box corer); biota (benthic fauna and beam trawl) and CTD (Conductivity-Temperature-Depth) data collection.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1992".
+    

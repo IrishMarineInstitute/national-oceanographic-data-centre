@@ -1,0 +1,33 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1185> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1185";
+    sdo:identifier "ie.marine.data:dataset.1185";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE12003 Cetaceans on the Frontier III Survey";
+    sdo:name "CE12003 Cetaceans on the Frontier III Survey";
+    dct:abstract "This multidisciplinary survey was conducted by Galway-Mayo Institute of Technology (GMIT) on board the Marine Institute's R.V. Celtic Explorer, as part of the programme Cetaceans on the Frontier. ‘Cetaceans on the Frontier’ has become an annual research cruise, lead jointly by the Galway-Mayo Institute of Technology (GMIT) and the Irish Whale and Dolphin Group (IWDG) which aims to record abundances and distribution of cetaceans along the continental shelf edge.
+
+This cruise was designed to maximize the use of ship time by simultaneous surveys for cetaceans (acoustic and visual), seabirds (visual) and basking sharks (visual) during daylight hours, and backtracking at night for plankton sampling.
+
+Dedicated surveying was carried out between 24th February and 5th March 2012. The survey area covered waters over the Porcupine Bank, Porcupine Seabight, Whittard Canyon System and Celtic Shelf, and so was predominantly designed to target deep-water canyon and slope habitat.
+
+The survey vessel travelled at an average speed of 10 knots while on transect between the hours of 08:00 to 18:00 each day and Conductivity, Temperature and Depth (CTD) measurements and plankton hauls were carried out between 18:00 and 07:30.
+
+";
+    sdo:description "This multidisciplinary survey was conducted by Galway-Mayo Institute of Technology (GMIT) on board the Marine Institute's R.V. Celtic Explorer, as part of the programme Cetaceans on the Frontier. ‘Cetaceans on the Frontier’ has become an annual research cruise, lead jointly by the Galway-Mayo Institute of Technology (GMIT) and the Irish Whale and Dolphin Group (IWDG) which aims to record abundances and distribution of cetaceans along the continental shelf edge.
+
+This cruise was designed to maximize the use of ship time by simultaneous surveys for cetaceans (acoustic and visual), seabirds (visual) and basking sharks (visual) during daylight hours, and backtracking at night for plankton sampling.
+
+Dedicated surveying was carried out between 24th February and 5th March 2012. The survey area covered waters over the Porcupine Bank, Porcupine Seabight, Whittard Canyon System and Celtic Shelf, and so was predominantly designed to target deep-water canyon and slope habitat.
+
+The survey vessel travelled at an average speed of 10 knots while on transect between the hours of 08:00 to 18:00 each day and Conductivity, Temperature and Depth (CTD) measurements and plankton hauls were carried out between 18:00 and 07:30.
+
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1185".
+    

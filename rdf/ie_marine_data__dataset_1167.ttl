@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1167> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1167";
+    sdo:identifier "ie.marine.data:dataset.1167";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE10014 Deep water coral and fish interaction off the west coast of Ireland";
+    sdo:name "CE10014 Deep water coral and fish interaction off the west coast of Ireland";
+    dct:abstract "Deep water coral and fish interaction off the west coast of Ireland : Marine Institute [NDP] funded deep water coral assessment cruise. Spatial data includes assessing the interactions of corals and fish under CoralFISH FP7 project. In addition, spatial data includes joint NUI Galway/IFREMER ROV Survey planned in support of HERMIONE FP7 project.";
+    sdo:description "Deep water coral and fish interaction off the west coast of Ireland : Marine Institute [NDP] funded deep water coral assessment cruise. Spatial data includes assessing the interactions of corals and fish under CoralFISH FP7 project. In addition, spatial data includes joint NUI Galway/IFREMER ROV Survey planned in support of HERMIONE FP7 project.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1167".
+    

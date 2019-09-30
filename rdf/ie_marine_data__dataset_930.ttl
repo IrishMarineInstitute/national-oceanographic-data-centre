@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_930> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.930";
+    sdo:identifier "ie.marine.data:dataset.930";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17003 SMART NUIG SEMRU 2017 Survey Cork Harbour";
+    sdo:name "CV17003 SMART NUIG SEMRU 2017 Survey Cork Harbour";
+    dct:abstract "This training survey focused on multi-disciplinary research methods for studying the marine environment, using the core disciplines of fisheries, benthic biology, oceanography and marine geophysics relevant to marine economics and policy. This training survey took advantage of the wide range of economic activities clustered in and around Cork Harbour to provide students/trainees with hands on experience of the multidisciplinary methods used to collect data that can input into the models use for the analysis of the marine economy. ";
+    sdo:description "This training survey focused on multi-disciplinary research methods for studying the marine environment, using the core disciplines of fisheries, benthic biology, oceanography and marine geophysics relevant to marine economics and policy. This training survey took advantage of the wide range of economic activities clustered in and around Cork Harbour to provide students/trainees with hands on experience of the multidisciplinary methods used to collect data that can input into the models use for the analysis of the marine economy. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.930".
+    

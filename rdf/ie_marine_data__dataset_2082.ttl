@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2082> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2082";
+    sdo:identifier "ie.marine.data:dataset.2082";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16025 Dinophysis Survey";
+    sdo:name "CV16025 Dinophysis Survey";
+    dct:abstract "This survey took place in July 2016 on board the R.V. Celtic Voyager to survey the distribution of Dinophysis, a toxic phytoplankton, which has had an impact on shellfish aquaculture in coastal regions adjacent to the Celtic Sea. This survey built on results achieved from surveys in earlier years (in particular CV13019, CV14012 and CV15017). A Fine Scale Sampler was used to for water collection.  Conductivity, Temperature and Depth (CTD) sampling was also conducted. ";
+    sdo:description "This survey took place in July 2016 on board the R.V. Celtic Voyager to survey the distribution of Dinophysis, a toxic phytoplankton, which has had an impact on shellfish aquaculture in coastal regions adjacent to the Celtic Sea. This survey built on results achieved from surveys in earlier years (in particular CV13019, CV14012 and CV15017). A Fine Scale Sampler was used to for water collection.  Conductivity, Temperature and Depth (CTD) sampling was also conducted. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2082".
+    

@@ -1,0 +1,23 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1901> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1901";
+    sdo:identifier "ie.marine.data:dataset.1901";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17011 MARA: MAlin shelf sediment ReseArch Survey";
+    sdo:name "CV17011 MARA: MAlin shelf sediment ReseArch Survey";
+    dct:abstract "This eight day geological survey took place in March 2017 on board the Marine Institute's R.V. Celtic Voyager off the coast of Co. Donegal.
+
+The aim of this survey was to understand and quantify Quaternary sediment off Western Donegal to promote sustainable development of marine resources and better understand ice dynamics of a climatically-driven retreating ice sheet. Due to poor weather conditions and reduced time at sea, very limited seismic data was acquired. 69  samples were attempted using the Shipek grab from approximately 100m water depth off the Malin Shelf. 63 samples were recovered.  
+";
+    sdo:description "This eight day geological survey took place in March 2017 on board the Marine Institute's R.V. Celtic Voyager off the coast of Co. Donegal.
+
+The aim of this survey was to understand and quantify Quaternary sediment off Western Donegal to promote sustainable development of marine resources and better understand ice dynamics of a climatically-driven retreating ice sheet. Due to poor weather conditions and reduced time at sea, very limited seismic data was acquired. 69  samples were attempted using the Shipek grab from approximately 100m water depth off the Malin Shelf. 63 samples were recovered.  
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1901".
+    

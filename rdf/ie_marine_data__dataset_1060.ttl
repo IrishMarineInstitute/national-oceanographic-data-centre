@@ -1,0 +1,29 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1060> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1060";
+    sdo:identifier "ie.marine.data:dataset.1060";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE15003 Ocean climate, marine chemistry and geology sections 2015 survey";
+    sdo:name "CE15003 Ocean climate, marine chemistry and geology sections 2015 survey";
+    dct:abstract "Ocean climate, marine chemistry and geology sections survey conducted by the Marine Institute in spring 2015 on board the R.V. Celtic  Explorer. The focus areas were the Rockall Trough, Atlantic Continental Margin, Continental Shelf and Porcupine Bank of the North Atlantic Ocean.
+
+This cruise was designed to contribute Ireland’s data to the ICES working group on oceanic hydrography (WGOH). WGOH produce the ICES Report on Ocean Climate (IROC) each year which summarises oceanic variability from year to year in the ICES region. The cruise objectives were designed to deliver this data to the IROC effort on an annual basis. 
+
+The proposed continuation of the standard sections will provide a time series to assess inter-annual variability of biogeochemical conditions at the continental margin that impact on marginal ecosystems through many trophic levels, such as plankton community distribution, fisheries and benthic systems such as cold water coral reefs. 
+
+During the survey CTD (Conductivity-Temperature-Depth) and day grab samples were obtained. However, not all objectives were achieved on this survey due to weather limitations. ";
+    sdo:description "Ocean climate, marine chemistry and geology sections survey conducted by the Marine Institute in spring 2015 on board the R.V. Celtic  Explorer. The focus areas were the Rockall Trough, Atlantic Continental Margin, Continental Shelf and Porcupine Bank of the North Atlantic Ocean.
+
+This cruise was designed to contribute Ireland’s data to the ICES working group on oceanic hydrography (WGOH). WGOH produce the ICES Report on Ocean Climate (IROC) each year which summarises oceanic variability from year to year in the ICES region. The cruise objectives were designed to deliver this data to the IROC effort on an annual basis. 
+
+The proposed continuation of the standard sections will provide a time series to assess inter-annual variability of biogeochemical conditions at the continental margin that impact on marginal ecosystems through many trophic levels, such as plankton community distribution, fisheries and benthic systems such as cold water coral reefs. 
+
+During the survey CTD (Conductivity-Temperature-Depth) and day grab samples were obtained. However, not all objectives were achieved on this survey due to weather limitations. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1060".
+    

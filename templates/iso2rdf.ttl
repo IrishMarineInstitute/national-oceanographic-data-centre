@@ -1,1 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
 
+<http://data.marine.ie/{{ data.identifierToFileName() }}> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "{{ data.identifier }}";
+    sdo:identifier "{{ data.identifier }}";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "{{ data.title }}";
+    sdo:name "{{ data.title }}";
+    dct:abstract "{{ data.abstract }}";
+    sdo:description "{{ data.abstract }}";
+    dct:issued "{{ data.dateIssued }}"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "{{ data.identifier }}".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2023> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2023";
+    sdo:identifier "ie.marine.data:dataset.2023";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16009 Undergraduate Shipboard Training in Methods of Oceanographic, Benthic Megafauna and Fisheries Research Survey";
+    sdo:name "CV16009 Undergraduate Shipboard Training in Methods of Oceanographic, Benthic Megafauna and Fisheries Research Survey";
+    dct:abstract "CV16009 Undergraduate Shipboard Training in Methods of Oceanographic, Benthic Megafauna and Fisheries Research Survey in Galway Bay.";
+    sdo:description "CV16009 Undergraduate Shipboard Training in Methods of Oceanographic, Benthic Megafauna and Fisheries Research Survey in Galway Bay.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2023".
+    

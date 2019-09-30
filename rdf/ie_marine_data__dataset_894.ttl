@@ -1,0 +1,31 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_894> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.894";
+    sdo:identifier "ie.marine.data:dataset.894";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0501 Fisheries North-west Acoustic Survey";
+    sdo:name "CE0501 Fisheries North-west Acoustic Survey";
+    dct:abstract "The northwest and west coast herring acoustic survey programme was first implemented in 1994. Prior to this a larval survey programme was carried out between 1984 and 1986. The ICES working group (HAWG) identified a need for a dedicated herring acoustic survey off the Irish coast. The stock in this area is composed of a number of spawning components and spawning may extend from September to March.
+This purpose of this cruise, therefore, is to describe stock structure and discrimination of herring around Ireland. The results of the project have implications for the design of future surveys and for stock assessment.
+Material and Methods:
+Acoustic data acquisition.
+Calibration of acoustic equipment.
+Biological sampling of stock from pelagic midwater trawl.
+Acoustic data analysis.
+Hydrographic data collection.";
+    sdo:description "The northwest and west coast herring acoustic survey programme was first implemented in 1994. Prior to this a larval survey programme was carried out between 1984 and 1986. The ICES working group (HAWG) identified a need for a dedicated herring acoustic survey off the Irish coast. The stock in this area is composed of a number of spawning components and spawning may extend from September to March.
+This purpose of this cruise, therefore, is to describe stock structure and discrimination of herring around Ireland. The results of the project have implications for the design of future surveys and for stock assessment.
+Material and Methods:
+Acoustic data acquisition.
+Calibration of acoustic equipment.
+Biological sampling of stock from pelagic midwater trawl.
+Acoustic data analysis.
+Hydrographic data collection.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.894".
+    

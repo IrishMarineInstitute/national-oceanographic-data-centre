@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2805> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2805";
+    sdo:identifier "ie.marine.data:dataset.2805";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "KRY11_03 Achill & Geo11_04, Mayo Bathymetry";
+    sdo:name "KRY11_03 Achill & Geo11_04, Mayo Bathymetry";
+    dct:abstract "This is a 5 m resolution bathymetry tif in WGS84 projection. The survey was carried out on the R.V. Keary using a hull mounted EM3002 multibeam echosounder. Data was subsequently processed using CARIS HIPS and SIPS software. Depths in the survey area ranged from 0m to 55m, all depths are reduced to LAT (lowest Astronomical Tide) using the Vertical Offshore Reference Frame (VORF) model from the United Kingdom Hydrographic Office (UKHO).";
+    sdo:description "This is a 5 m resolution bathymetry tif in WGS84 projection. The survey was carried out on the R.V. Keary using a hull mounted EM3002 multibeam echosounder. Data was subsequently processed using CARIS HIPS and SIPS software. Depths in the survey area ranged from 0m to 55m, all depths are reduced to LAT (lowest Astronomical Tide) using the Vertical Offshore Reference Frame (VORF) model from the United Kingdom Hydrographic Office (UKHO).";
+    dct:issued "2018-12-19"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2805".
+    

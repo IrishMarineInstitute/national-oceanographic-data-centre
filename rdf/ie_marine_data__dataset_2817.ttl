@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2817> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2817";
+    sdo:identifier "ie.marine.data:dataset.2817";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Lough Feeagh water temperature profiles";
+    sdo:name "Lough Feeagh water temperature profiles";
+    dct:abstract "A permanently moored thermistor chain at the deepest point in Lough Feeagh measures water temperature at 13 depths (0.9, 2.5, 5, 8, 11, 14, 16, 18, 20, 22, 27, 32, 42). This dataset comprises data collected between 2004 and 2017 which has gone through detailed QA/QC. More recent data can be requested or downloaded from the Marine Institute through www.marine.ie. The dataset also includes the bathymetry of Lough Feeagh. The thermistor chain data are provided as a text file. Users of the R statistical programming language may open this through the rLakeAnlyzer package https://cran.r-project.org/web/packages/rLakeAnalyzer/rLakeAnalyzer.pdf ";
+    sdo:description "A permanently moored thermistor chain at the deepest point in Lough Feeagh measures water temperature at 13 depths (0.9, 2.5, 5, 8, 11, 14, 16, 18, 20, 22, 27, 32, 42). This dataset comprises data collected between 2004 and 2017 which has gone through detailed QA/QC. More recent data can be requested or downloaded from the Marine Institute through www.marine.ie. The dataset also includes the bathymetry of Lough Feeagh. The thermistor chain data are provided as a text file. Users of the R statistical programming language may open this through the rLakeAnlyzer package https://cran.r-project.org/web/packages/rLakeAnalyzer/rLakeAnalyzer.pdf ";
+    dct:issued "2018-12-18"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2817".
+    

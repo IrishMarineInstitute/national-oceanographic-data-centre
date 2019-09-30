@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_888> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.888";
+    sdo:identifier "ie.marine.data:dataset.888";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0406 NUI Galway Ryan Institute Oceanographic Survey";
+    sdo:name "CE0406 NUI Galway Ryan Institute Oceanographic Survey";
+    dct:abstract "National University of Ireland sponsored cruise of the Porcupine Bank with a multi-disciplinary objective.";
+    sdo:description "National University of Ireland sponsored cruise of the Porcupine Bank with a multi-disciplinary objective.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.888".
+    

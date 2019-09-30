@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1750> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1750";
+    sdo:identifier "ie.marine.data:dataset.1750";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE11014 North Atlantic Transit Survey";
+    sdo:name "CE11014 North Atlantic Transit Survey";
+    dct:abstract "North Atlantic Ocean transect survey from Ireland to Canada. 
+
+This multidisciplinary transatlantic survey took place in January 2011 on board the Marine Institute's R.V. Celtic Explorer. This research cruise is part of an annual survey that started in 2011 as a collaborative effort between the Fisheries and Marine Institute of Memorial University of Newfoundlandand National Univeristy of Ireland, Galway (NUIG) . CTDs sampling, marine mammal and seabird observations were conducted. ";
+    sdo:description "North Atlantic Ocean transect survey from Ireland to Canada. 
+
+This multidisciplinary transatlantic survey took place in January 2011 on board the Marine Institute's R.V. Celtic Explorer. This research cruise is part of an annual survey that started in 2011 as a collaborative effort between the Fisheries and Marine Institute of Memorial University of Newfoundlandand National Univeristy of Ireland, Galway (NUIG) . CTDs sampling, marine mammal and seabird observations were conducted. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1750".
+    

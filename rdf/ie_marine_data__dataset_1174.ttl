@@ -1,0 +1,33 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1174> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1174";
+    sdo:identifier "ie.marine.data:dataset.1174";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE12009 Northwest Herring Acoustic Survey";
+    sdo:name "CE12009 Northwest Herring Acoustic Survey";
+    dct:abstract "This survey was conducted by the Marine Institute on-board the RV Celtic Explorer in summer 2012 as part of the North West Herring Acoustic Survey. The aim of an acoustic survey is to determine the relative abundance of the target species. This information is then used to determine catch rates and management advice for the following year.
+
+The northwest and west coast (ICES Divisions VIaS & VIIb) herring acoustic survey programme was first established in 1994. The summer 2012 survey represents the fifth in the new time series. The survey was coordinated through the ICES Working Group of International Pelagic Surveys (WGIPS). Combined survey data on herring distribution, abundance and age are used to provide a measure of the relative abundance of herring within the Malin shelf stock complex. Survey data on stock numbers at age are submitted to the ICES Herring Assessment Working Group (HAWG) and used in the annual stock assessment process. 
+
+The northwest and west coast (ICES Divisions VIaS & VIIb) herring stock is composed of two spawning components, autumn and winter spawners. Spawning covers a large geographical area and extends over a 4-month period from late September through to late March. Traditionally, fishing effort has been concentrated on spawning and pre-spawning aggregations. The autumn spawning component, which mostly occurs within VIIb and VIaS, feeds along the shelf break area to the west of the spawning grounds. The winter spawning component is found further north in VIaS. In VIaS, summer distribution extends from close inshore to the shelf break. Components of the winter spawning fish are known to undertake northward feeding migration into VIaN before returning in the winter to spawn along the Irish coast.
+
+This survey focused on the northwest and west coast of Ireland and the west coast of Scotland. The survey track started in the region south of the Hebrides and worked progressively southwards after surveying the Minches region. A systematic parallel transect design was adopted for the majority of the survey, with a randomised start point. Transects were positioned running perpendicular to the lines of bathymetry where possible
+
+The acoustic data were collected using the Simrad ER60 scientific echosounder. For biological sampling, a single pelagic midwater trawl was used. 29 trawls were carried out. All components of the catch from the trawl hauls were sorted and weighed; fish and other taxa were identified to species level. Oceanographic stations were carried out during the survey at predetermined locations along the track. Not all stations were sampled due to weather conditions. Data on temperature, depth and salinity (CTD) were collected. ";
+    sdo:description "This survey was conducted by the Marine Institute on-board the RV Celtic Explorer in summer 2012 as part of the North West Herring Acoustic Survey. The aim of an acoustic survey is to determine the relative abundance of the target species. This information is then used to determine catch rates and management advice for the following year.
+
+The northwest and west coast (ICES Divisions VIaS & VIIb) herring acoustic survey programme was first established in 1994. The summer 2012 survey represents the fifth in the new time series. The survey was coordinated through the ICES Working Group of International Pelagic Surveys (WGIPS). Combined survey data on herring distribution, abundance and age are used to provide a measure of the relative abundance of herring within the Malin shelf stock complex. Survey data on stock numbers at age are submitted to the ICES Herring Assessment Working Group (HAWG) and used in the annual stock assessment process. 
+
+The northwest and west coast (ICES Divisions VIaS & VIIb) herring stock is composed of two spawning components, autumn and winter spawners. Spawning covers a large geographical area and extends over a 4-month period from late September through to late March. Traditionally, fishing effort has been concentrated on spawning and pre-spawning aggregations. The autumn spawning component, which mostly occurs within VIIb and VIaS, feeds along the shelf break area to the west of the spawning grounds. The winter spawning component is found further north in VIaS. In VIaS, summer distribution extends from close inshore to the shelf break. Components of the winter spawning fish are known to undertake northward feeding migration into VIaN before returning in the winter to spawn along the Irish coast.
+
+This survey focused on the northwest and west coast of Ireland and the west coast of Scotland. The survey track started in the region south of the Hebrides and worked progressively southwards after surveying the Minches region. A systematic parallel transect design was adopted for the majority of the survey, with a randomised start point. Transects were positioned running perpendicular to the lines of bathymetry where possible
+
+The acoustic data were collected using the Simrad ER60 scientific echosounder. For biological sampling, a single pelagic midwater trawl was used. 29 trawls were carried out. All components of the catch from the trawl hauls were sorted and weighed; fish and other taxa were identified to species level. Oceanographic stations were carried out during the survey at predetermined locations along the track. Not all stations were sampled due to weather conditions. Data on temperature, depth and salinity (CTD) were collected. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1174".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_778> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.778";
+    sdo:identifier "ie.marine.data:dataset.778";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Irish Ports Lift-On/Lift-Off Statistics 2016";
+    sdo:name "Irish Ports Lift-On/Lift-Off Statistics 2016";
+    dct:abstract "Statistics on Lift-On/lift-Off (LoLo) Port Traffic during 2016 including Laden Container Port Traffic (TEU), Total Monthly Container Traffic through All Irish Ports, Total Container Port Traffic (Laden and Unladen), TEU Distribution of LoLo Vessels Arrivals in Irish Ports, Estimated Total Capacity and Traffic in Irish Ports and Container Imports/Exports.";
+    sdo:description "Statistics on Lift-On/lift-Off (LoLo) Port Traffic during 2016 including Laden Container Port Traffic (TEU), Total Monthly Container Traffic through All Irish Ports, Total Container Port Traffic (Laden and Unladen), TEU Distribution of LoLo Vessels Arrivals in Irish Ports, Estimated Total Capacity and Traffic in Irish Ports and Container Imports/Exports.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.778".
+    

@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_851> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.851";
+    sdo:identifier "ie.marine.data:dataset.851";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE17011 Fisheries Acoustic Survey - The Western European Shelf Pelagic Acoustic Survey (WESPAS) Leg 2";
+    sdo:name "CE17011 Fisheries Acoustic Survey - The Western European Shelf Pelagic Acoustic Survey (WESPAS) Leg 2";
+    dct:abstract "The Western European Shelf Pelagic Acoustic Survey (WESPAS) survey program is the consolidation of two existing survey programs carried out by Fisheries Ecosystems Advisory Service (FEAS) in the Marine Institute. The Main Shelf herring acoustic survey has been carried out annually since 2008 and reports on the annual abundance of summer feeding aggregations of herring to the west of Scotland and north of Ireland. The boarfish survey has been carried out since 2011 using a chartered fishing vessel and reports on the abundance of spawning aggregations of boarfish 47N to 57N. In 2016 both surveys were combined providing synoptic coverage of shelf waters from 59N southwards to 47N.
+
+The 2017 survey took place over 2 legs; leg one was from 6th - 29th June, and leg 2  (this cruise) from 4th - 21 July 2017 on board the R.V. Celtic Explorer. Age stratified relative stock abundance estimates of boarfish, herring and horse mackerel within the survey area were calculated using acoustic data and biological data from trawl sampling. 
+
+Conductivity, Temperature and Depth (CTD) data was acquired at predetermined stations. Zooplankton sampling was carried out alongside CTD stations. Marine mammal and seabird visual surveys were also conducted.  ";
+    sdo:description "The Western European Shelf Pelagic Acoustic Survey (WESPAS) survey program is the consolidation of two existing survey programs carried out by Fisheries Ecosystems Advisory Service (FEAS) in the Marine Institute. The Main Shelf herring acoustic survey has been carried out annually since 2008 and reports on the annual abundance of summer feeding aggregations of herring to the west of Scotland and north of Ireland. The boarfish survey has been carried out since 2011 using a chartered fishing vessel and reports on the abundance of spawning aggregations of boarfish 47N to 57N. In 2016 both surveys were combined providing synoptic coverage of shelf waters from 59N southwards to 47N.
+
+The 2017 survey took place over 2 legs; leg one was from 6th - 29th June, and leg 2  (this cruise) from 4th - 21 July 2017 on board the R.V. Celtic Explorer. Age stratified relative stock abundance estimates of boarfish, herring and horse mackerel within the survey area were calculated using acoustic data and biological data from trawl sampling. 
+
+Conductivity, Temperature and Depth (CTD) data was acquired at predetermined stations. Zooplankton sampling was carried out alongside CTD stations. Marine mammal and seabird visual surveys were also conducted.  ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.851".
+    

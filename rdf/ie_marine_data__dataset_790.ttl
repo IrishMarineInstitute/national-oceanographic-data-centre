@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_790> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.790";
+    sdo:identifier "ie.marine.data:dataset.790";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Census Small Area ";
+    sdo:name "Census Small Area ";
+    dct:abstract "Central Statistics Office administrative unit created for population statistics at a local level. Census small areas are a sub-division of the Electoral Division administrative unit. Census Small Area (CSA) generally cover 65-90 households. There are 18488 boundary features defined as a CSA. Metadata attributes follow the INSPIRE schema for Administrative units.";
+    sdo:description "Central Statistics Office administrative unit created for population statistics at a local level. Census small areas are a sub-division of the Electoral Division administrative unit. Census Small Area (CSA) generally cover 65-90 households. There are 18488 boundary features defined as a CSA. Metadata attributes follow the INSPIRE schema for Administrative units.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.790".
+    

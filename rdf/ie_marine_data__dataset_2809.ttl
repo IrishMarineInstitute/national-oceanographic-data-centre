@@ -1,0 +1,35 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2809> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2809";
+    sdo:identifier "ie.marine.data:dataset.2809";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Potential offshore aquaculture sites";
+    sdo:name "Potential offshore aquaculture sites";
+    dct:abstract "The AtlantOS aquaculture site selection product described here was derived from a physical model; validated by the In-situ ocean data. A number of variables (bathymetry, wind, wave and currents, exposure) were used to develop the product.
+
+The dataset avaialble here is a research and development demonstration product only and as such is not suitable for Marine Spatial Planning or other similar purposes.
+
+The dataset delineates Atlantic marine waters around Ireland that meet all the criteria below:
+
+ - water depth ≥ 15 m
+ - maximum tidal velocity of < 1 m/s
+ - maximum significant wave height, max_Hs, < 4 m
+ - Ninetieth percentile value of a significant wave height (Hs), Hs_P90 < 2 m";
+    sdo:description "The AtlantOS aquaculture site selection product described here was derived from a physical model; validated by the In-situ ocean data. A number of variables (bathymetry, wind, wave and currents, exposure) were used to develop the product.
+
+The dataset avaialble here is a research and development demonstration product only and as such is not suitable for Marine Spatial Planning or other similar purposes.
+
+The dataset delineates Atlantic marine waters around Ireland that meet all the criteria below:
+
+ - water depth ≥ 15 m
+ - maximum tidal velocity of < 1 m/s
+ - maximum significant wave height, max_Hs, < 4 m
+ - Ninetieth percentile value of a significant wave height (Hs), Hs_P90 < 2 m";
+    dct:issued "2018-12-19"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2809".
+    

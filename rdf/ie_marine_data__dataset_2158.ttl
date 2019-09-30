@@ -1,0 +1,33 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2158> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2158";
+    sdo:identifier "ie.marine.data:dataset.2158";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Marine Ecoregions of the World";
+    sdo:name "Marine Ecoregions of the World";
+    dct:abstract "MEOW is a biogeographic classification of the world's coasts and shelves. It is the first ever comprehensive marine classification system with clearly defined boundaries and definitions and was developed to closely link to existing regional systems. The ecoregions nest within the broader biogeographic tiers of Realms and Provinces.
+
+MEOW represents broad-scale patterns of species and communities in the ocean, and was designed as a tool for planning conservation across a range of scales and assessing conservation efforts and gaps worldwide. The current system focuses on coast and shelf areas (as this is where the majority of human activity and conservation action is focused) and does not consider realms in pelagic or deep benthic environment. It is hoped that parallel but distinct systems for pelagic and deep benthic biotas will be devised in the near future.
+
+The project was led by The Nature Conservancy (TNC) and the World Wildlife Fund (WWF), with broad input from a working group representing key NGO, academic and intergovernmental conservation partners.
+
+(source: WWF - Marine Ecoregions of the World)
+
+Note: The inland boundaries of the ecoregions extend far inland - a convention to ensure inclusion of any coastline and estuarine/lagoonal systems which may be derived from different map sources. For visualisations in the Marine Regions gazetteer, the areas inland have been removed from the shapefile.";
+    sdo:description "MEOW is a biogeographic classification of the world's coasts and shelves. It is the first ever comprehensive marine classification system with clearly defined boundaries and definitions and was developed to closely link to existing regional systems. The ecoregions nest within the broader biogeographic tiers of Realms and Provinces.
+
+MEOW represents broad-scale patterns of species and communities in the ocean, and was designed as a tool for planning conservation across a range of scales and assessing conservation efforts and gaps worldwide. The current system focuses on coast and shelf areas (as this is where the majority of human activity and conservation action is focused) and does not consider realms in pelagic or deep benthic environment. It is hoped that parallel but distinct systems for pelagic and deep benthic biotas will be devised in the near future.
+
+The project was led by The Nature Conservancy (TNC) and the World Wildlife Fund (WWF), with broad input from a working group representing key NGO, academic and intergovernmental conservation partners.
+
+(source: WWF - Marine Ecoregions of the World)
+
+Note: The inland boundaries of the ecoregions extend far inland - a convention to ensure inclusion of any coastline and estuarine/lagoonal systems which may be derived from different map sources. For visualisations in the Marine Regions gazetteer, the areas inland have been removed from the shapefile.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2158".
+    

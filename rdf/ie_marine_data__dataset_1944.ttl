@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1944> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1944";
+    sdo:identifier "ie.marine.data:dataset.1944";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17022 Biological Distribution of Azadinium in IRish Waters 2017 (AZBO '17) Survey";
+    sdo:name "CV17022 Biological Distribution of Azadinium in IRish Waters 2017 (AZBO '17) Survey";
+    dct:abstract "Azaspiracid was first observed in 1995 as a new shellfish poisoning syndrome. In the following years it became evident that the species diversity and toxin production in this and related genera is very high and they are not only restricted to the North East Atlantic, but have a rather global distribution. The understanding of plankton dynamics is critically dependent upon knowledge of oceanographic and hydrographic conditions. 
+
+In addition to profiling standard oceanographic parameters (temperature, salinity, oxygen, fluorescence, turbidity and absorbance), integration of species abundance and distributional data with oceanographic features using traditional and advanced molecular techniques will assist in the development of models for bloom dynamics of Azadinium and other harmful algal species and in construction of plausible scenarios of bloom biogeography. 
+
+This survey was carried out in August 2017 on board the R.V. Celtic Voyager along the west and south coast of Ireland. The survey will add to previous work carried out in 2012 and 2016. Field work was carried out with on stations along a number of transects perpendicular and parallel to the coast in the South, South West and West. 24 hour diurnal and tidal impact studies were carried out at stations within Killary Harbour and Bantry, where CTD and samples of phytoplankton were collected. ";
+    sdo:description "Azaspiracid was first observed in 1995 as a new shellfish poisoning syndrome. In the following years it became evident that the species diversity and toxin production in this and related genera is very high and they are not only restricted to the North East Atlantic, but have a rather global distribution. The understanding of plankton dynamics is critically dependent upon knowledge of oceanographic and hydrographic conditions. 
+
+In addition to profiling standard oceanographic parameters (temperature, salinity, oxygen, fluorescence, turbidity and absorbance), integration of species abundance and distributional data with oceanographic features using traditional and advanced molecular techniques will assist in the development of models for bloom dynamics of Azadinium and other harmful algal species and in construction of plausible scenarios of bloom biogeography. 
+
+This survey was carried out in August 2017 on board the R.V. Celtic Voyager along the west and south coast of Ireland. The survey will add to previous work carried out in 2012 and 2016. Field work was carried out with on stations along a number of transects perpendicular and parallel to the coast in the South, South West and West. 24 hour diurnal and tidal impact studies were carried out at stations within Killary Harbour and Bantry, where CTD and samples of phytoplankton were collected. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1944".
+    

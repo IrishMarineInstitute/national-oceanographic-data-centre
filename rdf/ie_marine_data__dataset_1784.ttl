@@ -1,0 +1,23 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1784> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1784";
+    sdo:identifier "ie.marine.data:dataset.1784";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0903 Oceanographic Survey";
+    sdo:name "CE0903 Oceanographic Survey";
+    dct:abstract "In order to begin to collect key oceanographic data two dedicated research cruises are conducted annually in the Irish region. The foundation of these cruises is the acquisition of oceanographic data such as temperature, salinity, dissolved oxygen, fluorescence and ocean currents. A cross service group function was introduced by acquiring phytoplankton, zooplankton, and fish larva samples and gathering bathymetric data (including ground truthing samples) for the INFOMAR project. 
+
+This inter-institutional and multi-disciplinary survey, led by the Marine Institute and National University of Ireland, Galway (NUIG), was conducted in February 2009 on board the R.V. Celtic Explorer. The main purpose of the cruise was to examine hydrographic conditions in Rockall Trough. A total of 43 stations were surveyed for a variety of parameters including CTDs (Conductivity-Temperature-Depth), grab samples and cores, nutrients, salinity and phytoplankton. Four ARGO floats were also deployed. 
+";
+    sdo:description "In order to begin to collect key oceanographic data two dedicated research cruises are conducted annually in the Irish region. The foundation of these cruises is the acquisition of oceanographic data such as temperature, salinity, dissolved oxygen, fluorescence and ocean currents. A cross service group function was introduced by acquiring phytoplankton, zooplankton, and fish larva samples and gathering bathymetric data (including ground truthing samples) for the INFOMAR project. 
+
+This inter-institutional and multi-disciplinary survey, led by the Marine Institute and National University of Ireland, Galway (NUIG), was conducted in February 2009 on board the R.V. Celtic Explorer. The main purpose of the cruise was to examine hydrographic conditions in Rockall Trough. A total of 43 stations were surveyed for a variety of parameters including CTDs (Conductivity-Temperature-Depth), grab samples and cores, nutrients, salinity and phytoplankton. Four ARGO floats were also deployed. 
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1784".
+    

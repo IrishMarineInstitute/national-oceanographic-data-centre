@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1625> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1625";
+    sdo:identifier "ie.marine.data:dataset.1625";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14004 West of Ireland Coring Programme (WICpro)";
+    sdo:name "CE14004 West of Ireland Coring Programme (WICpro)";
+    dct:abstract "The survey took place on board the R.V. Celtic Explorer in March 2014. The survey was designed around the West of Ireland Coring Programme (WICpro). Led by University College Cork (UCC) with a multidisciplinary expert team to investigate the Quaternary geology on the Porcupine Bank and Irish western Shelf and cold water coral reefs in the Porcupine Seabight.  The survey provided an opportunity to collect data on deep water sedimentation processes and their relationship with glacial and interglacial cycles, offshore glacial records and access environmental records from cold-water corals.  Sample and data collection was focussed on the deployment of deep water coring instruments in conjunction with seismic sparker technology to produce stratigraphic models and refine coring targets.
+
+";
+    sdo:description "The survey took place on board the R.V. Celtic Explorer in March 2014. The survey was designed around the West of Ireland Coring Programme (WICpro). Led by University College Cork (UCC) with a multidisciplinary expert team to investigate the Quaternary geology on the Porcupine Bank and Irish western Shelf and cold water coral reefs in the Porcupine Seabight.  The survey provided an opportunity to collect data on deep water sedimentation processes and their relationship with glacial and interglacial cycles, offshore glacial records and access environmental records from cold-water corals.  Sample and data collection was focussed on the deployment of deep water coring instruments in conjunction with seismic sparker technology to produce stratigraphic models and refine coring targets.
+
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1625".
+    

@@ -1,0 +1,29 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2036> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2036";
+    sdo:identifier "ie.marine.data:dataset.2036";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16014 Fisheries Sea Bass Survey";
+    sdo:name "CV16014 Fisheries Sea Bass Survey";
+    dct:abstract "This 6 day survey took place in March 2016 on board the R.V. Celtic Voyager .The aim of the survey was to catch and tag sea bass in the Celtic Sea.
+
+The European sea bass (Dicentrarchus labrax) is a large marine fish typically found in coastal seas down to 100 m depth. They typically enter coastal waters and estuaries during the summer and then migrate offshore to deeper water during winter. The European sea bass is an extremely important marine sport angling species. 
+
+In Ireland (and most of Europe), little is known about the fine scale movements (e.g. local movements), residency (how long do they spend in any particular place?) and behaviour of the European sea bass. This survey is part of a project which aims to investigate the biology of this species by tagging fish with electronic acoustic tags to monitor inshore movements and satellite tags to track their oceanic movements.
+
+During the survey, tows (averaging 40 minutes in duration) were carried out daily and bongo net tows were carried out for egg and larval collection. ";
+    sdo:description "This 6 day survey took place in March 2016 on board the R.V. Celtic Voyager .The aim of the survey was to catch and tag sea bass in the Celtic Sea.
+
+The European sea bass (Dicentrarchus labrax) is a large marine fish typically found in coastal seas down to 100 m depth. They typically enter coastal waters and estuaries during the summer and then migrate offshore to deeper water during winter. The European sea bass is an extremely important marine sport angling species. 
+
+In Ireland (and most of Europe), little is known about the fine scale movements (e.g. local movements), residency (how long do they spend in any particular place?) and behaviour of the European sea bass. This survey is part of a project which aims to investigate the biology of this species by tagging fish with electronic acoustic tags to monitor inshore movements and satellite tags to track their oceanic movements.
+
+During the survey, tows (averaging 40 minutes in duration) were carried out daily and bongo net tows were carried out for egg and larval collection. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2036".
+    

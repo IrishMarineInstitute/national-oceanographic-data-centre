@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1766> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1766";
+    sdo:identifier "ie.marine.data:dataset.1766";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE10008 Glacial and non-glacial sediment transport in the Rockall Trough and Porcupine Bank (North Atlantic Ocean)";
+    sdo:name "CE10008 Glacial and non-glacial sediment transport in the Rockall Trough and Porcupine Bank (North Atlantic Ocean)";
+    dct:abstract "Submarine landslides are the dominant sediment transport mechanism on continental margins, transferring volumes in the order of tens to hundreds of cubic kilometres from the continental slope to as far as the deep abyssal plain. Submarine landslides are known to be capable of destroying marine infrastructure such as submarine telecommunication cables and oil platform installations.
+
+The Rockall Trough and its margins, a relatively lightly-studied area, form a valuable natural laboratory holding information on slope stability, sediment transport, bottom ocean currents, and ice-sheet history. The primary aim of this cruise will be to intensively core a small basin on the southeast margin of the RT, with the intention of determining the frequency of slope instability on the opposite margin and aid assessment of potential tsunami hazards and characterising deep-water gravity flow processes and deposits in a narrow basin and the effect this has on flow transformation processes. 
+
+This survey, led by University College Dublin (UCD), took place in June 2010 on board the Marine Institute's R.V. Celtic Explorer. The primary aim of this cruise was  to intensively core a small basin on the southeast margin of the RT, with the intention of determining the frequency of slope instability on the opposite margin and aid assessment of potential tsunami hazards and characterising deep-water gravity flow processes and deposits in a narrow basin and the effect this has on flow transformation processes.  Piston corers and  Vibrocores were completed during the survey. ";
+    sdo:description "Submarine landslides are the dominant sediment transport mechanism on continental margins, transferring volumes in the order of tens to hundreds of cubic kilometres from the continental slope to as far as the deep abyssal plain. Submarine landslides are known to be capable of destroying marine infrastructure such as submarine telecommunication cables and oil platform installations.
+
+The Rockall Trough and its margins, a relatively lightly-studied area, form a valuable natural laboratory holding information on slope stability, sediment transport, bottom ocean currents, and ice-sheet history. The primary aim of this cruise will be to intensively core a small basin on the southeast margin of the RT, with the intention of determining the frequency of slope instability on the opposite margin and aid assessment of potential tsunami hazards and characterising deep-water gravity flow processes and deposits in a narrow basin and the effect this has on flow transformation processes. 
+
+This survey, led by University College Dublin (UCD), took place in June 2010 on board the Marine Institute's R.V. Celtic Explorer. The primary aim of this cruise was  to intensively core a small basin on the southeast margin of the RT, with the intention of determining the frequency of slope instability on the opposite margin and aid assessment of potential tsunami hazards and characterising deep-water gravity flow processes and deposits in a narrow basin and the effect this has on flow transformation processes.  Piston corers and  Vibrocores were completed during the survey. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1766".
+    

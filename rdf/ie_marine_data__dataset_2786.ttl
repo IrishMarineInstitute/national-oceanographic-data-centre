@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2786> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2786";
+    sdo:identifier "ie.marine.data:dataset.2786";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Collated Marine Habitats ";
+    sdo:name "Collated Marine Habitats ";
+    dct:abstract "Multibeam echosounder data and seabed sampling data acquired during the INFOMAR and INSS national seabed mapping programmes are the primary sources of data used in the generation of this seabed substrates layer. This map of ground type, together with data collated from other habitat mapping projects and seabed surveys, were integrated in a GIS to produce a single, harmonised layer of substrate distribution within the Currently Designated Irish Continental Shelf boundary. The original classes assigned to the data were translated to a modified Folk class to facilitate a seamless reclassification of the data to the EUNIS classification system. Information on biological zones from the MeshAtlantic project were used to translate the data to EUNIS. All collation work was carried out as part of the MeshAtlantic project, the objective of which is to produce a single, broadscale, habitat map of the Irish Currently Designated Continental Shelf Area.";
+    sdo:description "Multibeam echosounder data and seabed sampling data acquired during the INFOMAR and INSS national seabed mapping programmes are the primary sources of data used in the generation of this seabed substrates layer. This map of ground type, together with data collated from other habitat mapping projects and seabed surveys, were integrated in a GIS to produce a single, harmonised layer of substrate distribution within the Currently Designated Irish Continental Shelf boundary. The original classes assigned to the data were translated to a modified Folk class to facilitate a seamless reclassification of the data to the EUNIS classification system. Information on biological zones from the MeshAtlantic project were used to translate the data to EUNIS. All collation work was carried out as part of the MeshAtlantic project, the objective of which is to produce a single, broadscale, habitat map of the Irish Currently Designated Continental Shelf Area.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2786".
+    

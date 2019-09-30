@@ -1,0 +1,79 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2820> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2820";
+    sdo:identifier "ie.marine.data:dataset.2820";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title " Galway Bay Observatory ADCP Data  Processed";
+    sdo:name " Galway Bay Observatory ADCP Data  Processed";
+    dct:abstract " Teledyne RDI Workhorse Broadband 600KHz acoustic Doppler current profiler (ADCP)is mounted on the observatory infrastructure. It is approximately two metres above the seabed, looking up towards the sea surface. Data are collected every minute for 1.0m depth bins from approx. 1 metre above the instrument to the surface.
+
+Data are collected in RDI's PD0 binary format, A brief description of PD0 format can be found here and tools are available for Python, R and various other languages to read the PD0 files.
+
+During the current day, files are available for each minute of observation. Each night, these are concatenated to produce a data file, and a single file is produced at the end of each month for that month's observations.
+
+Device
+•RDI Workhorse Monitor ADCP 600 kHz 
+
+Properties
+•Magnetic Compass Heading
+•Pitch
+•Pressure
+•Roll
+•Sound Speed
+•Temperature
+
+
+
+•Depth: 23 m
+
+
+
+The .PD0 raw files are processed as they are collected and the real time values for the Near Surface and Mid Water Current Speeds and Directions are extracted displayed in realtime on smartbay.marine.ie The processed data is alos stored on Erddap
+*************************************************************
+The dataset was collected during the first deployment of the Galway Bay Observatory Which ran from October 2015 to November 25th 2016
+Purpose
+Data measures water currents at Wave Energy Test Site at an interval of 1m bins through the water column at depth of 25m
+Depth: 25 m
+Setting: Coastal Bay 
+Studies: Wind and Wave Climate, Marine Technology Development, Water Quality, Noise Environment.
+**********************************************************************************************";
+    sdo:description " Teledyne RDI Workhorse Broadband 600KHz acoustic Doppler current profiler (ADCP)is mounted on the observatory infrastructure. It is approximately two metres above the seabed, looking up towards the sea surface. Data are collected every minute for 1.0m depth bins from approx. 1 metre above the instrument to the surface.
+
+Data are collected in RDI's PD0 binary format, A brief description of PD0 format can be found here and tools are available for Python, R and various other languages to read the PD0 files.
+
+During the current day, files are available for each minute of observation. Each night, these are concatenated to produce a data file, and a single file is produced at the end of each month for that month's observations.
+
+Device
+•RDI Workhorse Monitor ADCP 600 kHz 
+
+Properties
+•Magnetic Compass Heading
+•Pitch
+•Pressure
+•Roll
+•Sound Speed
+•Temperature
+
+
+
+•Depth: 23 m
+
+
+
+The .PD0 raw files are processed as they are collected and the real time values for the Near Surface and Mid Water Current Speeds and Directions are extracted displayed in realtime on smartbay.marine.ie The processed data is alos stored on Erddap
+*************************************************************
+The dataset was collected during the first deployment of the Galway Bay Observatory Which ran from October 2015 to November 25th 2016
+Purpose
+Data measures water currents at Wave Energy Test Site at an interval of 1m bins through the water column at depth of 25m
+Depth: 25 m
+Setting: Coastal Bay 
+Studies: Wind and Wave Climate, Marine Technology Development, Water Quality, Noise Environment.
+**********************************************************************************************";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2820".
+    

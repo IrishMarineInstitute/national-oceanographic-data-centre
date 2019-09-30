@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1153> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1153";
+    sdo:identifier "ie.marine.data:dataset.1153";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE10002 Climate change oceanography, biogeochemistry and geology sections survey";
+    sdo:name "CE10002 Climate change oceanography, biogeochemistry and geology sections survey";
+    dct:abstract "Climate change oceanography, biogeochemistry and geology sections This cruise is designed to contribute Ireland's data to the ICES working group on oceanic hydrography (WGOH). WGOH produce the ICES Report on Ocean Climate (IROC) each year which summarises oceanic variability from year to year in the ICES region. The cruise objectives are designed to deliver this data to the IROC effort.";
+    sdo:description "Climate change oceanography, biogeochemistry and geology sections This cruise is designed to contribute Ireland's data to the ICES working group on oceanic hydrography (WGOH). WGOH produce the ICES Report on Ocean Climate (IROC) each year which summarises oceanic variability from year to year in the ICES region. The cruise objectives are designed to deliver this data to the IROC effort.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1153".
+    

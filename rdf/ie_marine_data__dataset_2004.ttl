@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2004> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2004";
+    sdo:identifier "ie.marine.data:dataset.2004";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16002 SMART MaREI Ocean Energy 2016 Cork Harbour Survey";
+    sdo:name "CV16002 SMART MaREI Ocean Energy 2016 Cork Harbour Survey";
+    dct:abstract "The SMART (Strategic Marine Alliance for Research and Training ) MaREI (Marine and Renewable Energy Ireland) Ocean Energy training survey took place in Cork Harbour in February 2016 on board the Marine Institute's R.V. Celtic Voyager. 
+
+The objectives of the training programme were to give students the capability to analyse the morphodynamics of coastal systems and the hydrodynamic behaviour of the marine environment. ";
+    sdo:description "The SMART (Strategic Marine Alliance for Research and Training ) MaREI (Marine and Renewable Energy Ireland) Ocean Energy training survey took place in Cork Harbour in February 2016 on board the Marine Institute's R.V. Celtic Voyager. 
+
+The objectives of the training programme were to give students the capability to analyse the morphodynamics of coastal systems and the hydrodynamic behaviour of the marine environment. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2004".
+    

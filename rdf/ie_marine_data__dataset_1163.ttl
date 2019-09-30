@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1163> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1163";
+    sdo:identifier "ie.marine.data:dataset.1163";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE10012 Fisheries North-west Herring Acoustic Survey";
+    sdo:name "CE10012 Fisheries North-west Herring Acoustic Survey";
+    dct:abstract "FSS (Fisheries Science Services) within the Marine Institute will carry out an acoustic survey along the west and northwest coasts (ICES Division VIIb, c & VIaS) to assess the size of summer feeding aggregations of herring within the Malin shelf stock complex. This survey will be the third in a new time series and a step away from the traditional spawning stock surveys focusing on autumn and winter spawning components carried out in quarter 1.";
+    sdo:description "FSS (Fisheries Science Services) within the Marine Institute will carry out an acoustic survey along the west and northwest coasts (ICES Division VIIb, c & VIaS) to assess the size of summer feeding aggregations of herring within the Malin shelf stock complex. This survey will be the third in a new time series and a step away from the traditional spawning stock surveys focusing on autumn and winter spawning components carried out in quarter 1.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1163".
+    

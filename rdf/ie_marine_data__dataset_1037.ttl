@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1037> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1037";
+    sdo:identifier "ie.marine.data:dataset.1037";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0711 Deepwater Stock Assessment Survey";
+    sdo:name "CE0711 Deepwater Stock Assessment Survey";
+    dct:abstract "The Marine Institute with the collaboration of the National University of Galway conducted a multidisciplinary deepwater survey along the continental slope of the Northeast Atlantic in September 2007 on board R.V. Celtic Explorer. The three areas were chosen to reflect fishing areas covered during the Irish deepwater survey programme in the 1990s and corresponded to the same three areas as the 2006 deepwater fisheries survey. Two areas were located on the western continental slope and one area on the northern slope of the Porcupine Bank. As in the previous year the survey was again coordinated with the Scottish Fisheries Research Service.
+
+Fishing transects were carried out at four depth strata (500m, 1000m 1500m and 1800m) during the day, while oceanographic measurements and plankton and benthic invertebrate sampling was carried out during the night. 
+
+At each station the entire catch were identified to species and weighed. Biological sampling (weight, sex, maturity, and age extraction) was carried out on the target species. A single Marine Mammal Observer (MMO) was on board to conduct visual surveys of cetaceans. ";
+    sdo:description "The Marine Institute with the collaboration of the National University of Galway conducted a multidisciplinary deepwater survey along the continental slope of the Northeast Atlantic in September 2007 on board R.V. Celtic Explorer. The three areas were chosen to reflect fishing areas covered during the Irish deepwater survey programme in the 1990s and corresponded to the same three areas as the 2006 deepwater fisheries survey. Two areas were located on the western continental slope and one area on the northern slope of the Porcupine Bank. As in the previous year the survey was again coordinated with the Scottish Fisheries Research Service.
+
+Fishing transects were carried out at four depth strata (500m, 1000m 1500m and 1800m) during the day, while oceanographic measurements and plankton and benthic invertebrate sampling was carried out during the night. 
+
+At each station the entire catch were identified to species and weighed. Biological sampling (weight, sex, maturity, and age extraction) was carried out on the target species. A single Marine Mammal Observer (MMO) was on board to conduct visual surveys of cetaceans. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1037".
+    

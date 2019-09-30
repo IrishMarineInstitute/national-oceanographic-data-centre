@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2777> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2777";
+    sdo:identifier "ie.marine.data:dataset.2777";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Oceanographic CTD Stations ";
+    sdo:name "Oceanographic CTD Stations ";
+    dct:abstract "CTD (Conductivity, Temperature, Depth) measures temperature, salinity, turbidity and flourescence in the water column. Sea temperature is a measurement of the temperature of the water column as the SBE instrument samples to various depths. Salinity is a measure of the salt content in water. For details on the quality control process view full metadata lineage.";
+    sdo:description "CTD (Conductivity, Temperature, Depth) measures temperature, salinity, turbidity and flourescence in the water column. Sea temperature is a measurement of the temperature of the water column as the SBE instrument samples to various depths. Salinity is a measure of the salt content in water. For details on the quality control process view full metadata lineage.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2777".
+    

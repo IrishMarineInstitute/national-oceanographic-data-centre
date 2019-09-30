@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1587> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1587";
+    sdo:identifier "ie.marine.data:dataset.1587";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16015 Shallow Sub-Seabed Seismic Stratigraphic Survey (QuERCi II)";
+    sdo:name "CE16015 Shallow Sub-Seabed Seismic Stratigraphic Survey (QuERCi II)";
+    dct:abstract "This survey is a follow up to the Quantifying EnviRonmental Controls on Cold-water coral Reef Growth (QuERCi) survey which investigated cold-water coral mounds on the southern lip of the Porcupine Bank Canyon and discovered an extensive field of corals attached to the near-vertical rock face on the upper canyon flank. QuERCi and QuERCi_II aim to understand the role of cold-water corals in canyon processes, map and explore the coral and canyon floor habitats and collect sample to assess temporal changes in the canyon environment.
+
+This survey took place in May 2016 on board the R.V. Celtic Explorer in the North East Atlantic Ocean (the Porcupine Bank Canyon). Shipbased multibeam coverage of the area was extended on the previous survey, attempts to collect gravity cores were conducted, however operations were unsuccessful (with the exception of core catcher retrievals) on all mound, slope and within canyon sites. Two Holland I ROV dives were completed to collect coral samples and further explore the Porcupine Bank Canyon coral habitat. A Marine Mammal Observer (MMO) was onboard to record marine mammal sightings.";
+    sdo:description "This survey is a follow up to the Quantifying EnviRonmental Controls on Cold-water coral Reef Growth (QuERCi) survey which investigated cold-water coral mounds on the southern lip of the Porcupine Bank Canyon and discovered an extensive field of corals attached to the near-vertical rock face on the upper canyon flank. QuERCi and QuERCi_II aim to understand the role of cold-water corals in canyon processes, map and explore the coral and canyon floor habitats and collect sample to assess temporal changes in the canyon environment.
+
+This survey took place in May 2016 on board the R.V. Celtic Explorer in the North East Atlantic Ocean (the Porcupine Bank Canyon). Shipbased multibeam coverage of the area was extended on the previous survey, attempts to collect gravity cores were conducted, however operations were unsuccessful (with the exception of core catcher retrievals) on all mound, slope and within canyon sites. Two Holland I ROV dives were completed to collect coral samples and further explore the Porcupine Bank Canyon coral habitat. A Marine Mammal Observer (MMO) was onboard to record marine mammal sightings.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1587".
+    

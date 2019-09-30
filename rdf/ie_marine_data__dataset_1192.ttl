@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1192> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1192";
+    sdo:identifier "ie.marine.data:dataset.1192";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE11013 Irish Groundfish Survey Leg 2";
+    sdo:name "CE11013 Irish Groundfish Survey Leg 2";
+    dct:abstract "Annual second leg of the Irish Groundfish Survey as part of the International Bottom Trawl Survey.";
+    sdo:description "Annual second leg of the Irish Groundfish Survey as part of the International Bottom Trawl Survey.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1192".
+    

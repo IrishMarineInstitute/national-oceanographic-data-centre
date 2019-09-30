@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_3677> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.3677";
+    sdo:identifier "ie.marine.data:dataset.3677";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Historical Atlantic salmon pedigree for the Burrishoole catchment, Co. Mayo, and associated quantitative genetic analyses";
+    sdo:name "Historical Atlantic salmon pedigree for the Burrishoole catchment, Co. Mayo, and associated quantitative genetic analyses";
+    dct:abstract "The Marine Institute (formerly the Salmon Research Agency of Ireland and the Salmon Research Trust of Ireland) operate permanent complete fish traps in the Burrishoole catchment, Co. Mayo, as part of a program of long term ecological research (LTER). All migrating diadromous fish are enumerated between their marine and freshwater habitats. This dataset contains genetic and phenotypic data associated with Atlantic salmon (Salmo salar L.) sampled in the Burrishoole fish traps.  The R code used in the analyses is included, and can be used to repeat the analysis presented in: O’Sullivan et al., (In Press). Evolutionary stasis of a heritable morphological trait in a wild fish population despite apparent directional selection. Ecology and Evolution. ";
+    sdo:description "The Marine Institute (formerly the Salmon Research Agency of Ireland and the Salmon Research Trust of Ireland) operate permanent complete fish traps in the Burrishoole catchment, Co. Mayo, as part of a program of long term ecological research (LTER). All migrating diadromous fish are enumerated between their marine and freshwater habitats. This dataset contains genetic and phenotypic data associated with Atlantic salmon (Salmo salar L.) sampled in the Burrishoole fish traps.  The R code used in the analyses is included, and can be used to repeat the analysis presented in: O’Sullivan et al., (In Press). Evolutionary stasis of a heritable morphological trait in a wild fish population despite apparent directional selection. Ecology and Evolution. ";
+    dct:issued "2019-05-02"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.3677".
+    

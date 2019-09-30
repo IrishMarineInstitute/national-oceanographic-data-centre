@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1778> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1778";
+    sdo:identifier "ie.marine.data:dataset.1778";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE10018 Pipeline Bathymetry Survey";
+    sdo:name "CE10018 Pipeline Bathymetry Survey";
+    dct:abstract "Pipeline survey operations will proceed on a 24 hour basis. During geotech operations,  12 hours  will be spend to vibrocoring/ Camera work + possibly box coring and 12 hours will consist  of CPT work and box coring.";
+    sdo:description "Pipeline survey operations will proceed on a 24 hour basis. During geotech operations,  12 hours  will be spend to vibrocoring/ Camera work + possibly box coring and 12 hours will consist  of CPT work and box coring.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1778".
+    

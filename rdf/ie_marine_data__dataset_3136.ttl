@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_3136> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.3136";
+    sdo:identifier "ie.marine.data:dataset.3136";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "National Surevy of Sea Lice on Fish Farms in Ireland";
+    sdo:name "National Surevy of Sea Lice on Fish Farms in Ireland";
+    dct:abstract "Sea lice data is collected through the National Sea Lice Monitoring Program on each active finfish farm in Ireland 14 times per year.";
+    sdo:description "Sea lice data is collected through the National Sea Lice Monitoring Program on each active finfish farm in Ireland 14 times per year.";
+    dct:issued "2018-12-14"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.3136".
+    

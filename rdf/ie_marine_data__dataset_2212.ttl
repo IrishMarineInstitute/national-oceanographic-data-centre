@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2212> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2212";
+    sdo:identifier "ie.marine.data:dataset.2212";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "OREDP Assessment Area";
+    sdo:name "OREDP Assessment Area";
+    dct:abstract "Department of Communications, Climate Action & Environment commissioned Offshore Renewable Energy Development Plan Strategic Environmental Assessment boundary of full assessment area for tidal, wave and wind assessments and definition of zones into specific strategic renewable sectors.";
+    sdo:description "Department of Communications, Climate Action & Environment commissioned Offshore Renewable Energy Development Plan Strategic Environmental Assessment boundary of full assessment area for tidal, wave and wind assessments and definition of zones into specific strategic renewable sectors.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2212".
+    

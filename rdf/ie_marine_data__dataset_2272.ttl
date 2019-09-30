@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2272> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2272";
+    sdo:identifier "ie.marine.data:dataset.2272";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Mean Offshore Wind Power - height 50m above mean sea level 2003";
+    sdo:name "Mean Offshore Wind Power - height 50m above mean sea level 2003";
+    dct:abstract "Sustainable Energy Authority Ireland (SEAI) Wind Atlas 2003 mean offshore wind power measurements at a height 50m above sea level.";
+    sdo:description "Sustainable Energy Authority Ireland (SEAI) Wind Atlas 2003 mean offshore wind power measurements at a height 50m above sea level.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2272".
+    

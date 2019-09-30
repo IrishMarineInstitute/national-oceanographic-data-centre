@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2756> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2756";
+    sdo:identifier "ie.marine.data:dataset.2756";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Biologically Sensitive Area ";
+    sdo:name "Biologically Sensitive Area ";
+    dct:abstract "In 2003 the EU Commission established a "Biologically Sensitive Area (BSA)" off the south west of Ireland and the area is shown on the map associated with the dataset. (Council Regulation (EC) No 1954/2003). In 2003, the EU also established a specific fishing effort regime inside the BSA and outside the BSA for demersal fishing vessels as well as scallop and crab fisheries (ie. different fishing effort regulations apply inside and outside of the box). The Regulation sets the maximum annual fishing effort for each Member State and for each area and fishery defined.";
+    sdo:description "In 2003 the EU Commission established a "Biologically Sensitive Area (BSA)" off the south west of Ireland and the area is shown on the map associated with the dataset. (Council Regulation (EC) No 1954/2003). In 2003, the EU also established a specific fishing effort regime inside the BSA and outside the BSA for demersal fishing vessels as well as scallop and crab fisheries (ie. different fishing effort regulations apply inside and outside of the box). The Regulation sets the maximum annual fishing effort for each Member State and for each area and fishery defined.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2756".
+    

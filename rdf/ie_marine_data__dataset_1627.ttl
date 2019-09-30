@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1627> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1627";
+    sdo:identifier "ie.marine.data:dataset.1627";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14007 Fisheries Acoustic Survey Newfoundland";
+    sdo:name "CE14007 Fisheries Acoustic Survey Newfoundland";
+    dct:abstract "A Memorial University of Newfoundland of Canada chartered survey on board the Marine Institute's R.V. Celtic Explorer to undertake an offshore fisheries acoustic survey on overwintering cod stocks in the Labrador Sea. This survey took place in April 2014. ";
+    sdo:description "A Memorial University of Newfoundland of Canada chartered survey on board the Marine Institute's R.V. Celtic Explorer to undertake an offshore fisheries acoustic survey on overwintering cod stocks in the Labrador Sea. This survey took place in April 2014. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1627".
+    

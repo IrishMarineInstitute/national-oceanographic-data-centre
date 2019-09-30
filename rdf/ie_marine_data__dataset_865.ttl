@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_865> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.865";
+    sdo:identifier "ie.marine.data:dataset.865";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "INFOMAR Magnetics";
+    sdo:name "INFOMAR Magnetics";
+    dct:abstract "Magnetism is the force of attraction or repulsion between substances. Many rocks have a magnetic component, caused by the presence of magnetic minerals within the rocks themselves which change the Earth's magnetic field around them. INFOMAR surveys use a magnetometer tow-fish to measure variations in the Earths magnetic field caused by iron rich rock bodies and shipwrecks containing metal cargo and or vessels made from metal. ";
+    sdo:description "Magnetism is the force of attraction or repulsion between substances. Many rocks have a magnetic component, caused by the presence of magnetic minerals within the rocks themselves which change the Earth's magnetic field around them. INFOMAR surveys use a magnetometer tow-fish to measure variations in the Earths magnetic field caused by iron rich rock bodies and shipwrecks containing metal cargo and or vessels made from metal. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.865".
+    

@@ -1,0 +1,27 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1187> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1187";
+    sdo:identifier "ie.marine.data:dataset.1187";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE12001 Oceanography Survey";
+    sdo:name "CE12001 Oceanography Survey";
+    dct:abstract "This ten day survey took place in January 2012 on board the RV Celtic Explorer, led by the Marine Institute. 
+
+This cruise was designed to contribute Ireland's data to the ICES working group on oceanic hydrography (WGOH). WGOH produce the ICES Report on Ocean Climate (IROC) each year which summarises oceanic variability from year to year in the ICES region. The generation of long-term time series to monitor ocean climate is at the heart of understanding the likely impact of future ocean climate scenarios on key marine sectors. 
+
+A total of 36 CTD sampling stations were occupied for a variety of parameters including nutrients, salinity and carbon measurements. Not all planned stations were surveyed due to bad weather conditions. Grab sampling and rock dredging was conducted at a number of additional stations on behalf of the Geological Survey Ireland (GSI). An Acoustic Doppler Current Profiler (ADCP) was deployed at wave energy test site (WETS) in Belmullet. 
+";
+    sdo:description "This ten day survey took place in January 2012 on board the RV Celtic Explorer, led by the Marine Institute. 
+
+This cruise was designed to contribute Ireland's data to the ICES working group on oceanic hydrography (WGOH). WGOH produce the ICES Report on Ocean Climate (IROC) each year which summarises oceanic variability from year to year in the ICES region. The generation of long-term time series to monitor ocean climate is at the heart of understanding the likely impact of future ocean climate scenarios on key marine sectors. 
+
+A total of 36 CTD sampling stations were occupied for a variety of parameters including nutrients, salinity and carbon measurements. Not all planned stations were surveyed due to bad weather conditions. Grab sampling and rock dredging was conducted at a number of additional stations on behalf of the Geological Survey Ireland (GSI). An Acoustic Doppler Current Profiler (ADCP) was deployed at wave energy test site (WETS) in Belmullet. 
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1187".
+    

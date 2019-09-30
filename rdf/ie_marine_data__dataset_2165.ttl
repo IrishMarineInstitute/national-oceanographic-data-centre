@@ -1,0 +1,41 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2165> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2165";
+    sdo:identifier "ie.marine.data:dataset.2165";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Petroleum Exploration Production Current Authorisations Onshore & Offshore Ireland";
+    sdo:name "Petroleum Exploration Production Current Authorisations Onshore & Offshore Ireland";
+    dct:abstract "This dataset identifies the location of current petroleum exploration and production authorisations as issued by the Minister for the Department of Communications, Climate Action & Environment under the Petroleum and Other Minerals Development Act, 1960. Authorisation types included in this dataset are as follows:
+
+Licensing Option (issued under Section 7 (1) of the 1960 Act): This is a non exclusive licence giving the holder the first right, exercisable at any time during the period of the Option, to an Exploration Licence over all or part of the area covered by the Option.
+
+Exploration Licence (issued under Section 8 (1) of the 1960 Act): There are three categories of Exploration: a Standard Exploration Licence for water depths up to 200m; a Deepwater Exploration Licence for water depths exceeding 200m and a Frontier Exploration Licence for areas so specified by the Minister. For Standard and Deepwater Explorations Licences the holder is obliged to carry out a work programme which must include the drilling of a least one exploration well in the first phase. For a Frontier Exploration Licence the holder mustcommit to at least one exploration well in order to proceed to the second phase. The area of an Exploration Licence shall be expressed in terms of blocks and/or part blocks of the Williams Grid.
+
+Lease undertaking (issued under Section 10 (1) of the 1960 Act): When a discovery is made in a licensed area and the licensee is not in a position to declare the discovery commercial during the period of the licence but expects to be able to do so in the foreseeable future, the licensee may apply for a Lease Undertaking. This is an undertaking by the Minister, subject to certain conditions, to grant a Petroleum Lease at a stated future date. The holder of a Lease Undertaking is required to hold a Petroleum Prospecting Licence which will govern activities under the Lease Undertaking.
+
+Petroleum Lease (issued under Section 13 (1) of the 1960 Act): When a commercial discovery has been established it will be the duty of the authorisation holder to notify the Minister and apply for a Petroleum Lease with a view to its development.
+
+Reserved Area Licence (issued under Section 19 (1) of the 1960 Act): A Petroleum Lease holder may apply for a reserved area licence in respect of an area adjacent to or surrounding the leased area and which is not subject of an authorisation other than a Petroleum Prospecting Licence.
+
+Terms and conditions, including environmental provisions, are attached to the above mentioned authorisations. These licensing terms are set out in the Departments Licensing Terms For Offshore Oil And Gas Exploration, Development & Production 2007.";
+    sdo:description "This dataset identifies the location of current petroleum exploration and production authorisations as issued by the Minister for the Department of Communications, Climate Action & Environment under the Petroleum and Other Minerals Development Act, 1960. Authorisation types included in this dataset are as follows:
+
+Licensing Option (issued under Section 7 (1) of the 1960 Act): This is a non exclusive licence giving the holder the first right, exercisable at any time during the period of the Option, to an Exploration Licence over all or part of the area covered by the Option.
+
+Exploration Licence (issued under Section 8 (1) of the 1960 Act): There are three categories of Exploration: a Standard Exploration Licence for water depths up to 200m; a Deepwater Exploration Licence for water depths exceeding 200m and a Frontier Exploration Licence for areas so specified by the Minister. For Standard and Deepwater Explorations Licences the holder is obliged to carry out a work programme which must include the drilling of a least one exploration well in the first phase. For a Frontier Exploration Licence the holder mustcommit to at least one exploration well in order to proceed to the second phase. The area of an Exploration Licence shall be expressed in terms of blocks and/or part blocks of the Williams Grid.
+
+Lease undertaking (issued under Section 10 (1) of the 1960 Act): When a discovery is made in a licensed area and the licensee is not in a position to declare the discovery commercial during the period of the licence but expects to be able to do so in the foreseeable future, the licensee may apply for a Lease Undertaking. This is an undertaking by the Minister, subject to certain conditions, to grant a Petroleum Lease at a stated future date. The holder of a Lease Undertaking is required to hold a Petroleum Prospecting Licence which will govern activities under the Lease Undertaking.
+
+Petroleum Lease (issued under Section 13 (1) of the 1960 Act): When a commercial discovery has been established it will be the duty of the authorisation holder to notify the Minister and apply for a Petroleum Lease with a view to its development.
+
+Reserved Area Licence (issued under Section 19 (1) of the 1960 Act): A Petroleum Lease holder may apply for a reserved area licence in respect of an area adjacent to or surrounding the leased area and which is not subject of an authorisation other than a Petroleum Prospecting Licence.
+
+Terms and conditions, including environmental provisions, are attached to the above mentioned authorisations. These licensing terms are set out in the Departments Licensing Terms For Offshore Oil And Gas Exploration, Development & Production 2007.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2165".
+    

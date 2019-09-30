@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1619> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1619";
+    sdo:identifier "ie.marine.data:dataset.1619";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14002 Cetacean on the Frontier 5 Survey";
+    sdo:name "CE14002 Cetacean on the Frontier 5 Survey";
+    dct:abstract "Night time work will be CTD's, plankton sampling as well as PAM for cetaceans. It will cover the cruise track over that covered during visual observations during daylight hours.";
+    sdo:description "Night time work will be CTD's, plankton sampling as well as PAM for cetaceans. It will cover the cruise track over that covered during visual observations during daylight hours.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1619".
+    

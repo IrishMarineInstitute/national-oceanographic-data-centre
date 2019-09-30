@@ -1,0 +1,29 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_903> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.903";
+    sdo:identifier "ie.marine.data:dataset.903";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "INFOMAR Seabed Classification";
+    sdo:name "INFOMAR Seabed Classification";
+    dct:abstract "Seabed classification is the partitioning of a seabed into discrete physical entities or classes based on physical, geological, chemical or biological properties. Classification of the seabed is carried out using grab sample and backscatter datasets. 
+
+Seabed is also classified using Folk Classification scheme, this is a simple scheme that groups seabed areas by substrate type; mud, sand, rock etc. 
+
+Habitats data from the INFOMAR surveys has been categorised according to the EUNIS classification system. The EUNIS habitat classification is a comprehensive pan-European system to facilitate the harmonised description and collection of data across Europe through the use of criteria for habitat identification. It is hierarchical and covers all types of habitat types from natural to artificial, from terrestrial to freshwater and marine.
+
+Coarse resolution seabed classification data is submitted to EMODnet Habitats portal";
+    sdo:description "Seabed classification is the partitioning of a seabed into discrete physical entities or classes based on physical, geological, chemical or biological properties. Classification of the seabed is carried out using grab sample and backscatter datasets. 
+
+Seabed is also classified using Folk Classification scheme, this is a simple scheme that groups seabed areas by substrate type; mud, sand, rock etc. 
+
+Habitats data from the INFOMAR surveys has been categorised according to the EUNIS classification system. The EUNIS habitat classification is a comprehensive pan-European system to facilitate the harmonised description and collection of data across Europe through the use of criteria for habitat identification. It is hierarchical and covers all types of habitat types from natural to artificial, from terrestrial to freshwater and marine.
+
+Coarse resolution seabed classification data is submitted to EMODnet Habitats portal";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.903".
+    

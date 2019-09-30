@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2119> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2119";
+    sdo:identifier "ie.marine.data:dataset.2119";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16039 Galway Bay Multidisciplinary Survey Planning Survey";
+    sdo:name "CV16039 Galway Bay Multidisciplinary Survey Planning Survey";
+    dct:abstract "This cruise organised by Galway Mayo Institute of Technology (GMIT) was organised to use peer assisted learning to enable training of undergraduate degree students on the course in Applied Marine and Freshwater Biology in various fisheries, megafauna, benthic and oceanographic sampling methods at sea.  Those students who are on board a research vessel for a second or third time, whether undergraduate or postgraduate, will train (Peer Assisted Learning) students who are on board for the first time. This allows reinforcement of prior learning under the supervision of GMIT lecturers and postgrads. The aim is for the students to gain competencies in station position fixing, data logging, sampling and on-board sampling processing at sea. 
+
+This cruise took place in October 2016 in Galway Bay on board the Marine Institute's R.V. Celtic Voyager.  Sampling and surveys conducted during the cruise include:
+the use of box dredges, day grabs,  reineck box corer,  beam/otter trawl, plankton nets, CTD rosette, hydrophone and Remotely Operated Vehicles (ROV). 
+ ";
+    sdo:description "This cruise organised by Galway Mayo Institute of Technology (GMIT) was organised to use peer assisted learning to enable training of undergraduate degree students on the course in Applied Marine and Freshwater Biology in various fisheries, megafauna, benthic and oceanographic sampling methods at sea.  Those students who are on board a research vessel for a second or third time, whether undergraduate or postgraduate, will train (Peer Assisted Learning) students who are on board for the first time. This allows reinforcement of prior learning under the supervision of GMIT lecturers and postgrads. The aim is for the students to gain competencies in station position fixing, data logging, sampling and on-board sampling processing at sea. 
+
+This cruise took place in October 2016 in Galway Bay on board the Marine Institute's R.V. Celtic Voyager.  Sampling and surveys conducted during the cruise include:
+the use of box dredges, day grabs,  reineck box corer,  beam/otter trawl, plankton nets, CTD rosette, hydrophone and Remotely Operated Vehicles (ROV). 
+ ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2119".
+    

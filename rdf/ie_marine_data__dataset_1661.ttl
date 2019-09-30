@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1661> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1661";
+    sdo:identifier "ie.marine.data:dataset.1661";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE13003 Developing Geotechno-Stratigraphies (DGS) Survey";
+    sdo:name "CE13003 Developing Geotechno-Stratigraphies (DGS) Survey";
+    dct:abstract "This survey took place in February 2013, led by University College Cork, on board the Marine Institute's R.V. Celtic Explorer. This was a first part of a two part survey to define offshore stratigraphies, collect cores for palaeoenvironmental and geotechnical studies and perform in situ Core Penetration (CPT) testing (Pt II only). The overall objective of these surveys is to understand the control of palaeoenvironments on sedimentary sequence development and how this is in turn controls geotechnical sub-seabed properties. This first part of the survey concentrated on NW Celtic Sea offshore Dungarvan - the Saltees.
+
+The survey collected both pinger and sparker seismic lines revealing a gravel dominated stratigraphy offshore moving into bedrock nearshore. Two palaeochannels (gravel filled) cut bedrock out from Dunmore East and Dungarvan. Multibeam sonar lines were collected along seismic lines. A number of main 5.5m vibrocores were also collected.";
+    sdo:description "This survey took place in February 2013, led by University College Cork, on board the Marine Institute's R.V. Celtic Explorer. This was a first part of a two part survey to define offshore stratigraphies, collect cores for palaeoenvironmental and geotechnical studies and perform in situ Core Penetration (CPT) testing (Pt II only). The overall objective of these surveys is to understand the control of palaeoenvironments on sedimentary sequence development and how this is in turn controls geotechnical sub-seabed properties. This first part of the survey concentrated on NW Celtic Sea offshore Dungarvan - the Saltees.
+
+The survey collected both pinger and sparker seismic lines revealing a gravel dominated stratigraphy offshore moving into bedrock nearshore. Two palaeochannels (gravel filled) cut bedrock out from Dunmore East and Dungarvan. Multibeam sonar lines were collected along seismic lines. A number of main 5.5m vibrocores were also collected.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1661".
+    

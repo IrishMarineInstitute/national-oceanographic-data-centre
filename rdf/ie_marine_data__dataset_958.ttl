@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_958> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.958";
+    sdo:identifier "ie.marine.data:dataset.958";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17007 SMART UCC Practical Offshore Geological Exploration Survey";
+    sdo:name "CV17007 SMART UCC Practical Offshore Geological Exploration Survey";
+    dct:abstract "SMART University College Cork (UCC) training programme to provide advanced training for postgraduate geology students in offshore mineral resource prospecting to a professional standard using a realistic survey scenario that incorporates resource evaluation, quantification and environmental effects of extraction. The training module Practical Offshore Geological Exploration is embedded within one year vocational MSc Exploration Field Geology course.";
+    sdo:description "SMART University College Cork (UCC) training programme to provide advanced training for postgraduate geology students in offshore mineral resource prospecting to a professional standard using a realistic survey scenario that incorporates resource evaluation, quantification and environmental effects of extraction. The training module Practical Offshore Geological Exploration is embedded within one year vocational MSc Exploration Field Geology course.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.958".
+    

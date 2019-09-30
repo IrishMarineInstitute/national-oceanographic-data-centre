@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_883> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.883";
+    sdo:identifier "ie.marine.data:dataset.883";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0404 Fisheries Mackerel Egg Survey";
+    sdo:name "CE0404 Fisheries Mackerel Egg Survey";
+    dct:abstract "Fisheries survey into the abundance and distribution of species in the Celtic Sea and North Atlantic Ocean. The aim of this survey programme is to assess the northeastern Atlantic mackerel and horse mackerel stock. Plankton samples are collected via a Gulf III plankton sampler; mackerel and horse mackerel eggs are extracted, counted and stage.";
+    sdo:description "Fisheries survey into the abundance and distribution of species in the Celtic Sea and North Atlantic Ocean. The aim of this survey programme is to assess the northeastern Atlantic mackerel and horse mackerel stock. Plankton samples are collected via a Gulf III plankton sampler; mackerel and horse mackerel eggs are extracted, counted and stage.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.883".
+    

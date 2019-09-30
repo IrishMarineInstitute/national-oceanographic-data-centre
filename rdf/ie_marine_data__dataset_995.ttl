@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_995> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.995";
+    sdo:identifier "ie.marine.data:dataset.995";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0611 Fisheries Irish Groundfish Survey";
+    sdo:name "CE0611 Fisheries Irish Groundfish Survey";
+    dct:abstract "The Irish Groundfish Survey is an annual 6 week fish trawl survey held in the 4th quarter of the years that has an essential aim to examine the composition and abundance of fish species in the waters surrounding Ireland. This major survey is undertaken by the Fisheries Science Services division and data is made available to the ICES DATRAS (DATabase TRawl Survey) database available from ICES. 
+This cruise forms part of the 2006 Groundfish Survey.
+Cruise will take place mainly off the south coast of Ireland.";
+    sdo:description "The Irish Groundfish Survey is an annual 6 week fish trawl survey held in the 4th quarter of the years that has an essential aim to examine the composition and abundance of fish species in the waters surrounding Ireland. This major survey is undertaken by the Fisheries Science Services division and data is made available to the ICES DATRAS (DATabase TRawl Survey) database available from ICES. 
+This cruise forms part of the 2006 Groundfish Survey.
+Cruise will take place mainly off the south coast of Ireland.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.995".
+    

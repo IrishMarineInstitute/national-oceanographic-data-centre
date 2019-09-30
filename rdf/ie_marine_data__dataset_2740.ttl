@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2740> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2740";
+    sdo:identifier "ie.marine.data:dataset.2740";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Midnight profiles of chlorophyll fluorescence data from Lough Furnace, 2009-2014 and associated phytoplankton and descriptive data.";
+    sdo:name "Midnight profiles of chlorophyll fluorescence data from Lough Furnace, 2009-2014 and associated phytoplankton and descriptive data.";
+    dct:abstract "Chlorophyll fluorescence (ChlF) is measured routinely in Lough Furnace as part of an ongoing LTER (long term ecological research) program of monitoring. Furnace is a coastal lagoon in the Burrishoole catchment, with a permanently moored AWQMS (automatic water quality monitoring station). ChlF is considered to be a good proxy measurement of phytoplankton biomass. This dataset comprises midnight profiles of ChlF, water temperature, dissolved oxygen concentration and saturation, pH, conductivity and salinity (1. Midnight profiles.csv). The dataset also includes the biomass of phytoplankton groups estimated from spot samples (2. Phytoplankton biovolumes.csv) along with hydrological and meteorological variables describing the environmental conditions over the time period (3. Descriptive data. csv). ";
+    sdo:description "Chlorophyll fluorescence (ChlF) is measured routinely in Lough Furnace as part of an ongoing LTER (long term ecological research) program of monitoring. Furnace is a coastal lagoon in the Burrishoole catchment, with a permanently moored AWQMS (automatic water quality monitoring station). ChlF is considered to be a good proxy measurement of phytoplankton biomass. This dataset comprises midnight profiles of ChlF, water temperature, dissolved oxygen concentration and saturation, pH, conductivity and salinity (1. Midnight profiles.csv). The dataset also includes the biomass of phytoplankton groups estimated from spot samples (2. Phytoplankton biovolumes.csv) along with hydrological and meteorological variables describing the environmental conditions over the time period (3. Descriptive data. csv). ";
+    dct:issued "2018-12-19"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2740".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1204> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1204";
+    sdo:identifier "ie.marine.data:dataset.1204";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "INFOMAR Vibrocorer";
+    sdo:name "INFOMAR Vibrocorer";
+    dct:abstract "A vibrocorer is used to extract cores of soft sediment up to six metres in length from the seabed subsurface for engineering site investigations or palaeo-environmental research. Cores are typically acquired either using a motor driven vibration technique which drives the core barrel into the sediment, or by a weighted core barrel method where the device is dropped and free-falls into the seabed.";
+    sdo:description "A vibrocorer is used to extract cores of soft sediment up to six metres in length from the seabed subsurface for engineering site investigations or palaeo-environmental research. Cores are typically acquired either using a motor driven vibration technique which drives the core barrel into the sediment, or by a weighted core barrel method where the device is dropped and free-falls into the seabed.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1204".
+    

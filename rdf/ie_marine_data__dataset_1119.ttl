@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1119> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1119";
+    sdo:identifier "ie.marine.data:dataset.1119";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0815 NMCI Cork Harbour Student Survey";
+    sdo:name "CE0815 NMCI Cork Harbour Student Survey";
+    dct:abstract "NMCI Student Training Cruise off the south coast of Ireland.";
+    sdo:description "NMCI Student Training Cruise off the south coast of Ireland.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1119".
+    

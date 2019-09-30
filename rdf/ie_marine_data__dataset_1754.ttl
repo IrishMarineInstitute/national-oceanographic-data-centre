@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1754> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1754";
+    sdo:identifier "ie.marine.data:dataset.1754";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE11017 Porcupine Groundtruthing 2011";
+    sdo:name "CE11017 Porcupine Groundtruthing 2011";
+    dct:abstract "This inter-institutional survey took place in May 2011, as part of a Geological Survey of Ireland-led ground-truthing programme. The Marine Institute's R.V. Celtic Explorer collected sea bed samples from an East-West transect along the top of the high. Vibrocores, grab samples and  rock dredge transects  were taken during the survey. The M6 buoy was also deployed.
+
+The vessel also transited to the second research location on the Porcupine Seabight to study the Nephrops habitat where two underwater video transects were run.  Sediment sampling in the vicinity of these transects using a grab sampler (Day Grab). ";
+    sdo:description "This inter-institutional survey took place in May 2011, as part of a Geological Survey of Ireland-led ground-truthing programme. The Marine Institute's R.V. Celtic Explorer collected sea bed samples from an East-West transect along the top of the high. Vibrocores, grab samples and  rock dredge transects  were taken during the survey. The M6 buoy was also deployed.
+
+The vessel also transited to the second research location on the Porcupine Seabight to study the Nephrops habitat where two underwater video transects were run.  Sediment sampling in the vicinity of these transects using a grab sampler (Day Grab). ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1754".
+    

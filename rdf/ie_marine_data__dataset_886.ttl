@@ -1,0 +1,19 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_886> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.886";
+    sdo:identifier "ie.marine.data:dataset.886";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0405 INSS Seabed Mapping Survey";
+    sdo:name "CE0405 INSS Seabed Mapping Survey";
+    dct:abstract "Ireland's territorial seabed reaches more than 600 miles out into the Atlantic Ocean to waters of more than 4,500 metres in depth. The objective of the Seabed Survey is to collect detailed bathymetry (water depth) data and gain knowledge of the nature of the seabed and its overlying sediment. In addition, Magnetic and gravity techniques are helping to evaluate the nature and structure of the deeper geology.
+The summer 2004 legs of the Seabed Survey involved three six week legs of the RV Celtic Explorer within Zone 1 mainly off the North-West coast of Donegal, Ireland. Zone 1 represents the 0-50m contour.";
+    sdo:description "Ireland's territorial seabed reaches more than 600 miles out into the Atlantic Ocean to waters of more than 4,500 metres in depth. The objective of the Seabed Survey is to collect detailed bathymetry (water depth) data and gain knowledge of the nature of the seabed and its overlying sediment. In addition, Magnetic and gravity techniques are helping to evaluate the nature and structure of the deeper geology.
+The summer 2004 legs of the Seabed Survey involved three six week legs of the RV Celtic Explorer within Zone 1 mainly off the North-West coast of Donegal, Ireland. Zone 1 represents the 0-50m contour.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.886".
+    

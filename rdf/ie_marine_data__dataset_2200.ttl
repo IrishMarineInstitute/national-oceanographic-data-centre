@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2200> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2200";
+    sdo:identifier "ie.marine.data:dataset.2200";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Hydro Electricity Station";
+    sdo:name "Hydro Electricity Station";
+    dct:abstract "Operating Hydro Electricity Stations in the Republic of Ireland.";
+    sdo:description "Operating Hydro Electricity Stations in the Republic of Ireland.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2200".
+    

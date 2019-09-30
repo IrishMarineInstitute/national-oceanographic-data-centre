@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2115> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2115";
+    sdo:identifier "ie.marine.data:dataset.2115";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16036 Shallow Sub-Seabed Seismic Stratigraphic Survey";
+    sdo:name "CV16036 Shallow Sub-Seabed Seismic Stratigraphic Survey";
+    dct:abstract "This shallow sub-seabed seismic stratigraphic survey, led by University College Cork (UCC), on board the Marine Institute's R.V. Celtic Voyager, was to be conducted in the Celtic Sea. However, the survey was aborted and objectives not completed. ";
+    sdo:description "This shallow sub-seabed seismic stratigraphic survey, led by University College Cork (UCC), on board the Marine Institute's R.V. Celtic Voyager, was to be conducted in the Celtic Sea. However, the survey was aborted and objectives not completed. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2115".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1496> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1496";
+    sdo:identifier "ie.marine.data:dataset.1496";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE17006 Transit Survey";
+    sdo:name "CE17006 Transit Survey";
+    dct:abstract "Transatlantic Oceanography Survey which took place in April 2017 on board the Marine Institute's R.V. Celtic Explorer.";
+    sdo:description "Transatlantic Oceanography Survey which took place in April 2017 on board the Marine Institute's R.V. Celtic Explorer.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1496".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1050> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1050";
+    sdo:identifier "ie.marine.data:dataset.1050";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0716 Mooring Deployments Survey";
+    sdo:name "CE0716 Mooring Deployments Survey";
+    dct:abstract "This survey, led by The National Oceanography Centre in Southampton, was carried out in June 2007 in the North East Atlantic Ocean on board the R.V. Celtic Explorer to refurbish the Porcupine Abyssal Plain  (PAP) observatory. A major new mooring was deployed, CTD profiles were obtained, Zooplankton hauls were conducted and sediment traps were recovered.";
+    sdo:description "This survey, led by The National Oceanography Centre in Southampton, was carried out in June 2007 in the North East Atlantic Ocean on board the R.V. Celtic Explorer to refurbish the Porcupine Abyssal Plain  (PAP) observatory. A major new mooring was deployed, CTD profiles were obtained, Zooplankton hauls were conducted and sediment traps were recovered.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1050".
+    

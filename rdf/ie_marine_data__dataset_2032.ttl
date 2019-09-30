@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2032> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2032";
+    sdo:identifier "ie.marine.data:dataset.2032";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16012 SMART Common Module UU Spring 2016";
+    sdo:name "CV16012 SMART Common Module UU Spring 2016";
+    dct:abstract "SMART Common Module UU Spring 2016 training survey in Cork Harbour.";
+    sdo:description "SMART Common Module UU Spring 2016 training survey in Cork Harbour.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2032".
+    

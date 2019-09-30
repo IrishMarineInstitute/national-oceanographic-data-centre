@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1000> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1000";
+    sdo:identifier "ie.marine.data:dataset.1000";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0613 Site Survey";
+    sdo:name "CE0613 Site Survey";
+    dct:abstract "Site Survey to investigate sites for the installation of an Oil AND Gas Rig off the south coast, two sites off Kinsale Head were investigated and one site off Donegal.";
+    sdo:description "Site Survey to investigate sites for the installation of an Oil AND Gas Rig off the south coast, two sites off Kinsale Head were investigated and one site off Donegal.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1000".
+    

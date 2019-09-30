@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2771> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2771";
+    sdo:identifier "ie.marine.data:dataset.2771";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Connemara 2D Oceanographic Model ";
+    sdo:name "Connemara 2D Oceanographic Model ";
+    dct:abstract "The Connemara 2D Model provides data for Galway Bay on the oceanographic surface parameters: (zeta) Sea Level Height (m), Barotropic Sea Water X Velocity (m/sec), and Barotropic Sea Water Y Velocity (m/sec). Users of the download service can choose a datetime, XY velocity parameters or zeta sea level height and a file type to download data. Note that at any one time, model data is available for the previous 30 days and 3 days into the future.";
+    sdo:description "The Connemara 2D Model provides data for Galway Bay on the oceanographic surface parameters: (zeta) Sea Level Height (m), Barotropic Sea Water X Velocity (m/sec), and Barotropic Sea Water Y Velocity (m/sec). Users of the download service can choose a datetime, XY velocity parameters or zeta sea level height and a file type to download data. Note that at any one time, model data is available for the previous 30 days and 3 days into the future.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2771".
+    

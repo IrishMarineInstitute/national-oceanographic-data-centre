@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2123> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2123";
+    sdo:identifier "ie.marine.data:dataset.2123";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16042 SMART Common Module Winter 2016";
+    sdo:name "CV16042 SMART Common Module Winter 2016";
+    dct:abstract "This SMART (Strategic Marine Alliance for Research & Training) led training survey took place on board the R.V. Celtic Voyager in November 2016. The survey was conducted to deliver an accredited, offshore blended learning module for final year undergraduates of  National University of Ireland, Galway (NUIG) Marine Science and Earth and Ocean Sciences. During the survey CTD (Conductivity-Temperature-Depth) sampling was carried out, beam trawls and grab sampling. ";
+    sdo:description "This SMART (Strategic Marine Alliance for Research & Training) led training survey took place on board the R.V. Celtic Voyager in November 2016. The survey was conducted to deliver an accredited, offshore blended learning module for final year undergraduates of  National University of Ireland, Galway (NUIG) Marine Science and Earth and Ocean Sciences. During the survey CTD (Conductivity-Temperature-Depth) sampling was carried out, beam trawls and grab sampling. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2123".
+    

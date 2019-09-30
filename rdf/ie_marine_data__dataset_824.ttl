@@ -1,0 +1,19 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_824> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.824";
+    sdo:identifier "ie.marine.data:dataset.824";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Irish Internal Waters";
+    sdo:name "Irish Internal Waters";
+    dct:abstract "According to the United Nations Convention on the Law of the Sea, a nation's internal waters include waters on the landward side of the baseline of a nation's territorial waters, except in archipelagic states. It includes waterways such as rivers and canals, and sometimes the water within small bays. 
+In inland waters, sovereignty of the state is equal to that which it exercises on the mainland. The coastal state is free to make laws relating to its internal waters, regulate any use, and use any resource. In the absence of agreements to the contrary, foreign vessels have no right of passage within internal waters, and this lack of right to innocent passage is the key difference between internal waters and territorial waters. The "archipelagic waters" within the outermost islands of archipelagic states are treated as internal waters with the exception that innocent passage must be allowed, although the archipelagic state may designate certain sea lanes in these waters.  When a foreign vessel is authorized to enter inland waters, it is subject to the laws of the coastal State, with one exception: the crew of the ship is subject to the law of the flag State. This extends to labor conditions as well as to crimes committed on board the ship, even if docked at a port. Offences committed in the harbor and the crimes committed there by the crew of a foreign vessel always fall in the jurisdiction of the coastal State. The coastal State can intervene in ship affairs when the master of the vessel requires intervention of the local authorities, when there is danger to the peace and security of the coastal State, or to enforce customs rules.";
+    sdo:description "According to the United Nations Convention on the Law of the Sea, a nation's internal waters include waters on the landward side of the baseline of a nation's territorial waters, except in archipelagic states. It includes waterways such as rivers and canals, and sometimes the water within small bays. 
+In inland waters, sovereignty of the state is equal to that which it exercises on the mainland. The coastal state is free to make laws relating to its internal waters, regulate any use, and use any resource. In the absence of agreements to the contrary, foreign vessels have no right of passage within internal waters, and this lack of right to innocent passage is the key difference between internal waters and territorial waters. The "archipelagic waters" within the outermost islands of archipelagic states are treated as internal waters with the exception that innocent passage must be allowed, although the archipelagic state may designate certain sea lanes in these waters.  When a foreign vessel is authorized to enter inland waters, it is subject to the laws of the coastal State, with one exception: the crew of the ship is subject to the law of the flag State. This extends to labor conditions as well as to crimes committed on board the ship, even if docked at a port. Offences committed in the harbor and the crimes committed there by the crew of a foreign vessel always fall in the jurisdiction of the coastal State. The coastal State can intervene in ship affairs when the master of the vessel requires intervention of the local authorities, when there is danger to the peace and security of the coastal State, or to enforce customs rules.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.824".
+    

@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1111> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1111";
+    sdo:identifier "ie.marine.data:dataset.1111";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0811 Deepwater Fisheries Survey";
+    sdo:name "CE0811 Deepwater Fisheries Survey";
+    dct:abstract "The deepwater survey was conducted by Marine Institute (MI) and the National University of Ireland, Galway (NUIG) from 9th - 22nd September, 2008. This survey was the third in a series, carried out on the RV Celtic Explorer, to acquire fishery and hydrographic data on the continental slope to the north and west of Ireland, and on the Porcupine Bank. As in the previous two years the survey was again coordinated with the Scottish Fisheries Research Service.
+
+This 2008 survey was carried out in the same three areas as 2006 and 2007. In each area trawl hauls were made at four depths, 500m, 1000m, 1500m and 1800 meters, along the slope. Conductivity, Temperature and Depth (CTD) transects were carried out as well as plankton sampling. At each station the entire catch was sorted to species level and weighed. Full biological sampling, length, weight, sex, maturity and age, was carried out on all commercial species. Additional biological sampling, without ageing, was carried out on all elasmobranchs and chimareids. All Invertebrates from each fishing tow were identified as far as possible and their catches weighed. A Marine Mammal Observer (MMO) was also present on board to conduct a visual survey for cetaceans. ";
+    sdo:description "The deepwater survey was conducted by Marine Institute (MI) and the National University of Ireland, Galway (NUIG) from 9th - 22nd September, 2008. This survey was the third in a series, carried out on the RV Celtic Explorer, to acquire fishery and hydrographic data on the continental slope to the north and west of Ireland, and on the Porcupine Bank. As in the previous two years the survey was again coordinated with the Scottish Fisheries Research Service.
+
+This 2008 survey was carried out in the same three areas as 2006 and 2007. In each area trawl hauls were made at four depths, 500m, 1000m, 1500m and 1800 meters, along the slope. Conductivity, Temperature and Depth (CTD) transects were carried out as well as plankton sampling. At each station the entire catch was sorted to species level and weighed. Full biological sampling, length, weight, sex, maturity and age, was carried out on all commercial species. Additional biological sampling, without ageing, was carried out on all elasmobranchs and chimareids. All Invertebrates from each fishing tow were identified as far as possible and their catches weighed. A Marine Mammal Observer (MMO) was also present on board to conduct a visual survey for cetaceans. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1111".
+    

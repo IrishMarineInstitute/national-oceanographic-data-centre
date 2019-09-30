@@ -1,0 +1,19 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_875> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.875";
+    sdo:identifier "ie.marine.data:dataset.875";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0303 Fisheries Irish Groundfish Survey";
+    sdo:name "CE0303 Fisheries Irish Groundfish Survey";
+    dct:abstract "This winter cruise forms part of the Groundfish Survey programme which is an annual 6 week fish trawl survey held in the 4th quarter of the year that has an essential aim to examine the composition and abundance of fish species in the waters surrounding Ireland. This major survey is undertaken by the Fisheries Science Services division and data is made available to the ICES DATRAS (DATabase TRawl Survey) database available from ICES.
+This cruise took place in the waters off the west coast of Ireland.";
+    sdo:description "This winter cruise forms part of the Groundfish Survey programme which is an annual 6 week fish trawl survey held in the 4th quarter of the year that has an essential aim to examine the composition and abundance of fish species in the waters surrounding Ireland. This major survey is undertaken by the Fisheries Science Services division and data is made available to the ICES DATRAS (DATabase TRawl Survey) database available from ICES.
+This cruise took place in the waters off the west coast of Ireland.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.875".
+    

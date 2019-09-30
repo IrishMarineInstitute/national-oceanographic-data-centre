@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1711> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1711";
+    sdo:identifier "ie.marine.data:dataset.1711";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE12012 Multi-Mode ROV Testing with Integrated Sensors for Underwater Archaeological Operations";
+    sdo:name "CE12012 Multi-Mode ROV Testing with Integrated Sensors for Underwater Archaeological Operations";
+    dct:abstract "This seven day survey took place on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean, off the coast of Co. Donegal in September 2012. The main aim of the survey was to carry out multi-mode remotely operated underwater vehicle (ROV) testing with integrated sensors for underwater archaeological operations.";
+    sdo:description "This seven day survey took place on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean, off the coast of Co. Donegal in September 2012. The main aim of the survey was to carry out multi-mode remotely operated underwater vehicle (ROV) testing with integrated sensors for underwater archaeological operations.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1711".
+    

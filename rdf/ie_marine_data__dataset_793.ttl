@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_793> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.793";
+    sdo:identifier "ie.marine.data:dataset.793";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Province Boundary";
+    sdo:name "Province Boundary";
+    dct:abstract "Ireland has historically been divided into four provinces: Connacht, Leinster, Munster and Ulster. The Irish word for this territorial division, cúige, literally meaning "fifth part", indicates that there were once five; the fifth province, Meath, was incorporated into Leinster, with parts going to Ulster. The provinces of Ireland serve no administrative or political purposes, but function as historical and cultural entities.";
+    sdo:description "Ireland has historically been divided into four provinces: Connacht, Leinster, Munster and Ulster. The Irish word for this territorial division, cúige, literally meaning "fifth part", indicates that there were once five; the fifth province, Meath, was incorporated into Leinster, with parts going to Ulster. The provinces of Ireland serve no administrative or political purposes, but function as historical and cultural entities.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.793".
+    

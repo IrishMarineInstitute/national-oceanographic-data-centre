@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_985> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.985";
+    sdo:identifier "ie.marine.data:dataset.985";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16009 Fisheries Western European Shelf Pelagic Acoustic Survey (WESPAS) Leg 2";
+    sdo:name "CE16009 Fisheries Western European Shelf Pelagic Acoustic Survey (WESPAS) Leg 2";
+    dct:abstract "Fisheries Western European Shelf Pelagic Acoustic Survey (WESPAS) Leg 2 completed by the Marine Institute Fisheries Ecosystem Advisory Services team.";
+    sdo:description "Fisheries Western European Shelf Pelagic Acoustic Survey (WESPAS) Leg 2 completed by the Marine Institute Fisheries Ecosystem Advisory Services team.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.985".
+    

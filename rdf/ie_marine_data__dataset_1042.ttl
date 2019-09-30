@@ -1,0 +1,37 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1042> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1042";
+    sdo:identifier "ie.marine.data:dataset.1042";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE15010 Northwest Herring Acoustic Survey";
+    sdo:name "CE15010 Northwest Herring Acoustic Survey";
+    dct:abstract "This survey was conducted by the Marine Institute on-board the RV Celtic Explorer in summer 2015 as part of the North West Herring Acoustic Survey. 
+
+The northwest and west coast (ICES Divisions VIaS & VIIb) herring acoustic survey programme was first established in 1994. The summer 2015 survey represents the eighth in the new time series. The survey was coordinated through the ICES Working Group of International Pelagic Surveys (WGIPS). Survey data on stock numbers at age are submitted to the ICES Herring Assessment Working Group (HAWG) and used in the annual stock assessment process.
+
+The Irish component of the survey was carried out to cover: 1) the regions around western Ireland 2) the regions west of Scotland that are usually covered by Marine Scotland and 3) northern sector of the Irish Sea survey. The survey was coordinated through the ICES Working Group of International Pelagic Surveys (WGIPS). Combined survey data on herring distribution, abundance and age are used to provide a measure of the relative abundance of herring within the Malin shelf stock complex. Survey data on stock numbers at age are submitted to the ICES Herring Assessment Working Group (HAWG) and used in the annual stock assessment process. 
+
+The northwest and west coast (ICES Divisions VIaS & VIIb) herring stock is composed of two spawning components, autumn and winter spawners. Spawning covers a large geographical area and extends over a 4-month period from late September through to late March. Traditionally, fishing effort has been concentrated on spawning and pre-spawning aggregations. The autumn spawning component, which mostly occurs within VIIb and VIaS, feeds along the shelf break area to the west of the spawning grounds. The winter spawning component is found further north in VIaS. In VIaS, summer distribution extends from close inshore to the shelf break. Components of the winter spawning fish are known to undertake northward feeding migration into VIaN before returning in the winter to spawn along the Irish coast.
+
+This survey, carried out between 24th June and 14th July, focused on the northwest and west coast of Ireland and the west coast of Scotland. The survey track started to the southeast of the Isle of Coll, zigzagged north through the Minches (between the Scottish mainland and the Hebrides), then worked progressively southwards in parallel eastwest transects, and finished near the mouth of Killary Harbour.  A systematic parallel transect design was adopted for the majority of the survey, with a randomised start point.
+
+The acoustic data were collected using the Simrad ER60 scientific echosounder. For biological sampling, a single pelagic midwater trawl was used. 25 hauls were carried out. All components of the catch from the trawl hauls were sorted and weighed; fish and other taxa were identified to species level. Oceanographic stations were carried out during the survey at predetermined locations along the track. Two marine mammal observers were present to conduct visual surveys of marine mammals and seabirds.";
+    sdo:description "This survey was conducted by the Marine Institute on-board the RV Celtic Explorer in summer 2015 as part of the North West Herring Acoustic Survey. 
+
+The northwest and west coast (ICES Divisions VIaS & VIIb) herring acoustic survey programme was first established in 1994. The summer 2015 survey represents the eighth in the new time series. The survey was coordinated through the ICES Working Group of International Pelagic Surveys (WGIPS). Survey data on stock numbers at age are submitted to the ICES Herring Assessment Working Group (HAWG) and used in the annual stock assessment process.
+
+The Irish component of the survey was carried out to cover: 1) the regions around western Ireland 2) the regions west of Scotland that are usually covered by Marine Scotland and 3) northern sector of the Irish Sea survey. The survey was coordinated through the ICES Working Group of International Pelagic Surveys (WGIPS). Combined survey data on herring distribution, abundance and age are used to provide a measure of the relative abundance of herring within the Malin shelf stock complex. Survey data on stock numbers at age are submitted to the ICES Herring Assessment Working Group (HAWG) and used in the annual stock assessment process. 
+
+The northwest and west coast (ICES Divisions VIaS & VIIb) herring stock is composed of two spawning components, autumn and winter spawners. Spawning covers a large geographical area and extends over a 4-month period from late September through to late March. Traditionally, fishing effort has been concentrated on spawning and pre-spawning aggregations. The autumn spawning component, which mostly occurs within VIIb and VIaS, feeds along the shelf break area to the west of the spawning grounds. The winter spawning component is found further north in VIaS. In VIaS, summer distribution extends from close inshore to the shelf break. Components of the winter spawning fish are known to undertake northward feeding migration into VIaN before returning in the winter to spawn along the Irish coast.
+
+This survey, carried out between 24th June and 14th July, focused on the northwest and west coast of Ireland and the west coast of Scotland. The survey track started to the southeast of the Isle of Coll, zigzagged north through the Minches (between the Scottish mainland and the Hebrides), then worked progressively southwards in parallel eastwest transects, and finished near the mouth of Killary Harbour.  A systematic parallel transect design was adopted for the majority of the survey, with a randomised start point.
+
+The acoustic data were collected using the Simrad ER60 scientific echosounder. For biological sampling, a single pelagic midwater trawl was used. 25 hauls were carried out. All components of the catch from the trawl hauls were sorted and weighed; fish and other taxa were identified to species level. Oceanographic stations were carried out during the survey at predetermined locations along the track. Two marine mammal observers were present to conduct visual surveys of marine mammals and seabirds.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1042".
+    

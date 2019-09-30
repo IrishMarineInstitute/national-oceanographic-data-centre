@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2795> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2795";
+    sdo:identifier "ie.marine.data:dataset.2795";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Harmful Algal Bloom (HABs) Offshore Shellfish Monitoring";
+    sdo:name "Harmful Algal Bloom (HABs) Offshore Shellfish Monitoring";
+    dct:abstract "International Council Exploration of the Sea (ICES) statistical rectangle boundary administrative units for offshore King Scallop monitoring and reporting. The ICES statistical rectangle boundaries used occur in the North Atlantic Ocean, Celtic Sea, Irish Sea, Saint Georges Channel, English Channel and Bay of Biscay. Boundaries were established in 2002 under HABs monitoring programme. Boundaries generated from query appropriate King Scallop landings by ICES Id. HABs offshore boundaries were created by Marine Institute (Ireland) from ICES statistical rectangle data. Offshore HABs zone have been used to support information on monitoring and reporting of offshore shellfish safety. Data complete for reporting area covered.";
+    sdo:description "International Council Exploration of the Sea (ICES) statistical rectangle boundary administrative units for offshore King Scallop monitoring and reporting. The ICES statistical rectangle boundaries used occur in the North Atlantic Ocean, Celtic Sea, Irish Sea, Saint Georges Channel, English Channel and Bay of Biscay. Boundaries were established in 2002 under HABs monitoring programme. Boundaries generated from query appropriate King Scallop landings by ICES Id. HABs offshore boundaries were created by Marine Institute (Ireland) from ICES statistical rectangle data. Offshore HABs zone have been used to support information on monitoring and reporting of offshore shellfish safety. Data complete for reporting area covered.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2795".
+    

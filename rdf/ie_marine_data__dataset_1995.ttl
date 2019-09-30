@@ -1,0 +1,37 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1995> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1995";
+    sdo:identifier "ie.marine.data:dataset.1995";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17040 Irish Sea Palaeolandscape Investigation Survey";
+    sdo:name "CV17040 Irish Sea Palaeolandscape Investigation Survey";
+    dct:abstract "Europe's Lost Frontiers Project successfully identified the earliest contact between mainland Europe and Great Britain based on a large-scale programme of sub-surface mapping and coring in the region known as Doggerland, located off the east coast of Britain. Recent sub-surface mapping off the west coast of Britain now affords us the opportunity to determine the earliest contact between mainland Europe/Britain and Ireland. 
+
+The evidence for early Mesolithic and Neolithic contacts between Ireland and Britain along the Atlantic province is strong. Therefore any earlier contact is also strong in these areas based on the known palaeolandscape. 
+
+To provide a context for the earliest contacts in Ireland there is a need to explore the palaeo-coastlines, based on previous sub-surface mapping. The extent of the palaeo-coastlines off the present day Irish coast is limited, therefore we must look to the adjacent palaeo-coastlines that are appropriate for further study. The available land and supporting data are best off the west coast of Britain. Specifically, our sub-surface mapping and data from the palaeo-coastlines has identified a number of key locations which we intend to core. The project will reconstruct and simulate the palaeo-environments of the Irish Sea using ancient DNA extracted directly from sediment cores and explore the palaeolandscapes of Ireland and identify incipient signals indicating early contact and development. 
+
+This survey, led by IT Sligo on board the Marine Institute's Celtic Voyager, took place in November 2017 in the Irish Sea. The survey objectives were :
+Obtain 16 Cores from Liverpool Bay 
+Obtain 4 Cores from Cardigan Bay 
+Obtain high-precision geophysical data at each of the 21 Core locations 
+However, not all objectives were achieved as no vibrocoring took place due to bed weather conditions. ";
+    sdo:description "Europe's Lost Frontiers Project successfully identified the earliest contact between mainland Europe and Great Britain based on a large-scale programme of sub-surface mapping and coring in the region known as Doggerland, located off the east coast of Britain. Recent sub-surface mapping off the west coast of Britain now affords us the opportunity to determine the earliest contact between mainland Europe/Britain and Ireland. 
+
+The evidence for early Mesolithic and Neolithic contacts between Ireland and Britain along the Atlantic province is strong. Therefore any earlier contact is also strong in these areas based on the known palaeolandscape. 
+
+To provide a context for the earliest contacts in Ireland there is a need to explore the palaeo-coastlines, based on previous sub-surface mapping. The extent of the palaeo-coastlines off the present day Irish coast is limited, therefore we must look to the adjacent palaeo-coastlines that are appropriate for further study. The available land and supporting data are best off the west coast of Britain. Specifically, our sub-surface mapping and data from the palaeo-coastlines has identified a number of key locations which we intend to core. The project will reconstruct and simulate the palaeo-environments of the Irish Sea using ancient DNA extracted directly from sediment cores and explore the palaeolandscapes of Ireland and identify incipient signals indicating early contact and development. 
+
+This survey, led by IT Sligo on board the Marine Institute's Celtic Voyager, took place in November 2017 in the Irish Sea. The survey objectives were :
+Obtain 16 Cores from Liverpool Bay 
+Obtain 4 Cores from Cardigan Bay 
+Obtain high-precision geophysical data at each of the 21 Core locations 
+However, not all objectives were achieved as no vibrocoring took place due to bed weather conditions. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1995".
+    

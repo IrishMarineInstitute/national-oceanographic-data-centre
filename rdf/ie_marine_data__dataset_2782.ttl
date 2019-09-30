@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2782> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2782";
+    sdo:identifier "ie.marine.data:dataset.2782";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Marine Institute Monthly Model Means";
+    sdo:name "Marine Institute Monthly Model Means";
+    dct:abstract "Model means are only available for 12:00am for the 15th day of every month.
+
+Monthly mean values for oceanographic parameters in Irish waters from the Marine Institute SWAN and ROMS models. Mean values include: Sea surface temperature (degreeCelsius), Sea bottom temperature (degreeCelsius), Surface salinity (PSU), Bottom salinity (PSU), Surface velocity (m/sec), Mixed layer depth, Significant wave height (m), Mean wave direction (degreeTrue) and Mean wave period (sec). For the dynamic download service users can choose datetime, parameter(s) and output file type. Note model means are only available for 12:00am for the 15th day of every month.";
+    sdo:description "Model means are only available for 12:00am for the 15th day of every month.
+
+Monthly mean values for oceanographic parameters in Irish waters from the Marine Institute SWAN and ROMS models. Mean values include: Sea surface temperature (degreeCelsius), Sea bottom temperature (degreeCelsius), Surface salinity (PSU), Bottom salinity (PSU), Surface velocity (m/sec), Mixed layer depth, Significant wave height (m), Mean wave direction (degreeTrue) and Mean wave period (sec). For the dynamic download service users can choose datetime, parameter(s) and output file type. Note model means are only available for 12:00am for the 15th day of every month.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2782".
+    

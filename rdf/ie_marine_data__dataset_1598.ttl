@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1598> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1598";
+    sdo:identifier "ie.marine.data:dataset.1598";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE15006 Smart Bay Cable Lay Survey";
+    sdo:name "CE15006 Smart Bay Cable Lay Survey";
+    dct:abstract "Galway Bay cable laying survey from Spiddal pier to ocean energy test site for observatory.";
+    sdo:description "Galway Bay cable laying survey from Spiddal pier to ocean energy test site for observatory.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1598".
+    

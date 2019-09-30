@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1936> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1936";
+    sdo:identifier "ie.marine.data:dataset.1936";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17020 Quantifying Irish Marine Placer Resources (QuIMPeR) Survey";
+    sdo:name "CV17020 Quantifying Irish Marine Placer Resources (QuIMPeR) Survey";
+    dct:abstract "Heavy mineral sands are common on the beaches of the Belmullet Peninsula and Achill Island as well as southern outer Clew Bay. The combination of metamorphic and igneous terrain adjacent to high energy coastlines offers a clear scenario for heavy mineral sand development in Ireland. 
+
+This survey took place in July-August 2017 on board the Marine Institute's R.V. Celtic Explorer, led by University College Cork (UCC). This  survey focused exclusively on studying offshore heavy mineral sand deposits in the Blacksod/Achill Island/SW Clew Bay area and provided data to the SFI-funded iCRAG (Irish Centre for Research in Applied Geosciences) project FLIPeR (Formation of Littoral and Offshore Irish Placer Resources).
+
+A series of areas were surveyed to locate, delineate and sample heavy mineral sands near to beaches where heavy minerals had already been sampled. All areas surveyed were mapped with non-overlapping multibeam lines at 250m or 500m apart.  Magnetometer data and seismic and sub-bottom profiler data was  collected, and  CTDs (Conductivity-Temperature-Depth) were taken to calibrate the sound velocity for the multibeam echosounder. ";
+    sdo:description "Heavy mineral sands are common on the beaches of the Belmullet Peninsula and Achill Island as well as southern outer Clew Bay. The combination of metamorphic and igneous terrain adjacent to high energy coastlines offers a clear scenario for heavy mineral sand development in Ireland. 
+
+This survey took place in July-August 2017 on board the Marine Institute's R.V. Celtic Explorer, led by University College Cork (UCC). This  survey focused exclusively on studying offshore heavy mineral sand deposits in the Blacksod/Achill Island/SW Clew Bay area and provided data to the SFI-funded iCRAG (Irish Centre for Research in Applied Geosciences) project FLIPeR (Formation of Littoral and Offshore Irish Placer Resources).
+
+A series of areas were surveyed to locate, delineate and sample heavy mineral sands near to beaches where heavy minerals had already been sampled. All areas surveyed were mapped with non-overlapping multibeam lines at 250m or 500m apart.  Magnetometer data and seismic and sub-bottom profiler data was  collected, and  CTDs (Conductivity-Temperature-Depth) were taken to calibrate the sound velocity for the multibeam echosounder. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1936".
+    

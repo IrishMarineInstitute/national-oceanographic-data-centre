@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1196> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1196";
+    sdo:identifier "ie.marine.data:dataset.1196";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE11015 Celtic Sea Herring Acoustic Survey";
+    sdo:name "CE11015 Celtic Sea Herring Acoustic Survey";
+    dct:abstract "Celtic Sea Herring Acoustic survey of herring population abundance and distribution. Fishing and CTD casts as required.";
+    sdo:description "Celtic Sea Herring Acoustic survey of herring population abundance and distribution. Fishing and CTD casts as required.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1196".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1643> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1643";
+    sdo:identifier "ie.marine.data:dataset.1643";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14019 Trial of Coring Equipment Survey";
+    sdo:name "CE14019 Trial of Coring Equipment Survey";
+    dct:abstract "This survey took place in February 2014 on board the R.V. Celtic Explorer to trial of coring equipment survey. The survey took place of the North West coast of Ireland, off Co. Mayo.";
+    sdo:description "This survey took place in February 2014 on board the R.V. Celtic Explorer to trial of coring equipment survey. The survey took place of the North West coast of Ireland, off Co. Mayo.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1643".
+    

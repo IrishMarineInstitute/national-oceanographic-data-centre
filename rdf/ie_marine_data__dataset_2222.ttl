@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2222> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2222";
+    sdo:identifier "ie.marine.data:dataset.2222";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Mean Summer Technical Energy Resource (Pelamis) GWhe/km";
+    sdo:name "Mean Summer Technical Energy Resource (Pelamis) GWhe/km";
+    dct:abstract "This dataset represents an initial comparison between several years of hourly wave forecasts (using WAM) on a grid of points located off the Irish coast with corresponding records from a number of buoys installed pre 2005. Based on the level of agreement found the wave forecasts were then modified slightly and used to estimate the mean annual and seasonal (Spring, Summer, Autumn, Winter) technical energy resource in GigaWatt hours around Ireland for the Accessible Wave Energy Resource Atlas. The Mean Technical Energy Resource (Pelamis) values are measured as lower and upper values in GWhe/km as calculated by the Pelamis wave model. Mean Technical Energy covers an area known as the Irish Exclusive Economic Zone (EEZ). Data model produced in 2005. The Pelamis Wave Model was an oceanographic model using the Pelamis wave energy converter device. The Accessible Wave Energy Resource Atlas was produced to provide data and information on the accessible wave energy resource potential around Ireland. Wave model developed by ESB International (ESBI) as part of the Accessible Wave Energy Atlas Ireland published by the Marine Institute and Sustainable Energy Authority Ireland. Model completed for time period run.";
+    sdo:description "This dataset represents an initial comparison between several years of hourly wave forecasts (using WAM) on a grid of points located off the Irish coast with corresponding records from a number of buoys installed pre 2005. Based on the level of agreement found the wave forecasts were then modified slightly and used to estimate the mean annual and seasonal (Spring, Summer, Autumn, Winter) technical energy resource in GigaWatt hours around Ireland for the Accessible Wave Energy Resource Atlas. The Mean Technical Energy Resource (Pelamis) values are measured as lower and upper values in GWhe/km as calculated by the Pelamis wave model. Mean Technical Energy covers an area known as the Irish Exclusive Economic Zone (EEZ). Data model produced in 2005. The Pelamis Wave Model was an oceanographic model using the Pelamis wave energy converter device. The Accessible Wave Energy Resource Atlas was produced to provide data and information on the accessible wave energy resource potential around Ireland. Wave model developed by ESB International (ESBI) as part of the Accessible Wave Energy Atlas Ireland published by the Marine Institute and Sustainable Energy Authority Ireland. Model completed for time period run.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2222".
+    

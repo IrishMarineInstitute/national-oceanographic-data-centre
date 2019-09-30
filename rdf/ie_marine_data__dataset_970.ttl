@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_970> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.970";
+    sdo:identifier "ie.marine.data:dataset.970";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17017 Nephrops Galway Bay Porcupine Underwater TV (UWTV) Survey";
+    sdo:name "CV17017 Nephrops Galway Bay Porcupine Underwater TV (UWTV) Survey";
+    dct:abstract "Annual Nephrops Galway Bay Porcupine Underwater television (UWTV) Survey undertaken by Marine Insitute Fisheries Ecosystem Advisory Services team. This survey took place in 2017 in the North East Atlanic - in Galway Bay and the Porcupine.  Nephrops is a genus of lobsters comprising a single extant species, Nephrops norvegicus (the Norway lobster or Dublin Bay prawn). Under water surveys took place at 10 stations in Galway bay and 4 on the Slyne head nephrops ground.  Mean density is calculated by dividing the total number of burrow systems by the survey area observed. Conductivity, Temperature and Depth (CTD) oceanographic data was also recorded.";
+    sdo:description "Annual Nephrops Galway Bay Porcupine Underwater television (UWTV) Survey undertaken by Marine Insitute Fisheries Ecosystem Advisory Services team. This survey took place in 2017 in the North East Atlanic - in Galway Bay and the Porcupine.  Nephrops is a genus of lobsters comprising a single extant species, Nephrops norvegicus (the Norway lobster or Dublin Bay prawn). Under water surveys took place at 10 stations in Galway bay and 4 on the Slyne head nephrops ground.  Mean density is calculated by dividing the total number of burrow systems by the survey area observed. Conductivity, Temperature and Depth (CTD) oceanographic data was also recorded.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.970".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1973> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1973";
+    sdo:identifier "ie.marine.data:dataset.1973";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17037 LANGOLF-TV Project: 2017 Underwater TV (UWTV) Survey of Nephrops in the Bay of Biscay";
+    sdo:name "CV17037 LANGOLF-TV Project: 2017 Underwater TV (UWTV) Survey of Nephrops in the Bay of Biscay";
+    dct:abstract "A LANGOLF Underwater TV (UWTV) survey of Nephrops (Nephrops norvegicus) in the Bay of Biscay in May 2017 conducted by the Marine Institute (MI) with the French Research Institute for Exploitation of the Sea (IFREMER). This work involves the acquisition and analysis of UWTV data in support of the provision of stock advice for nephrops for the entire Bay of Biscay region. ";
+    sdo:description "A LANGOLF Underwater TV (UWTV) survey of Nephrops (Nephrops norvegicus) in the Bay of Biscay in May 2017 conducted by the Marine Institute (MI) with the French Research Institute for Exploitation of the Sea (IFREMER). This work involves the acquisition and analysis of UWTV data in support of the provision of stock advice for nephrops for the entire Bay of Biscay region. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1973".
+    

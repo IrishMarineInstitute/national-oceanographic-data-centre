@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2048> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2048";
+    sdo:identifier "ie.marine.data:dataset.2048";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16017 SMART Galway Mayo Institute of Techonolgy Applied Marine Biological Sampling 2016 Survey ";
+    sdo:name "CV16017 SMART Galway Mayo Institute of Techonolgy Applied Marine Biological Sampling 2016 Survey ";
+    dct:abstract "This SMART (Strategic Marine Alliance for Research & Training)  survey, led by Galway Mayo Institute of Technology (GMIT), on board the R.V. Celtic Voyager was carried out in April 2016 in Cork Harbour. The survey is part of an accredited module for graduates, researchers, marine industry professionals and observers who wish to gain practical skills and experience in offshore biological sampling and data collection. ";
+    sdo:description "This SMART (Strategic Marine Alliance for Research & Training)  survey, led by Galway Mayo Institute of Technology (GMIT), on board the R.V. Celtic Voyager was carried out in April 2016 in Cork Harbour. The survey is part of an accredited module for graduates, researchers, marine industry professionals and observers who wish to gain practical skills and experience in offshore biological sampling and data collection. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2048".
+    

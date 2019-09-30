@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2117> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2117";
+    sdo:identifier "ie.marine.data:dataset.2117";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16038 Galway Bay postgraduate Training Survey";
+    sdo:name "CV16038 Galway Bay postgraduate Training Survey";
+    dct:abstract "Led by the National University of Ireland, Galway (NUIG), this training survey took place on board the Marine Institute's R.V. Celtic Voyager in  October 2016 in Galway Bay. The aim of the survey was to train students and gain practical skills and experience in  oceanographic and biological sampling and data collection. ";
+    sdo:description "Led by the National University of Ireland, Galway (NUIG), this training survey took place on board the Marine Institute's R.V. Celtic Voyager in  October 2016 in Galway Bay. The aim of the survey was to train students and gain practical skills and experience in  oceanographic and biological sampling and data collection. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2117".
+    

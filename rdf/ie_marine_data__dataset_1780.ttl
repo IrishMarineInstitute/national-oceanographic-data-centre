@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1780> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1780";
+    sdo:identifier "ie.marine.data:dataset.1780";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0901 ROV Trials Survey";
+    sdo:name "CE0901 ROV Trials Survey";
+    dct:abstract "This survey took place in January 2009 on board the Marine Institute's R.V. Celtic Explorer to carry out remotely operated vehicle trials (ROV) off the west coast of Ireland. ";
+    sdo:description "This survey took place in January 2009 on board the Marine Institute's R.V. Celtic Explorer to carry out remotely operated vehicle trials (ROV) off the west coast of Ireland. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1780".
+    

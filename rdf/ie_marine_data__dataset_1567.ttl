@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1567> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1567";
+    sdo:identifier "ie.marine.data:dataset.1567";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16010 (NISS) The Newfoundland Ice Sheet Glaciated Shelf Survey";
+    sdo:name "CE16010 (NISS) The Newfoundland Ice Sheet Glaciated Shelf Survey";
+    dct:abstract "Newfoundland Ice Sheet Glaciated Shelf Survey led by Ulster University in April 2016 on board the Marine Institute's R.V. Celtic Explorer. ";
+    sdo:description "Newfoundland Ice Sheet Glaciated Shelf Survey led by Ulster University in April 2016 on board the Marine Institute's R.V. Celtic Explorer. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1567".
+    

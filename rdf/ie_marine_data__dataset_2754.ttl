@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2754> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2754";
+    sdo:identifier "ie.marine.data:dataset.2754";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Atlas of Demersal Discarding ";
+    sdo:name "Atlas of Demersal Discarding ";
+    dct:abstract "Demersal discards atlas provides information on discarding patterns by species and area by the various Irish demersal fleets. A number of potential technical measures to reduce discards are shown as well as two case studies showing the potential impact technical measures have on landings and discards. Societal demands to reduce discarding and other impacts associated with fishing are growing. Pressure is increasing on policy makers, fishermen and scientists to "do something about the discard problem". Discarding is high on the agenda in the upcoming review of the Common Fisheries Policy (CFP) and within the Commission, Member States and the fishing industry there is considerable discussion on appropriate management measures to mitigate discarding. In order to address the issue, fisheries should first be evaluated (audited) to identify the specific discard problems and to reference these against the available mitigation tools (ie. measures to reduce discards). This Atlas represents a first attempt at auditing Irish fisheries and proposes some options to mitigate discards. It should be emphasised that discarding occurs in all international fleets operating in the waters around Ireland and that mitigation measures must be applied to all these fleets if we are to implement a successful discard reduction policy.";
+    sdo:description "Demersal discards atlas provides information on discarding patterns by species and area by the various Irish demersal fleets. A number of potential technical measures to reduce discards are shown as well as two case studies showing the potential impact technical measures have on landings and discards. Societal demands to reduce discarding and other impacts associated with fishing are growing. Pressure is increasing on policy makers, fishermen and scientists to "do something about the discard problem". Discarding is high on the agenda in the upcoming review of the Common Fisheries Policy (CFP) and within the Commission, Member States and the fishing industry there is considerable discussion on appropriate management measures to mitigate discarding. In order to address the issue, fisheries should first be evaluated (audited) to identify the specific discard problems and to reference these against the available mitigation tools (ie. measures to reduce discards). This Atlas represents a first attempt at auditing Irish fisheries and proposes some options to mitigate discards. It should be emphasised that discarding occurs in all international fleets operating in the waters around Ireland and that mitigation measures must be applied to all these fleets if we are to implement a successful discard reduction policy.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2754".
+    

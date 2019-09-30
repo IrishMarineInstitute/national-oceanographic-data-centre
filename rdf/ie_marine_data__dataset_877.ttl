@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_877> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.877";
+    sdo:identifier "ie.marine.data:dataset.877";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0401 Fisheries North-west Acoustic Survey";
+    sdo:name "CE0401 Fisheries North-west Acoustic Survey";
+    dct:abstract "Northwest Herring Acoustic Survey Blue Whiting Gear Trials. The aim of the cruise was to test the gear and report any problems encountered with fish handling/wet lab.";
+    sdo:description "Northwest Herring Acoustic Survey Blue Whiting Gear Trials. The aim of the cruise was to test the gear and report any problems encountered with fish handling/wet lab.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.877".
+    

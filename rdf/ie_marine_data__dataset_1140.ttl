@@ -1,0 +1,47 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1140> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1140";
+    sdo:identifier "ie.marine.data:dataset.1140";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14009 Whittard Canyon ROV Survey";
+    sdo:name "CE14009 Whittard Canyon ROV Survey";
+    dct:abstract "This 17 day survey, led by National University of Ireland, Galway (NUIG) took place in June 2014 in the North East Atlantic Ocean (along the Whittard Canyon), on board the Marine Institute's R.V. Celtic Explorer. 
+
+The objective of the survey was to build on previous successful surveys to the region to further enhance the knowledge of the ecosystems functioning and biodiversity within the Whittard canyon system. In particular specific survey objectives were;
+
+i)  The quantification of the magnitude, quality and variability of organic matter fluxes in different canyon branches through pumped and novel water sampling systems and hydrographic measurements
+
+ii) To use a remotely operated vehicle (ROV) video and sample collection to map geology and sedimentary structures within the canyon system
+
+iii) ROV mapping of benthic megafauna, collection of marine specimens for bio-discovery research 
+
+iv) To use the ROV to perform pilot test deployment of seabed mounted hydrographic sensors (current meters) and water sampling devices.
+
+Embedded within all the objectives there was a significant training element for both postgraduate and undergraduate students. 
+
+In total 45 events were completed (see Table 1, Figure 1) and this included 18 ROV dives and 16 CTD stations. ROV work consisted of specimen collection and videoing/photographing for species identification and bio-discovery research, as well as targeted video transects for species abundance along and across the canyon branches. 
+";
+    sdo:description "This 17 day survey, led by National University of Ireland, Galway (NUIG) took place in June 2014 in the North East Atlantic Ocean (along the Whittard Canyon), on board the Marine Institute's R.V. Celtic Explorer. 
+
+The objective of the survey was to build on previous successful surveys to the region to further enhance the knowledge of the ecosystems functioning and biodiversity within the Whittard canyon system. In particular specific survey objectives were;
+
+i)  The quantification of the magnitude, quality and variability of organic matter fluxes in different canyon branches through pumped and novel water sampling systems and hydrographic measurements
+
+ii) To use a remotely operated vehicle (ROV) video and sample collection to map geology and sedimentary structures within the canyon system
+
+iii) ROV mapping of benthic megafauna, collection of marine specimens for bio-discovery research 
+
+iv) To use the ROV to perform pilot test deployment of seabed mounted hydrographic sensors (current meters) and water sampling devices.
+
+Embedded within all the objectives there was a significant training element for both postgraduate and undergraduate students. 
+
+In total 45 events were completed (see Table 1, Figure 1) and this included 18 ROV dives and 16 CTD stations. ROV work consisted of specimen collection and videoing/photographing for species identification and bio-discovery research, as well as targeted video transects for species abundance along and across the canyon branches. 
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1140".
+    

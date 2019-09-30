@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1989> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1989";
+    sdo:identifier "ie.marine.data:dataset.1989";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17038 Irish Centre for Research in Applied Geosciences (iCRAG) Biogeochemical Survey";
+    sdo:name "CV17038 Irish Centre for Research in Applied Geosciences (iCRAG) Biogeochemical Survey";
+    dct:abstract "This biogeochemical survey took place in October 2017 on board the Marine Institute's R.V. Celtic Voyager off the west and south-west coast of Ireland.  This survey  formed a key part of the ongoing research into biogeochemical processes along the Irish west coast that is being conducted as part of the iCRAG Marine Geoscience spoke. The survey comprised of CTD (Conductivity, Temperature, Depth) profiles, reineck box cores. underway radium sampling and plankton net tows.";
+    sdo:description "This biogeochemical survey took place in October 2017 on board the Marine Institute's R.V. Celtic Voyager off the west and south-west coast of Ireland.  This survey  formed a key part of the ongoing research into biogeochemical processes along the Irish west coast that is being conducted as part of the iCRAG Marine Geoscience spoke. The survey comprised of CTD (Conductivity, Temperature, Depth) profiles, reineck box cores. underway radium sampling and plankton net tows.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1989".
+    

@@ -1,0 +1,29 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_991> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.991";
+    sdo:identifier "ie.marine.data:dataset.991";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16017 Fisheries Irish Groundfish Survey 2016 Leg 2";
+    sdo:name "CE16017 Fisheries Irish Groundfish Survey 2016 Leg 2";
+    dct:abstract "This survey was conducted on board the RV Celtic Explorer in 2016 by the Marine Institute (MI) as part of the annual groundfish survey to determine the distribution and abundance of commercial fish around Ireland. 
+
+The Irish Groundfish Survey (IGFS) forms part of the International Bottom Trawl Survey (IBTS) programme, an international survey effort coordinated by the International Council of the Exploration of the Sea (ICES). Each year the survey, taking place in Autumn/Winter, collects demersal trawl and ancillary data in Irish waters to produce relative abundance indices for fisheries management.  In particular the survey provides an index of the share of young fish in the stock, which in turn gives an indication of its spawning success. The IGFS contributes to Ireland’s international obligation to supply scientific data that support the implementation of the Common Fisheries Policy (CFP). 
+
+This survey is a series of demersal sampling trawls at pre-defineds stations. The 2016 survey took place over 2 legs. Leg 1, the more northerly ICES Area,  took place in late September and early October, and Leg 2, in the western and southern areas was carried out during November/December.
+
+In order to make data as comparable as possible, each survey operates under a set of agreed standard protocols. Each tow is 30min long and takes place during daylight hours at 3.5-4 knots. Net geometry and ground contact is monitored and logged. All fish and commercial shellfish are sorted to species level prior to taking lengths and other biological measurements such as age, sex and maturity.";
+    sdo:description "This survey was conducted on board the RV Celtic Explorer in 2016 by the Marine Institute (MI) as part of the annual groundfish survey to determine the distribution and abundance of commercial fish around Ireland. 
+
+The Irish Groundfish Survey (IGFS) forms part of the International Bottom Trawl Survey (IBTS) programme, an international survey effort coordinated by the International Council of the Exploration of the Sea (ICES). Each year the survey, taking place in Autumn/Winter, collects demersal trawl and ancillary data in Irish waters to produce relative abundance indices for fisheries management.  In particular the survey provides an index of the share of young fish in the stock, which in turn gives an indication of its spawning success. The IGFS contributes to Ireland’s international obligation to supply scientific data that support the implementation of the Common Fisheries Policy (CFP). 
+
+This survey is a series of demersal sampling trawls at pre-defineds stations. The 2016 survey took place over 2 legs. Leg 1, the more northerly ICES Area,  took place in late September and early October, and Leg 2, in the western and southern areas was carried out during November/December.
+
+In order to make data as comparable as possible, each survey operates under a set of agreed standard protocols. Each tow is 30min long and takes place during daylight hours at 3.5-4 knots. Net geometry and ground contact is monitored and logged. All fish and commercial shellfish are sorted to species level prior to taking lengths and other biological measurements such as age, sex and maturity.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.991".
+    

@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1892> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1892";
+    sdo:identifier "ie.marine.data:dataset.1892";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE13016 MDACS Survey";
+    sdo:name "CE13016 MDACS Survey";
+    dct:abstract "The European Commission Habitats Directive (92/43/EEC) required Member States to implement a range of measures including the monitoring of habitats for the protection of species listed in the Annexes of the Directive. One such habitat type listed in Annex l of this directive is Submarine Structures made by Leaking Gases (1180). These consist of structures such as sandstone slabs, pavements and pillars up to 4 m in height which are formed by aggregated carbonate cement resulting from microbial oxidation of gas emissions. There are a number of geological features within the Irish Sea which have formed in such a way as to lend themselves to the occurrence of accumulations, seepages and/or escapes of gas. 
+
+This survey took place in February 2013  led by National Parks and Wildlife Service (NPWS) in conjunction with the Marine Institute (MI) on board the R.V. Celtic Explorer. The focus area was in the Irish Sea  within the Kish Bank Basin, approximately 32km off shore in depths of between 50m to 80m using the under water tv (UWTV) camera. ";
+    sdo:description "The European Commission Habitats Directive (92/43/EEC) required Member States to implement a range of measures including the monitoring of habitats for the protection of species listed in the Annexes of the Directive. One such habitat type listed in Annex l of this directive is Submarine Structures made by Leaking Gases (1180). These consist of structures such as sandstone slabs, pavements and pillars up to 4 m in height which are formed by aggregated carbonate cement resulting from microbial oxidation of gas emissions. There are a number of geological features within the Irish Sea which have formed in such a way as to lend themselves to the occurrence of accumulations, seepages and/or escapes of gas. 
+
+This survey took place in February 2013  led by National Parks and Wildlife Service (NPWS) in conjunction with the Marine Institute (MI) on board the R.V. Celtic Explorer. The focus area was in the Irish Sea  within the Kish Bank Basin, approximately 32km off shore in depths of between 50m to 80m using the under water tv (UWTV) camera. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1892".
+    

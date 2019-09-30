@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1983> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1983";
+    sdo:identifier "ie.marine.data:dataset.1983";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17031 SMART UCC MSc Offshore Geological Exploration 2017";
+    sdo:name "CV17031 SMART UCC MSc Offshore Geological Exploration 2017";
+    dct:abstract "This training survey in Geological Exploration  took place on board the Marine Institute's R.V. Celtic Voyager in Cork Harbour. Three instructors delivered 6 days of training to postgraduate and undergraduate students from University College Cork (UCC) from the 24th to 29th of November 2017. These training surveys arise from a learning module in multidisciplinary offshore marine science developed by the Strategic Marine Alliance for Research and Training (SMART) in 2011 . ";
+    sdo:description "This training survey in Geological Exploration  took place on board the Marine Institute's R.V. Celtic Voyager in Cork Harbour. Three instructors delivered 6 days of training to postgraduate and undergraduate students from University College Cork (UCC) from the 24th to 29th of November 2017. These training surveys arise from a learning module in multidisciplinary offshore marine science developed by the Strategic Marine Alliance for Research and Training (SMART) in 2011 . ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1983".
+    

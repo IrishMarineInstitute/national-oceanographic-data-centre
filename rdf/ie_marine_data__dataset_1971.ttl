@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1971> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1971";
+    sdo:identifier "ie.marine.data:dataset.1971";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17035 PSE Kinsale Energy Survey";
+    sdo:name "CV17035 PSE Kinsale Energy Survey";
+    dct:abstract "A 3 day PSE Kinsale Energy Ltd. survey which chartered the Marine Institute's R.V. Celtic Voyager to carry out an environmental survey inthe Kinsale gas field in April 2017.";
+    sdo:description "A 3 day PSE Kinsale Energy Ltd. survey which chartered the Marine Institute's R.V. Celtic Voyager to carry out an environmental survey inthe Kinsale gas field in April 2017.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1971".
+    

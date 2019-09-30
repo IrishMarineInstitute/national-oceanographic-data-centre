@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2759> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2759";
+    sdo:identifier "ie.marine.data:dataset.2759";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Greencastle Codling Protected Area ";
+    sdo:name "Greencastle Codling Protected Area ";
+    dct:abstract "Designated protection area for codling species near Malin Head. Protected zone represents seasonal closure of the traditional cod fishing grounds off Greencastle, Co. Donegal. Data includes the ICES statistical rectangles overlapping protected zone designation from fisheries bulletin report.";
+    sdo:description "Designated protection area for codling species near Malin Head. Protected zone represents seasonal closure of the traditional cod fishing grounds off Greencastle, Co. Donegal. Data includes the ICES statistical rectangles overlapping protected zone designation from fisheries bulletin report.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2759".
+    

@@ -1,0 +1,39 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1030> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1030";
+    sdo:identifier "ie.marine.data:dataset.1030";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0706 INFOMAR Seabed Survey";
+    sdo:name "CE0706 INFOMAR Seabed Survey";
+    dct:abstract "The INtegrated Mapping FOr the Sustainable Development of Ireland’s MArine Resource (INFOMAR) programme is a joint venture between the Geological Survey of Ireland (GSI) and the Marine Institute (MI). The programme is a successor to the Irish National Seabed Survey (INSS) and concentrates on creating a range of integrated mapping products of the physical, chemical and biological features of the seabed in the near-shore area.
+
+This cruise took place on board the R.V. Celtic Explorer in April/May 2007 in the North East Atlantic Ocean in an area offshore the Dingle peninsula, Co. Kerry.  
+
+Surveys conducted include:
+Multibeam Echo Sounder (MBES) hydrographic survey to International Hydrographic Organisation (IHO) Order 1a standard. 
+Bathymetry survey: to produce bathymetry shaded relief and backscatter mosaic products which provide depth, seabed features and seabed hardness information. 
+Sub Bottom Profiler (SBP) survey: to acquire data of the shallow (up to 30 metres) sub seabed to determine the existence of buried objects and ascertain the sub-seabed character. 
+
+182 survey lines, cross lines and infill lines were completed. A total of 10 Sound Velocity profiles (SVPs), 11 Moving Vessel Profile (MVP) casts and 25 Conductivity Temperature Depth (CTD)  casts (including a completed transect) were taken. A total of 49 stations were sampled. At each station 4 grabs were taken; 3 for biological analysis and 1 for geochemical analysis. An area of 2899 km2 was covered during this survey. 
+
+No Marine Mammal Observer was on board so no cetacean recordings were logged. ";
+    sdo:description "The INtegrated Mapping FOr the Sustainable Development of Ireland’s MArine Resource (INFOMAR) programme is a joint venture between the Geological Survey of Ireland (GSI) and the Marine Institute (MI). The programme is a successor to the Irish National Seabed Survey (INSS) and concentrates on creating a range of integrated mapping products of the physical, chemical and biological features of the seabed in the near-shore area.
+
+This cruise took place on board the R.V. Celtic Explorer in April/May 2007 in the North East Atlantic Ocean in an area offshore the Dingle peninsula, Co. Kerry.  
+
+Surveys conducted include:
+Multibeam Echo Sounder (MBES) hydrographic survey to International Hydrographic Organisation (IHO) Order 1a standard. 
+Bathymetry survey: to produce bathymetry shaded relief and backscatter mosaic products which provide depth, seabed features and seabed hardness information. 
+Sub Bottom Profiler (SBP) survey: to acquire data of the shallow (up to 30 metres) sub seabed to determine the existence of buried objects and ascertain the sub-seabed character. 
+
+182 survey lines, cross lines and infill lines were completed. A total of 10 Sound Velocity profiles (SVPs), 11 Moving Vessel Profile (MVP) casts and 25 Conductivity Temperature Depth (CTD)  casts (including a completed transect) were taken. A total of 49 stations were sampled. At each station 4 grabs were taken; 3 for biological analysis and 1 for geochemical analysis. An area of 2899 km2 was covered during this survey. 
+
+No Marine Mammal Observer was on board so no cetacean recordings were logged. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1030".
+    

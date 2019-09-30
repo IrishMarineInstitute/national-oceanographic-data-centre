@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_867> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.867";
+    sdo:identifier "ie.marine.data:dataset.867";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "INFOMAR Sound Velocity Profile";
+    sdo:name "INFOMAR Sound Velocity Profile";
+    dct:abstract "A sound velocity profile (SVP) shows the speed of sound in water at different vertical levels.  SVPs are taken to calibrate the multibeam systems as they are acquiring data. It can be viewed in tabular form, with pairs of columns corresponding to ocean depth and the speed of sound at that depth, respectively or as a plot of the speed of sound in the ocean as a function of depth, where the vertical axis corresponds to the depth and the horizontal axis corresponds to the sound speed. By convention, the horizontal axis is placed at the top of the plot, and the vertical axis is labeled with values which increase from top to bottom, thus reproducing visually the ocean from its surface downward.";
+    sdo:description "A sound velocity profile (SVP) shows the speed of sound in water at different vertical levels.  SVPs are taken to calibrate the multibeam systems as they are acquiring data. It can be viewed in tabular form, with pairs of columns corresponding to ocean depth and the speed of sound at that depth, respectively or as a plot of the speed of sound in the ocean as a function of depth, where the vertical axis corresponds to the depth and the horizontal axis corresponds to the sound speed. By convention, the horizontal axis is placed at the top of the plot, and the vertical axis is labeled with values which increase from top to bottom, thus reproducing visually the ocean from its surface downward.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.867".
+    

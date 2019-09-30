@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2776> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2776";
+    sdo:identifier "ie.marine.data:dataset.2776";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Marine Institute Tide Prediction ";
+    sdo:name "Marine Institute Tide Prediction ";
+    dct:abstract "Tidal predictions are generated from measured data via the Irish National Tide Gauge Network and via modelled data from the MI operational hydrodynamic model. Tidal prediction is a calculation of future tide ranges based on available oceanographic parameters. Users can select a station and datetime within the next 2 years for the tidal prediction using the menus available. Water Level is sea surface height above local Lowest Astronomical Tide measured in metres.";
+    sdo:description "Tidal predictions are generated from measured data via the Irish National Tide Gauge Network and via modelled data from the MI operational hydrodynamic model. Tidal prediction is a calculation of future tide ranges based on available oceanographic parameters. Users can select a station and datetime within the next 2 years for the tidal prediction using the menus available. Water Level is sea surface height above local Lowest Astronomical Tide measured in metres.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2776".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1870> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1870";
+    sdo:identifier "ie.marine.data:dataset.1870";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0621 M1 Weather Buoy Service Survey";
+    sdo:name "CE0621 M1 Weather Buoy Service Survey";
+    dct:abstract "M1 weather buoy service survey in the North Atlantic Ocean.";
+    sdo:description "M1 weather buoy service survey in the North Atlantic Ocean.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1870".
+    

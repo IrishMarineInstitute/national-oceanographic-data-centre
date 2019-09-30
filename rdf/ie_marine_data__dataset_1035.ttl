@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1035> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1035";
+    sdo:identifier "ie.marine.data:dataset.1035";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE15011 Mapping the deep: the application of predictively modelled maps to European spatial planning survey";
+    sdo:name "CE15011 Mapping the deep: the application of predictively modelled maps to European spatial planning survey";
+    dct:abstract "This inter-institutional survey, led by National University of Ireland, Galway (NUIG), took place in summer 2015 on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean, the main focus area being the Porcupine, Seabight and Rockall Bank.  The survey was carried out as a large scale habitat suitability validation survey, and also for monitoring of vulnerable marine ecosystems required as part of the management of Special Areas of Conservation and under the Marine Strategy Framework Directive.
+
+ROV (remotely operated vehicle) Holland 1 was used to survey selected locations and collect coral specimens. CTD (conductivity-temperature-depth) sampling was also conducted. ";
+    sdo:description "This inter-institutional survey, led by National University of Ireland, Galway (NUIG), took place in summer 2015 on board the Marine Institute's R.V. Celtic Explorer in the North East Atlantic Ocean, the main focus area being the Porcupine, Seabight and Rockall Bank.  The survey was carried out as a large scale habitat suitability validation survey, and also for monitoring of vulnerable marine ecosystems required as part of the management of Special Areas of Conservation and under the Marine Strategy Framework Directive.
+
+ROV (remotely operated vehicle) Holland 1 was used to survey selected locations and collect coral specimens. CTD (conductivity-temperature-depth) sampling was also conducted. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1035".
+    

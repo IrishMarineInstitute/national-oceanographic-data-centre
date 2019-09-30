@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1948> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1948";
+    sdo:identifier "ie.marine.data:dataset.1948";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17023 INFOMAR Seabed Survey";
+    sdo:name "CV17023 INFOMAR Seabed Survey";
+    dct:abstract "The INtegrated Mapping FOr the Sustainable Development of Ireland’s MArine Resource (INFOMAR) programme is a joint venture between the Geological Survey of Ireland (GSI) and the Marine Institute (MI). The programme is a successor to the Irish National Seabed Survey (INSS) and concentrates on creating a range of integrated mapping products of the physical, chemical and biological features of the seabed in the near-shore area.
+
+This survey took place on board the RV Celtic Voyager in August/September 2017 in the Celtic Sea, offshore Waterford and Wexford.  Two discrete survey areas were mapped.  The smallest of these, a bad weather contingency area is due south of the entrance to Cork Harbour and the larger one approximately 60 km due east of this. Approximately 983 km2 of seabed was surveyed in total. ";
+    sdo:description "The INtegrated Mapping FOr the Sustainable Development of Ireland’s MArine Resource (INFOMAR) programme is a joint venture between the Geological Survey of Ireland (GSI) and the Marine Institute (MI). The programme is a successor to the Irish National Seabed Survey (INSS) and concentrates on creating a range of integrated mapping products of the physical, chemical and biological features of the seabed in the near-shore area.
+
+This survey took place on board the RV Celtic Voyager in August/September 2017 in the Celtic Sea, offshore Waterford and Wexford.  Two discrete survey areas were mapped.  The smallest of these, a bad weather contingency area is due south of the entrance to Cork Harbour and the larger one approximately 60 km due east of this. Approximately 983 km2 of seabed was surveyed in total. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1948".
+    

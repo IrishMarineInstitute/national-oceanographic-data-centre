@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2758> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2758";
+    sdo:identifier "ie.marine.data:dataset.2758";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Dredge Fishing Activity: Natura 2000 assessment v1.2 ";
+    sdo:name "Dredge Fishing Activity: Natura 2000 assessment v1.2 ";
+    dct:abstract "The dataset indicates the location of dredge fishing activity in Irish waters. Attributes when known include year, area, gear type, species, season, days per year (Days_Year), number of vessels (Vessels), vessel size (LOA_Max), gear units, classification, Area of polygon (Area_M2), and data type. This dataset was created in support of the Natura 2000 risk assessment in 2013. Please note that this dataset represents dredging activity for vessels <15 metres length in Irish waters.";
+    sdo:description "The dataset indicates the location of dredge fishing activity in Irish waters. Attributes when known include year, area, gear type, species, season, days per year (Days_Year), number of vessels (Vessels), vessel size (LOA_Max), gear units, classification, Area of polygon (Area_M2), and data type. This dataset was created in support of the Natura 2000 risk assessment in 2013. Please note that this dataset represents dredging activity for vessels <15 metres length in Irish waters.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2758".
+    

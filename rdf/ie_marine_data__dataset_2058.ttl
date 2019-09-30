@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2058> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2058";
+    sdo:identifier "ie.marine.data:dataset.2058";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV16020 ObSERVE I 2016 Survey";
+    sdo:name "CV16020 ObSERVE I 2016 Survey";
+    dct:abstract "ObSERVE programme survey in the North Atlantic Ocean.";
+    sdo:description "ObSERVE programme survey in the North Atlantic Ocean.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2058".
+    

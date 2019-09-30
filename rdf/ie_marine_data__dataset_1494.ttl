@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1494> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1494";
+    sdo:identifier "ie.marine.data:dataset.1494";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE17005 Anglerfish and Megrim Trawl Survey";
+    sdo:name "CE17005 Anglerfish and Megrim Trawl Survey";
+    dct:abstract "Leg four of the 2017 Irish Anglerfish and Megrim Survey (IAMS) took place from  8-17th April 2017 on RV Celtic Explorer in the North East Atlantic (International Council for the Exploration of the Sea (ICES) area 6a). Regions 6a and 7 are treated separately because they are comprise different assessment and Total Allowable Catch (TAC) areas. 
+
+The survey was conducted in order to obtain biomass estimates for anglerfish (Lophius piscatorius and L. budegassa) and establish an abundance index for megrim (Lepidorhombus whiffiaginis and L. boscii).
+
+The IAMS survey is coordinated with the Scottish Anglerfish and Megrim Survey (SIAMISS) and uses the same gear and fishing practices. For this survey, sampling stations were selected at random. The gear, based on a standard commercial otter trawl, was trawled at 3kn for one hour at each station. All fish and invertebrate species were sorted and weighed. Biological data recorded on fish species include sex, maturity and age. ";
+    sdo:description "Leg four of the 2017 Irish Anglerfish and Megrim Survey (IAMS) took place from  8-17th April 2017 on RV Celtic Explorer in the North East Atlantic (International Council for the Exploration of the Sea (ICES) area 6a). Regions 6a and 7 are treated separately because they are comprise different assessment and Total Allowable Catch (TAC) areas. 
+
+The survey was conducted in order to obtain biomass estimates for anglerfish (Lophius piscatorius and L. budegassa) and establish an abundance index for megrim (Lepidorhombus whiffiaginis and L. boscii).
+
+The IAMS survey is coordinated with the Scottish Anglerfish and Megrim Survey (SIAMISS) and uses the same gear and fishing practices. For this survey, sampling stations were selected at random. The gear, based on a standard commercial otter trawl, was trawled at 3kn for one hour at each station. All fish and invertebrate species were sorted and weighed. Biological data recorded on fish species include sex, maturity and age. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1494".
+    

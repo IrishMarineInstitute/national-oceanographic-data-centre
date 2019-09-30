@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2796> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2796";
+    sdo:identifier "ie.marine.data:dataset.2796";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Midnight surface water temperatures from the Mill Race, Furnace, Newport, Co. Mayo";
+    sdo:name "Midnight surface water temperatures from the Mill Race, Furnace, Newport, Co. Mayo";
+    dct:abstract "The Mill Race links upstream Lough Feeagh with Downstream Lough Furnace. The channel is short (200 metres) and shallow (<1 metre generally) and water temperatures measured here are very close to those measured on the surface waters of Lough Feeagh. This record has therefore, historically been used as a proxy for Lough Feeagh surface water temperature.   Between 1960-2004, a Negretti paper chart recorder was used, and data were extracted for midnight each day. The chart recorder was checked sporadically against a mercury thermometer. From 2004 to 2009, a StowAway TidbiT temperature data logger from Onset (TBI32-05+37) was used (https://www.onsetcomp.com/products/data-loggers/tbi32-0537 ), and data extracted for time step nearest midnight. Between 2010 and 2017, temperature was recorded using an Orpheus mini water level recorder (https://www.ott.com/products/water-level-1/ott-orpheus-mini-water-level-logger-3/  ) and data extracted for time step before midnight. ";
+    sdo:description "The Mill Race links upstream Lough Feeagh with Downstream Lough Furnace. The channel is short (200 metres) and shallow (<1 metre generally) and water temperatures measured here are very close to those measured on the surface waters of Lough Feeagh. This record has therefore, historically been used as a proxy for Lough Feeagh surface water temperature.   Between 1960-2004, a Negretti paper chart recorder was used, and data were extracted for midnight each day. The chart recorder was checked sporadically against a mercury thermometer. From 2004 to 2009, a StowAway TidbiT temperature data logger from Onset (TBI32-05+37) was used (https://www.onsetcomp.com/products/data-loggers/tbi32-0537 ), and data extracted for time step nearest midnight. Between 2010 and 2017, temperature was recorded using an Orpheus mini water level recorder (https://www.ott.com/products/water-level-1/ott-orpheus-mini-water-level-logger-3/  ) and data extracted for time step before midnight. ";
+    dct:issued "2018-12-19"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2796".
+    

@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2171> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2171";
+    sdo:identifier "ie.marine.data:dataset.2171";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Exploration Wells in the Irish Offshore";
+    sdo:name "Exploration Wells in the Irish Offshore";
+    dct:abstract "The location of 170 offshore wells drilled in the Irish offshore area. Offshore wells cover the Irish Exclusive Economic Zone including the Irish Sea, Saint Georges Channel, Celtic Sea and the North Atlantic Ocean. Offshore wells recorded between 1970 and 2013 available with this dataset. Offshore wells licensed and drilled by commercial oil and gas exploration companies. Offshore wells provide reporting information on the oil and gas exploration potential and experience around Ireland. Data available and provided by the Petroleum Affairs Division (PAD) of the Department of Communications, Climate Action and Environment (DCCAE). Data completed for the period 1970-2013.";
+    sdo:description "The location of 170 offshore wells drilled in the Irish offshore area. Offshore wells cover the Irish Exclusive Economic Zone including the Irish Sea, Saint Georges Channel, Celtic Sea and the North Atlantic Ocean. Offshore wells recorded between 1970 and 2013 available with this dataset. Offshore wells licensed and drilled by commercial oil and gas exploration companies. Offshore wells provide reporting information on the oil and gas exploration potential and experience around Ireland. Data available and provided by the Petroleum Affairs Division (PAD) of the Department of Communications, Climate Action and Environment (DCCAE). Data completed for the period 1970-2013.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2171".
+    

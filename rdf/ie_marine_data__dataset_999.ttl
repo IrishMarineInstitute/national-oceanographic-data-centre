@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_999> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.999";
+    sdo:identifier "ie.marine.data:dataset.999";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16019 Celtic Sea Herring Acoustic Survey";
+    sdo:name "CE16019 Celtic Sea Herring Acoustic Survey";
+    dct:abstract "This survey was conducted by the Marine Institute in Autumn 2016 as part of the annual Celtic Sea Herring Acoustic Survey. The aim of an acoustic survey is to determine the relative abundance of the target species. This information is then used to determine catch rates and management advice for the following year.
+
+In the southwest of Ireland and the Celtic Sea herring are an important commercial species. Since 2004 the acoustic survey has been carried out in October on-board the RV Celtic Explorer. The geographical confines of the annual 21 day survey have been modified in recent years to include areas to the south of the main winter spawning grounds in an effort to identify the whereabouts of winter spawning fish before the annual inshore spawning migration. 
+
+For biological sampling, a single pelagic midwater trawl was used. All components of the catch from the trawl hauls were sorted and weighed; fish and other taxa were identified to species level. Length measurements of herring, sprat and pilchard were taken. Acoustic data were collected using the Simrad EK60 scientific echosounder. Visual marine mammal and seabird surveys were also conducted. Oceanographic data (conductivity, temperature and depth (CTD)) was collected at preset stations.";
+    sdo:description "This survey was conducted by the Marine Institute in Autumn 2016 as part of the annual Celtic Sea Herring Acoustic Survey. The aim of an acoustic survey is to determine the relative abundance of the target species. This information is then used to determine catch rates and management advice for the following year.
+
+In the southwest of Ireland and the Celtic Sea herring are an important commercial species. Since 2004 the acoustic survey has been carried out in October on-board the RV Celtic Explorer. The geographical confines of the annual 21 day survey have been modified in recent years to include areas to the south of the main winter spawning grounds in an effort to identify the whereabouts of winter spawning fish before the annual inshore spawning migration. 
+
+For biological sampling, a single pelagic midwater trawl was used. All components of the catch from the trawl hauls were sorted and weighed; fish and other taxa were identified to species level. Length measurements of herring, sprat and pilchard were taken. Acoustic data were collected using the Simrad EK60 scientific echosounder. Visual marine mammal and seabird surveys were also conducted. Oceanographic data (conductivity, temperature and depth (CTD)) was collected at preset stations.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.999".
+    

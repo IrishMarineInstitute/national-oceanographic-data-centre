@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1135> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1135";
+    sdo:identifier "ie.marine.data:dataset.1135";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0911 Climate Change Survey";
+    sdo:name "CE0911 Climate Change Survey";
+    dct:abstract "Climate Change Survey: Oceanographic Survey undertaken under the Climate Change programme.";
+    sdo:description "Climate Change Survey: Oceanographic Survey undertaken under the Climate Change programme.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1135".
+    

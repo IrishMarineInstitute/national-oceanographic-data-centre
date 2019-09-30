@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1085> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1085";
+    sdo:identifier "ie.marine.data:dataset.1085";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE13008 Biodiscovery and Ecosystem Function of Canyons Survey";
+    sdo:name "CE13008 Biodiscovery and Ecosystem Function of Canyons Survey";
+    dct:abstract "This three week research survey led by National University of Ireland, Galway (NUIG) took place on board the Marine Institute's R.V. Celtic Explorer in June/July 2013. 
+
+The Biodiscovery and Ecosystem Function of Canyons Survey investigated a wide diversity of habitats and underwater communities in the Whittard Canyon system on the Irish Atlantic margin.  Whittard Canyon is one of many subsea canyons that incise the eastern margin of the North Atlantic. The research team used the Marine Institute’s Deepwater Remotely Operated Vehicle (ROV), Holland 1, to collect to specimens of coral, sponges, sediment samples and other marine organisms. CTD (Conductivity, Temperature and Depth) profiles were conducted at the ROV stations. ";
+    sdo:description "This three week research survey led by National University of Ireland, Galway (NUIG) took place on board the Marine Institute's R.V. Celtic Explorer in June/July 2013. 
+
+The Biodiscovery and Ecosystem Function of Canyons Survey investigated a wide diversity of habitats and underwater communities in the Whittard Canyon system on the Irish Atlantic margin.  Whittard Canyon is one of many subsea canyons that incise the eastern margin of the North Atlantic. The research team used the Marine Institute’s Deepwater Remotely Operated Vehicle (ROV), Holland 1, to collect to specimens of coral, sponges, sediment samples and other marine organisms. CTD (Conductivity, Temperature and Depth) profiles were conducted at the ROV stations. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1085".
+    

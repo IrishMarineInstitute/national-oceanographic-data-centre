@@ -1,0 +1,25 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_982> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.982";
+    sdo:identifier "ie.marine.data:dataset.982";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16007 Transatlantic Added Value Survey (Galway to Saint John's, Newfoundland)";
+    sdo:name "CE16007 Transatlantic Added Value Survey (Galway to Saint John's, Newfoundland)";
+    dct:abstract "This multidisciplinary 14 day transatlantic survey took place in Aptil 2017 on board the Marine Institute's R.V. Celtic Explorer. This research cruise is a survey that has been conducted annually since 2011 along a similar cruise track, with each year building on the body of work. The planned course intersects a persistent or persistently recurring eddy east of the Newfoundland Grand Banks at about 40W 48N. 
+
+This was the final cruise of a series of collaborative endeavours between the Fisheries and Marine Institute of Memorial University of Newfoundlandand National Univeristy of Ireland, Galway (NUIG) and  completed a valuable dataset on warm core eddies. An eddy is a circular current of water that diverges from the general patterns of ocean flow. The circular motion of the eddy causes greater mixing of water in the eddy, which brings nutrients that would ordinarily be in deep waters up into shallower waters that light can reach.     It provided opportunities to map portions of the midAtlantic ridge, a major aspiration of the Atlantic Ocean Research Alliance. 
+
+During the survey, the M6 Buoy was deployed, CTD (Conductivity-Temperature-Depth) sampling and plankton sampling was carried out, as well as trawling for cephalopod larvae/juveniles . Visual surveys for seabirds were also conducted. ";
+    sdo:description "This multidisciplinary 14 day transatlantic survey took place in Aptil 2017 on board the Marine Institute's R.V. Celtic Explorer. This research cruise is a survey that has been conducted annually since 2011 along a similar cruise track, with each year building on the body of work. The planned course intersects a persistent or persistently recurring eddy east of the Newfoundland Grand Banks at about 40W 48N. 
+
+This was the final cruise of a series of collaborative endeavours between the Fisheries and Marine Institute of Memorial University of Newfoundlandand National Univeristy of Ireland, Galway (NUIG) and  completed a valuable dataset on warm core eddies. An eddy is a circular current of water that diverges from the general patterns of ocean flow. The circular motion of the eddy causes greater mixing of water in the eddy, which brings nutrients that would ordinarily be in deep waters up into shallower waters that light can reach.     It provided opportunities to map portions of the midAtlantic ridge, a major aspiration of the Atlantic Ocean Research Alliance. 
+
+During the survey, the M6 Buoy was deployed, CTD (Conductivity-Temperature-Depth) sampling and plankton sampling was carried out, as well as trawling for cephalopod larvae/juveniles . Visual surveys for seabirds were also conducted. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.982".
+    

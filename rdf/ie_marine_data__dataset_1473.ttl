@@ -1,0 +1,29 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1473> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1473";
+    sdo:identifier "ie.marine.data:dataset.1473";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0620 INFOMAR Seabed Survey";
+    sdo:name "CE0620 INFOMAR Seabed Survey";
+    dct:abstract "The INtegrated Mapping FOr the Sustainable Development of Ireland’s MArine Resource (INFOMAR) programme is a joint venture between the Geological Survey of Ireland (GSI) and the Marine Institute (MI). The programme is a successor to the Irish National Seabed Survey (INSS) and concentrates on creating a range of integrated mapping products of the physical, chemical and biological features of the seabed in the near-shore area.
+
+This survey was conducted in August/September 2006 in the Atlantic Ocean in an area offshore Bantry Bay and Dunmanus Bay, Co. Kerry. 
+
+The survey was carried out to provide the INFOMAR project with Swathe Bathymetry, Single Beam Echo Sounder, Sub-Bottom Profiling, Magnetometer, Gravity and ground truthing data. Additionally a programme of grab and box corer sampling on previously surveyed areas in 2005 and 2004 were conducted, as well as a series of Conductivity Temperature Depth (CTD) transects.  A Marine Mammal Observer was also on-board to conduct visual surveys of cetaceans. 
+
+";
+    sdo:description "The INtegrated Mapping FOr the Sustainable Development of Ireland’s MArine Resource (INFOMAR) programme is a joint venture between the Geological Survey of Ireland (GSI) and the Marine Institute (MI). The programme is a successor to the Irish National Seabed Survey (INSS) and concentrates on creating a range of integrated mapping products of the physical, chemical and biological features of the seabed in the near-shore area.
+
+This survey was conducted in August/September 2006 in the Atlantic Ocean in an area offshore Bantry Bay and Dunmanus Bay, Co. Kerry. 
+
+The survey was carried out to provide the INFOMAR project with Swathe Bathymetry, Single Beam Echo Sounder, Sub-Bottom Profiling, Magnetometer, Gravity and ground truthing data. Additionally a programme of grab and box corer sampling on previously surveyed areas in 2005 and 2004 were conducted, as well as a series of Conductivity Temperature Depth (CTD) transects.  A Marine Mammal Observer was also on-board to conduct visual surveys of cetaceans. 
+
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1473".
+    

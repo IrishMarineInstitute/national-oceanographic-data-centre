@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1863> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1863";
+    sdo:identifier "ie.marine.data:dataset.1863";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0608  Marine Aerosol Production (MAP) Survey";
+    sdo:name "CE0608  Marine Aerosol Production (MAP) Survey";
+    dct:abstract "Primary marine aerosol production (MAP) is produced by the interaction between wind and waves. The wind drag at the sea surface creates waves. When the wind speeds exceeds a certain threshold, between 4 and 7 ms-1, the drag becomes so high that the waves break and air is entrained into the water. The air breaks up into bubbles which rise to the surface where they burst and produce sea spray aerosol. The sea spray source function (S3F) describes the sea spray flux per unit area and per unit of time, parameterized as function of environmental parameters such as wind speed and/or water temperature. One of the goals EU FP6 project MAP (Marine Aerosol Production) coordinated by the National University of Ireland, Galway (NUIG) is “to quantify the number and size flux of primary inorganic and organic marine sea-spray aerosol (PMA)”. Data to achieve this objective were collected during the MAP cruise on board the Marine Institute's R.V. Celtic Explorer in June-July 2006. Various types of experiments were conducted to provide data to derive the S3F. 
+
+For whitecap measurements, a mast on the foredeck was constructed and mounted to measure sea spray fluxes using eddy covariance. Containers on the foredeck contained sophisticated instrumentation for characterisation of atmospheric components relevant for the assessment of primary and secondary aerosol production: atmospheric trace gases and aerosol chemical and physical properties. A whitecap camera was also mounted to the railing of the Monkey deck of the vessel.";
+    sdo:description "Primary marine aerosol production (MAP) is produced by the interaction between wind and waves. The wind drag at the sea surface creates waves. When the wind speeds exceeds a certain threshold, between 4 and 7 ms-1, the drag becomes so high that the waves break and air is entrained into the water. The air breaks up into bubbles which rise to the surface where they burst and produce sea spray aerosol. The sea spray source function (S3F) describes the sea spray flux per unit area and per unit of time, parameterized as function of environmental parameters such as wind speed and/or water temperature. One of the goals EU FP6 project MAP (Marine Aerosol Production) coordinated by the National University of Ireland, Galway (NUIG) is “to quantify the number and size flux of primary inorganic and organic marine sea-spray aerosol (PMA)”. Data to achieve this objective were collected during the MAP cruise on board the Marine Institute's R.V. Celtic Explorer in June-July 2006. Various types of experiments were conducted to provide data to derive the S3F. 
+
+For whitecap measurements, a mast on the foredeck was constructed and mounted to measure sea spray fluxes using eddy covariance. Containers on the foredeck contained sophisticated instrumentation for characterisation of atmospheric components relevant for the assessment of primary and secondary aerosol production: atmospheric trace gases and aerosol chemical and physical properties. A whitecap camera was also mounted to the railing of the Monkey deck of the vessel.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1863".
+    

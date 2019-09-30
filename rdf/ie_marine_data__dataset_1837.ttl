@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1837> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1837";
+    sdo:identifier "ie.marine.data:dataset.1837";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0707 Mackerel Eggs Abundance Assessment Survey";
+    sdo:name "CE0707 Mackerel Eggs Abundance Assessment Survey";
+    dct:abstract "Every three years the International Council for the Exploration of the Sea (ICES) coordinates a series of mackerel and horse mackerel egg surveys covering the eastern Atlantic from Gibraltar to the north coast of Scotland between January and July. The aim of this survey programme is to assess the northeastern Atlantic mackerel and horse mackerel stock. The Marine Institute participates in this programme and covers stations in the Celtic Sea. 
+
+The survey was carried out in the Celtic Sea and West of Ireland, from 47° 45N to 55°45N, and from 6° 15W to 16° 15W. This covered ICES areas Via, VIb, VIIb, VIIc, VIIg, VIIh, VIIj, VIIk, VIIIa and VIIId, ,  taking place in July 2007 on board the R.V. Celtic Explorer. Plankton samples were collected at 88 stations, 7 fishing hauls were made to collect mackerel and horse mackerel samples for fecundity analysis. Samples were collected to ensure maximum temporal and geographical spread. CTD (conductivity-temperature-depth) sampling was also carried out for the Oceanography section of the Marine Institute.";
+    sdo:description "Every three years the International Council for the Exploration of the Sea (ICES) coordinates a series of mackerel and horse mackerel egg surveys covering the eastern Atlantic from Gibraltar to the north coast of Scotland between January and July. The aim of this survey programme is to assess the northeastern Atlantic mackerel and horse mackerel stock. The Marine Institute participates in this programme and covers stations in the Celtic Sea. 
+
+The survey was carried out in the Celtic Sea and West of Ireland, from 47° 45N to 55°45N, and from 6° 15W to 16° 15W. This covered ICES areas Via, VIb, VIIb, VIIc, VIIg, VIIh, VIIj, VIIk, VIIIa and VIIId, ,  taking place in July 2007 on board the R.V. Celtic Explorer. Plankton samples were collected at 88 stations, 7 fishing hauls were made to collect mackerel and horse mackerel samples for fecundity analysis. Samples were collected to ensure maximum temporal and geographical spread. CTD (conductivity-temperature-depth) sampling was also carried out for the Oceanography section of the Marine Institute.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1837".
+    

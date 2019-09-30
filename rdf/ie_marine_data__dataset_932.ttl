@@ -1,0 +1,19 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_932> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.932";
+    sdo:identifier "ie.marine.data:dataset.932";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0506 INSS Seabed Mapping Survey";
+    sdo:name "CE0506 INSS Seabed Mapping Survey";
+    dct:abstract "INSS Bathymetry Survey Atlantic Ocean. Ireland's territorial seabed reaches more than 600 miles out into the Atlantic Ocean to waters of more than 4,500 metres in depth. The objective of the Seabed Survey project has been to map the seabed of this area collecting bathymetry data and gain knowledge of the nature of the seabed and its overlying sediment.
+This particular cruise has concentrated in waters of Zone 1 in waters nearer the Irish coastline between 0 and 50m.";
+    sdo:description "INSS Bathymetry Survey Atlantic Ocean. Ireland's territorial seabed reaches more than 600 miles out into the Atlantic Ocean to waters of more than 4,500 metres in depth. The objective of the Seabed Survey project has been to map the seabed of this area collecting bathymetry data and gain knowledge of the nature of the seabed and its overlying sediment.
+This particular cruise has concentrated in waters of Zone 1 in waters nearer the Irish coastline between 0 and 50m.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.932".
+    

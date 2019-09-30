@@ -1,0 +1,19 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1146> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1146";
+    sdo:identifier "ie.marine.data:dataset.1146";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE14013 SMART AWI Summer School 2014 Survey";
+    sdo:name "CE14013 SMART AWI Summer School 2014 Survey";
+    dct:abstract "The training programme takes the original UNESCO IOC concept of Training through Research and adds additional elements that will enable students to gain the skills, knowledge and confidence necessary to participate in, and act as chief scientits on vessels within their own countries. It specifically aims to achieve the following: - to enable graduate researchers to acquite advanced practical skills and knowledge necessary to design, plan and acts as chief scientist on multidisciplinary marine research.
+";
+    sdo:description "The training programme takes the original UNESCO IOC concept of Training through Research and adds additional elements that will enable students to gain the skills, knowledge and confidence necessary to participate in, and act as chief scientits on vessels within their own countries. It specifically aims to achieve the following: - to enable graduate researchers to acquite advanced practical skills and knowledge necessary to design, plan and acts as chief scientist on multidisciplinary marine research.
+";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1146".
+    

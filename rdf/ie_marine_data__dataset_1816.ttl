@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1816> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1816";
+    sdo:identifier "ie.marine.data:dataset.1816";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0803 Ulster University Integrated Marine Training Survey";
+    sdo:name "CE0803 Ulster University Integrated Marine Training Survey";
+    dct:abstract "Ulster University training survey in the North Atlantic Ocean.";
+    sdo:description "Ulster University training survey in the North Atlantic Ocean.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1816".
+    

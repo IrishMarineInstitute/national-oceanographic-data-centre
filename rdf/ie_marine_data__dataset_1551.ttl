@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1551> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1551";
+    sdo:identifier "ie.marine.data:dataset.1551";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE16003 Mackerel Egg Survey 2016";
+    sdo:name "CE16003 Mackerel Egg Survey 2016";
+    dct:abstract "Every three years the International Council for the Exploration of the Sea (ICES) coordinates a series of mackerel and horse mackerel egg surveys covering the eastern Atlantic from Gibraltar to the north coast of Scotland between January and July. The aim of this survey programme is to assess the northeastern Atlantic mackerel and horse mackerel stock. The Marine Institute participates in this programme and covers stations in the Celtic Sea. 
+
+This survey was carried out in the Celtic Sea and Southwest of Ireland in February 2016 on board the R.V. Celtic Explorer. ";
+    sdo:description "Every three years the International Council for the Exploration of the Sea (ICES) coordinates a series of mackerel and horse mackerel egg surveys covering the eastern Atlantic from Gibraltar to the north coast of Scotland between January and July. The aim of this survey programme is to assess the northeastern Atlantic mackerel and horse mackerel stock. The Marine Institute participates in this programme and covers stations in the Celtic Sea. 
+
+This survey was carried out in the Celtic Sea and Southwest of Ireland in February 2016 on board the R.V. Celtic Explorer. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1551".
+    

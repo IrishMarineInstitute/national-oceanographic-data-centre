@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2755> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2755";
+    sdo:identifier "ie.marine.data:dataset.2755";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Atlas of Irish Groundfish Trawl Surveys ";
+    sdo:name "Atlas of Irish Groundfish Trawl Surveys ";
+    dct:abstract "The purpose of the atlas is to communicate the key results from the Irish Groundfish Survey programme which is carried out annually in the waters around Ireland, and the Deepwater Survey programme conducted 2006-2009. Data is presented in a concise, visual and non technical format and provides an overview of the distribution and abundance of adult and juvenile fish species in Irish waters. Atlas is aimed at those involved in fisheries, environmental policy and management, the fishing industry, environmental Non Government Organisations (NGOs), scientists and the general public. More technical details on the data and analysis is described within the Atlas. Quality information is available in the full metadata lineage.";
+    sdo:description "The purpose of the atlas is to communicate the key results from the Irish Groundfish Survey programme which is carried out annually in the waters around Ireland, and the Deepwater Survey programme conducted 2006-2009. Data is presented in a concise, visual and non technical format and provides an overview of the distribution and abundance of adult and juvenile fish species in Irish waters. Atlas is aimed at those involved in fisheries, environmental policy and management, the fishing industry, environmental Non Government Organisations (NGOs), scientists and the general public. More technical details on the data and analysis is described within the Atlas. Quality information is available in the full metadata lineage.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2755".
+    

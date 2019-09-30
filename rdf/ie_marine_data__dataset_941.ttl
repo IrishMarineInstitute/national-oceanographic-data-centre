@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_941> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.941";
+    sdo:identifier "ie.marine.data:dataset.941";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0601 Fisheries Acoustic Survey";
+    sdo:name "CE0601 Fisheries Acoustic Survey";
+    dct:abstract "Marine Institute Herring Acousic Survey: The northwest and west coast herring acoustic survey programme was first implemented in 1994. Prior to this a larval survey programme was carried out between 1981 and 1986. The stock in this area is composed of 2 spawning components (autum and winter), covering a large geographical area. Spawning may extend over a 4 month period from late September through to late March (Molloy et al, 2000). Traditionally fishing activity has targeted spawning and pre-spawning aggrefations, no summer matjie fishery exists in this area, as is the case in the Celtic Sea. A project is currently underway to describe stock structure and discrimination of herring around Ireland. The results of this project may have implications for the design of this survey and for the stock assessment. This is the second survey of this stock carried out by the Celtic Explorer.";
+    sdo:description "Marine Institute Herring Acousic Survey: The northwest and west coast herring acoustic survey programme was first implemented in 1994. Prior to this a larval survey programme was carried out between 1981 and 1986. The stock in this area is composed of 2 spawning components (autum and winter), covering a large geographical area. Spawning may extend over a 4 month period from late September through to late March (Molloy et al, 2000). Traditionally fishing activity has targeted spawning and pre-spawning aggrefations, no summer matjie fishery exists in this area, as is the case in the Celtic Sea. A project is currently underway to describe stock structure and discrimination of herring around Ireland. The results of this project may have implications for the design of this survey and for the stock assessment. This is the second survey of this stock carried out by the Celtic Explorer.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.941".
+    

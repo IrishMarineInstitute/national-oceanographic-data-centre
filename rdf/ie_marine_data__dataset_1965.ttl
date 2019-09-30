@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1965> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1965";
+    sdo:identifier "ie.marine.data:dataset.1965";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17033 Celtic Voyager Trials";
+    sdo:name "CV17033 Celtic Voyager Trials";
+    dct:abstract "This two day survey took place in  March 2017 on board the R.V. Celtic Voyager off the coast of Co. Cork to carry out trials the under water television (UWTV)  equipment and INFOMAR gear. ";
+    sdo:description "This two day survey took place in  March 2017 on board the R.V. Celtic Voyager off the coast of Co. Cork to carry out trials the under water television (UWTV)  equipment and INFOMAR gear. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1965".
+    

@@ -1,0 +1,43 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1127> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1127";
+    sdo:identifier "ie.marine.data:dataset.1127";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0906 North-west Blue Whiting Acoustic Survey";
+    sdo:name "CE0906 North-west Blue Whiting Acoustic Survey";
+    dct:abstract "An acoustic survey targeting blue whiting (Micromesistius poutassou) spawning and post spawning aggregations in the north east Atlantic in 2009.
+
+Spawning takes place from January through to April along the shelf edge from the southern Porcupine Bank area northwards to the Faroe/Shetland Ridge including offshore areas as the Rosemary, Hatton and Rockall Banks. Peak spawning occurs between mid-March and mid April and acoustic surveys are timed to occur during this phase. To facilitate a more coordinated spatio-temporal approach to the survey participating countries meet
+annually to discuss survey methods and define target areas at the ICES led Planning Group of Northern Pelagic Ecosystem Surveys (PGNAPES).
+
+The survey covered the core spawning area of blue whiting to the west of Scotland and the Western Isles. The survey track commenced off the northwest coast of Ireland and progressed northwards to the Hebrides using east-west transects up to 300nmi long. Westward extension reached the western flanks of the Rockall Bank. The survey was carried out in continuity from south to north with no scheduled or unforeseen disruptions.
+
+The 2009 survey was part of an International collaborative survey using the vessels RV Celtic Explorer (Ireland), RV Fridtjof Nansen (Russia), RV Tridens (Netherlands) and the RV Magnus Heinason (Faroes) and the FV Brennholm (Norwegian commercial charter).
+
+A parallel transect design was adopted with transects running perpendicular to the lines of bathymetry where possible. Acoustic data were collected using the Simrad ER60 scientific echosounder. Cruising speed was  maintained at a maximum of 10 Kts (knots) where possible.
+
+Biological sampling was done using a single pelagic midwater trawl. All components of the catch from the trawl hauls were sorted and weighed; fish and other taxa were identified to species level. Age, length, weight, sex, stomach fullness and maturity data were recorded for individual blue whiting within a random 50 fish sample from each trawl haul with a further 100 random length and weight measurements were also taken. All blue whiting were aged onboard. 
+
+Oceanographic data on temperature, depth and salinity (CTD) were collected at set stations. ";
+    sdo:description "An acoustic survey targeting blue whiting (Micromesistius poutassou) spawning and post spawning aggregations in the north east Atlantic in 2009.
+
+Spawning takes place from January through to April along the shelf edge from the southern Porcupine Bank area northwards to the Faroe/Shetland Ridge including offshore areas as the Rosemary, Hatton and Rockall Banks. Peak spawning occurs between mid-March and mid April and acoustic surveys are timed to occur during this phase. To facilitate a more coordinated spatio-temporal approach to the survey participating countries meet
+annually to discuss survey methods and define target areas at the ICES led Planning Group of Northern Pelagic Ecosystem Surveys (PGNAPES).
+
+The survey covered the core spawning area of blue whiting to the west of Scotland and the Western Isles. The survey track commenced off the northwest coast of Ireland and progressed northwards to the Hebrides using east-west transects up to 300nmi long. Westward extension reached the western flanks of the Rockall Bank. The survey was carried out in continuity from south to north with no scheduled or unforeseen disruptions.
+
+The 2009 survey was part of an International collaborative survey using the vessels RV Celtic Explorer (Ireland), RV Fridtjof Nansen (Russia), RV Tridens (Netherlands) and the RV Magnus Heinason (Faroes) and the FV Brennholm (Norwegian commercial charter).
+
+A parallel transect design was adopted with transects running perpendicular to the lines of bathymetry where possible. Acoustic data were collected using the Simrad ER60 scientific echosounder. Cruising speed was  maintained at a maximum of 10 Kts (knots) where possible.
+
+Biological sampling was done using a single pelagic midwater trawl. All components of the catch from the trawl hauls were sorted and weighed; fish and other taxa were identified to species level. Age, length, weight, sex, stomach fullness and maturity data were recorded for individual blue whiting within a random 50 fish sample from each trawl haul with a further 100 random length and weight measurements were also taken. All blue whiting were aged onboard. 
+
+Oceanographic data on temperature, depth and salinity (CTD) were collected at set stations. ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1127".
+    

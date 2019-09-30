@@ -1,0 +1,21 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1701> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1701";
+    sdo:identifier "ie.marine.data:dataset.1701";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE12008 NERC (The Natural Environment Research Council ) Sea Level 2012";
+    sdo:name "CE12008 NERC (The Natural Environment Research Council ) Sea Level 2012";
+    dct:abstract "The British Isles is one of the most intensively studied regions on the planet for reconstructing patterns of past sea-level change.  A combination of a relatively small British and Irish Ice Sheet, located adjacent to the much larger Fennoscandanavian Ice Sheet, means that the spatially complex RSL records observed at different locations in the UK and Ireland provide a rich database for resolving the processes that control global to local sea-level change.
+
+This vibrocoring geological survey sought to address the issue of the RSL lowstand in the western British Isles. This survey took place in June 2012 on board the Marine Institute's R.V. Celtic Explorer. A total of 148 vibrocores were obtained.  ";
+    sdo:description "The British Isles is one of the most intensively studied regions on the planet for reconstructing patterns of past sea-level change.  A combination of a relatively small British and Irish Ice Sheet, located adjacent to the much larger Fennoscandanavian Ice Sheet, means that the spatially complex RSL records observed at different locations in the UK and Ireland provide a rich database for resolving the processes that control global to local sea-level change.
+
+This vibrocoring geological survey sought to address the issue of the RSL lowstand in the western British Isles. This survey took place in June 2012 on board the Marine Institute's R.V. Celtic Explorer. A total of 148 vibrocores were obtained.  ";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1701".
+    

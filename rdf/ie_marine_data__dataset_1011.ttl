@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_1011> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.1011";
+    sdo:identifier "ie.marine.data:dataset.1011";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CE0702 Ocean Stations Survey";
+    sdo:name "CE0702 Ocean Stations Survey";
+    dct:abstract "This oceanographic survey, led by the Marine Institute, was conducted from 24th January - 2nd February 2007 on board the R.V. Celtic Explorer. The focus area was the Rockall Trough.";
+    sdo:description "This oceanographic survey, led by the Marine Institute, was conducted from 24th January - 2nd February 2007 on board the R.V. Celtic Explorer. The focus area was the Rockall Trough.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.1011".
+    

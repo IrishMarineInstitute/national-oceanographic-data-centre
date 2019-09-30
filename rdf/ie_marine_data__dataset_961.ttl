@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_961> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.961";
+    sdo:identifier "ie.marine.data:dataset.961";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "CV17029 SMART UCC CM Spring 2016 Part 2 Survey";
+    sdo:name "CV17029 SMART UCC CM Spring 2016 Part 2 Survey";
+    dct:abstract "SMART UCC training survey  in Cork Harbour";
+    sdo:description "SMART UCC training survey  in Cork Harbour";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.961".
+    

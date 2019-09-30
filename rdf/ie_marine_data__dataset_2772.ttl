@@ -1,0 +1,17 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2772> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2772";
+    sdo:identifier "ie.marine.data:dataset.2772";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Connemara 3D Oceanographic Model ";
+    sdo:name "Connemara 3D Oceanographic Model ";
+    dct:abstract "The Connemara 3D Model provides data for Galway Bay on the oceanographic parameters: Sea Temperature (degreeCelsius), Salinity (Salinity, PSU), Sea Water X Velocity (m/sec) and Sea Water X Velocity (m/sec). The ROMS model uses the sigma vertical coordinate system which is terrain-following (ie. thickness of levels vary with total water depth within the model domain). Thus in the Connemara model the altitude dimension does not refer to depth, but to model level where 1 is the bottom level and 20 is the level at the sea surface. Level 10/11 is approximately mid water but the other model levels cannot be ascribed to any single depth level. Users of the download service can choose a datetime, parameter(s), altitude range (choose one altitude only for png and geotiff) and output file type. Note that at any one time, model data is available for the previous 30 days and 3 days into the future.";
+    sdo:description "The Connemara 3D Model provides data for Galway Bay on the oceanographic parameters: Sea Temperature (degreeCelsius), Salinity (Salinity, PSU), Sea Water X Velocity (m/sec) and Sea Water X Velocity (m/sec). The ROMS model uses the sigma vertical coordinate system which is terrain-following (ie. thickness of levels vary with total water depth within the model domain). Thus in the Connemara model the altitude dimension does not refer to depth, but to model level where 1 is the bottom level and 20 is the level at the sea surface. Level 10/11 is approximately mid water but the other model levels cannot be ascribed to any single depth level. Users of the download service can choose a datetime, parameter(s), altitude range (choose one altitude only for png and geotiff) and output file type. Note that at any one time, model data is available for the previous 30 days and 3 days into the future.";
+    dct:issued "2018-11-29"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2772".
+    
