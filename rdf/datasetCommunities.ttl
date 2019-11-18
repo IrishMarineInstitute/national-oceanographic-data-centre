@@ -1,0 +1,33 @@
+@prefix ieMarineDataCentre: <http://purl.org/ie/national-marine-data-centre/>.
+@prefix datasetCommunities: <http://purl.org/ie/national-marine-data-centre/datasetCommunities>.
+@prefix organisation: <http://purl.org/ie/national-marine-data-centre/organisation>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix pav: <http://purl.org/pav/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+datasetCommunities:dataset a rdfs:Class;
+	rdfs:label "Dataset"@en;
+	rdfs:comment "A Dataset may combine many different parameters, collected at multiple times and locations, using different instruments. A Dataset is linked to its storage and retention information and the classification, including licensing, associated with the Dataset under a machine actionable data policy. This machine actionable data policy is derived from a set of business rules associated with the data classifications laid out in the institutional data policy. Therefore, a Dataset which is marked as containing personal data, as defined by the European General Data Protection Regulation or business sensitive data will not be made publicly available. Examples of a Dataset include an institution's entire research vessel Conductivity-Temperature-Depth profile archive; or a spatial dataset such as the distribution and abundance of cetacean species within an exclusive economic zone."@en;
+	pav:lastUpdateOn "2019-11-18"^^xsd:Date;
+	pav:authoredOn "2019-11-18"^^xsd:Date;
+	pav:version "1";
+	dct:valid "True"@en;
+	pav:authoredBy organisation:16;
+	pav:createdBy organisation:16.
+	
+datasetCommunities:datasetCollectionActivity a rdfs:Class;
+	rdfs:subClassOf datasetCommunities:dataset;
+	rdfs:label "Dataset Collection Activity"@en;
+	rdfs:comment "A Dataset Collection Activity specialises the class of Dataset in that it has a mandatory end date and also a mandatory platform element, which indicates the vehicles, structures or organisms capable of bearing instruments or tools for the collection of physical, chemical, geological or biological samples or data. Examples of a Dataset Collection Activity include a research vessel survey or cruise; or the deployment of a moored buoy at a specific location for a given time period. "@en;
+	pav:lastUpdateOn "2019-11-18"^^xsd:Date;
+	pav:authoredOn "2019-11-18"^^xsd:Date;
+	pav:version "1";
+	dct:valid "True"@en;
+	pav:authoredBy organisation:16;
+	pav:createdBy organisation:16.
+
+gl:Cruise rdfs:subClassOf datasetCommunities:datasetCollectionActivity.
+
+gl:Dive rdfs:subClassOf datasetCommunities:datasetCollectionActivity.

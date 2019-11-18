@@ -58,7 +58,7 @@ h2 {
 
 .header{
 	vertical-align: middle;
-	background-color: #00a4d1;
+	background-color: #94b1b1;
 	border-bottom: 1px solid #e7f5fd;
 	color: white;
 	font-size: 18pt;
@@ -74,8 +74,8 @@ h2 {
 	padding-left: 10%
 }
 
-.footer{
-	background-color: #c0e6f9;
+footer{
+	background-color: #94b1b1;
 	color: #024586;
 	padding: 24px 12.5% 24px 12.5%;
 }
@@ -101,6 +101,17 @@ h2 {
 	display: inline-block;
 	width: 49%;
 	text-align:center;
+}
+
+.topLevelProvenance{
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 8px;
+}
+
+.pageProvenance{
+	font-style:italic;
+	font-size: smaller;
 }
 
 @font-face {

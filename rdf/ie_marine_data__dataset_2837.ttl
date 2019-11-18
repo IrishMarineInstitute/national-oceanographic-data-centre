@@ -1,0 +1,31 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix sdo: <http://schema.org/>.
+
+<http://data.marine.ie/ie_marine_data__dataset_2837> a dcat:Dataset, gl:Dataset, sdo:Dataset;
+    dcat:identifier "ie.marine.data:dataset.2837";
+    sdo:identifier "ie.marine.data:dataset.2837";
+    gl:hasIdentifier <#geolinkIdentifier>;
+    dct:title "Galway Bay Observatory CTD+Oxygen Data (Raw)";
+    sdo:name "Galway Bay Observatory CTD+Oxygen Data (Raw)";
+    dct:abstract "The SmartBay Observatory in Galway Bay is an underwater observatory which uses cameras, probes and sensors to permit continuous and remote live underwater monitoring. It was installed in 2015 on the seafloor 1.5km off the coast of Spiddal, Co. Galway, Ireland at a depth of 20-25m. Underwater observatories allow ocean researchers unique real-time access to monitor ongoing changes in the marine environment. The Galway Bay Observatory is an important contribution by Ireland to the growing global network of real-time data capture systems deployed in the ocean.
+
+Data relating to the marine environment at the Galway Observatory site is transferred in real-time through a fibre optic telecommunications cable to the Marine Institute headquarters and then made publically available on the internet. The data includes a live video stream, the depth of the observatory node, the water temperature and salinity, and estimates of the chlorophyll and turbidity levels in the water which give an indication of the volume of phytoplankton and other particles, such as sediment, in the water. Maintenance take place on the observatory every 18 to 24 months. 
+
+This CTD (Conductivity, Temperature, Depth) and Oxygen Dataset comprises of the raw data that is collected from the Galway Observatory site using an Idronaut Ocean-Seven 304 plus Conductivity-Temperature-Depth (CTD) sensor probe. The sensor measures the temperature and conductivity of the seawater. The conductivity is used to calculate an estimate of the salinity. The pressure exerted by the seawater above is used to calculate the depth of the sensor, and these parameters are also used to estimate the speed of sound within the sea. The Ocean-Seven 304 Plus CTD has also been equipped with a polarographic IDRONAUT dissolved oxygen sensor which measure the dissolved oxygen concentration of the seawater. The sensor is deployed on the EMSO Smartbay Cable End Equipment Node in Galway Bay in approx. 25m depth of water.
+
+The raw data are stored in txt (ASCII) files generated once a minute with a reading every second. Text files contain ASCII variables separated by tabs. These files may be read by virtually any text editor or spreadsheet program. When interpreted as tabular/spreadsheet data, tabs are equivalent to column divisions, and newline characters are row divisions. For additional information please refer to http://spiddal.marine.ie/data.html 
+";
+    sdo:description "The SmartBay Observatory in Galway Bay is an underwater observatory which uses cameras, probes and sensors to permit continuous and remote live underwater monitoring. It was installed in 2015 on the seafloor 1.5km off the coast of Spiddal, Co. Galway, Ireland at a depth of 20-25m. Underwater observatories allow ocean researchers unique real-time access to monitor ongoing changes in the marine environment. The Galway Bay Observatory is an important contribution by Ireland to the growing global network of real-time data capture systems deployed in the ocean.
+
+Data relating to the marine environment at the Galway Observatory site is transferred in real-time through a fibre optic telecommunications cable to the Marine Institute headquarters and then made publically available on the internet. The data includes a live video stream, the depth of the observatory node, the water temperature and salinity, and estimates of the chlorophyll and turbidity levels in the water which give an indication of the volume of phytoplankton and other particles, such as sediment, in the water. Maintenance take place on the observatory every 18 to 24 months. 
+
+This CTD (Conductivity, Temperature, Depth) and Oxygen Dataset comprises of the raw data that is collected from the Galway Observatory site using an Idronaut Ocean-Seven 304 plus Conductivity-Temperature-Depth (CTD) sensor probe. The sensor measures the temperature and conductivity of the seawater. The conductivity is used to calculate an estimate of the salinity. The pressure exerted by the seawater above is used to calculate the depth of the sensor, and these parameters are also used to estimate the speed of sound within the sea. The Ocean-Seven 304 Plus CTD has also been equipped with a polarographic IDRONAUT dissolved oxygen sensor which measure the dissolved oxygen concentration of the seawater. The sensor is deployed on the EMSO Smartbay Cable End Equipment Node in Galway Bay in approx. 25m depth of water.
+
+The raw data are stored in txt (ASCII) files generated once a minute with a reading every second. Text files contain ASCII variables separated by tabs. These files may be read by virtually any text editor or spreadsheet program. When interpreted as tabular/spreadsheet data, tabs are equivalent to column divisions, and newline characters are row divisions. For additional information please refer to http://spiddal.marine.ie/data.html 
+";
+    dct:issued "2019-09-20"^^xsd:date.
+
+<#geolinkIdentifier> a gl:Identifer;
+        gl:hasIdentifierValue "ie.marine.data:dataset.2837".
+    

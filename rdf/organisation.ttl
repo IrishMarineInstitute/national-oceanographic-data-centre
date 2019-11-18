@@ -1,0 +1,25 @@
+@prefix organisation: <http://purl.org/ie/national-marine-data-centre/organisation>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix sdn-edmo: <https://edmo.seadatanet.org/>.
+@prefix gl: <http://schema.geolink.org/1.0/base/main#>.
+@prefix org: <http://www.w3.org/ns/org#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sdo: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+organisation:16 a prov:Agent, dct:Agent, gl:Organization, org:Organization;
+	skos:prefLabel "Marine Institute"@en, "Foras na Mara"@ga;
+	org:hasPrimarySite[
+		a org:Site;
+		org:hasAddress [
+			a sdo:PostalAddress;
+			sdo:streetAddress "Rinville"@en;
+			sdo:addressLocality "Oranmore"@en;
+			sdo:addressRegion "Galway"@en;
+			sdo:addressCountry "IE";
+			sdo:postalCode "H91 R673"
+		]
+	];
+	rdfs:seeAlso <https://www.marine.ie>;
+	org:identifier "396"^^sdn-edmo:edmo.
