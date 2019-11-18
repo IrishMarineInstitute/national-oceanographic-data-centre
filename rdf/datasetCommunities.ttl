@@ -1,6 +1,5 @@
-@prefix ieMarineDataCentre: <http://purl.org/ie/national-marine-data-centre/>.
-@prefix datasetCommunities: <http://purl.org/ie/national-marine-data-centre/datasetCommunities>.
-@prefix organisations: <http://purl.org/ie/national-marine-data-centre/organisations>.
+@prefix datasetCommunities: <http://purl.org/ie/national-marine-data-centre/datasetCommunities/>.
+@prefix organisations: <http://purl.org/ie/national-marine-data-centre/organisations/>.
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix gl: <http://schema.geolink.org/1.0/base/main#>.
 @prefix pav: <http://purl.org/pav/>.
