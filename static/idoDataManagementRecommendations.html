@@ -54,12 +54,33 @@
 			</div>
 			<div id="dataManagementRequirements">
 				<h2>Data Management Requirements and Acceptance Criteria</h2>
+				<p>The requirements document should contain an agreed set of clear requirements for the data being produced. It is not intended to be an exhaustive list of requirements, rather a high level set of functional requirements that the process must achieve. These requirements maybe either prerequisites in order to commence a data process or requirements to be met in the design or output of a data process. For example, for the Marine Institute’s process to publish data through an instance of an <a href="https://erddap.marine.ie" target="_blank">Erddap server</a>, prerequisites include: a dataset must have a public-facing record in the Marine Institute’s data catalogue; and that the dataset must not contain personal, sensitive personal, confidential, or otherwise restricted data. In addition, the criteria for successfully meeting these requirements should be specified, ensuring the data produced meets the needs of consumers of the data.</p>
 			</div>
 			<div id="processFlows">
 				<h2>Process Flows</h2>
+				<p>A Process Flow is a visual representation of an activity or series of activities, using standard business notation, illustrating the relationship between major components 294 and demonstrating the logical sequence of events. A Process Flow describes ‘the what’ of an activity and a  <a href="#standardOperatingProcedures">Procedure</a> describes ‘the how’. Together they form part  of a Data Management Framework. The Process Flow may be split across multiple levels, but at the highest level should encompass the complete lifecycle of the data process. Process flow mapping involves gathering everyone involved in the process (administrators, contractor, scientists) together and determining what makes that process happen: inputs, outputs, steps and process time. A process map takes that information and represents it visually.</p>
+				<p>A complete Process Flow can provide a clear vision of the future. After pinpointing problems and proposing solutions, there is an opportunity to re-map the process to what it should be. This shares the big picture with a team; each contributing member is then able to carry out improvements with a shared vision in mind. An example process flow for an ocean modelling dataset is shown in Fig. 4.</p>		<p>A process flow highlights duplicate processes across an organisation as well as variant practices, allowing an organisation to prune out the inefficient and propagate the most effective.</p>
 			</div>
 			<div id="standardOperatingProcedures">
 				<h2>Standard Operating Procedures</h2>
+				<p>A Standard Operating Procedure is a set of step-by-step instructions compiled to perform the activities described by the Process Flow. Depending on complexity there can be multiple Standard Operating Procedures contained in a single Process Flow. Within the context of this implementation pack, the Process Flow and the Standard Operating Procedure are the main mechanisms used to capture and retain organisational knowledge. A template for Standard Operating Procedures has been developed as part of the Implementation Pack, and covers:</p>
+				<ul>
+					<li>Purpose and scope of the procedure</li>
+					<li>Abbreviations and terminology used in the procedure</li>
+					<li>Roles and responsibilities required to carry out the procedure</li>
+					<li>Detailed description of the procedure</li>
+					<ul>
+						<li>Data acquisition</li>
+						<li>Data processing</li>
+						<li>Data storage</li>
+						<li>Data access and security</li>
+						<li>Data quality control</li>
+						<li>Data backup and archive</li>
+					</ul>
+					<li>Reporting requirements (including legislative requirements on data delivery)</li>
+					<li>Recommendations to improve the procedure</li>
+				</ul>
+				<p>Where appropriate, the Standard Operating Procedures should be migrated from plain documentation to automated workflows, such as Jupyter notebooks, to demonstrate reproducibility in the data processing workflow.</p>
 			</div>
 			<div id="dataProvenance">
 				<h2>Data Provenance</h2>
