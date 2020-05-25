@@ -12,7 +12,7 @@ As much of this process as possible should be automated through the use of task 
 
 ##
 
-Build command `invoke rename --dataset buildsitemap`
+Build command `make`
 
 ## Dataset Metadata
 
@@ -36,7 +36,7 @@ Process Step | Script | Description
 
 Process Step | Script | Description
 --- | --- | ---
-1. | `invoke buildsitemap` | Create a sitemap from the files in the `~/html/` folder
+1. | `make buildSiteMap` | Create a sitemap from the files in the `~/html/` folder
 
 __A Business Process Model and Notation process flow is to go here__
 
