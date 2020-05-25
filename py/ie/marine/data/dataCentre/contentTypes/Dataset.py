@@ -20,6 +20,9 @@ class Dataset:
     def getAbstract(self):
         return self.abstract
     
+    def getDateIssued(self):
+        return self.dateIssued
+    
     def getIdentifier(self):
         return self.identifier
     
