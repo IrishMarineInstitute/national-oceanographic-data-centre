@@ -1,0 +1,329 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix msfd-bsh: <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix pav: <http://purl.org/pav/>.
+@prefix reg: <http://purl.org/linked-data/registry>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix version: <http://purl.org/linked-data/version#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats> a skos:ConceptScheme, reg:Register;
+	dct:creator msfd-bsh:orgEC;
+	dct:publisher msfd-bsh:orgMI;
+	dct:modified "2020-09-18"^^xsd:date;
+	dct:created "2020-09-18"^^xsd:date;
+	pav:authoredBy msfd-bsh:orgEC;
+	pav:authoredOn "2017-05-18"^^xsd:date;
+	pav:importedFrom <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017D0848&from=EN>;
+	pav:importedBy msfd-bsh:orgMI;
+	pav:importedOn "2020-09-18"^^xsd:date;
+	rdfs:label "Marine Strategy Framework Directive Broad Scale Habitats"@en;
+	reg:registerOwner msfd-bsh:orgEC;
+	reg:registerManager msfd-bsh:orgMI;
+	reg:subRegister msfd-bsh:msfd-broad-scale-habitats, msfd-bsh:msfd-ecosystem-components;
+	skos:definition "Benthic broad habitat types including their associated biological communities (relevant for criteria under Descriptors 1 and 6 of the European Commission's Marine Strategy Framework Directive), which equate to one or more habitat types of the European nature information system (EUNIS) habitat classification."@en;
+	skos:prefLabel "Marine Strategy Framework Directive Broad Scale Habitats"@en;
+	skos:hasTopConcept msfd-bsh:benthic-habitats;
+	vann:preferredNamespacePrefix "msfd-bsh"@en;
+	vann:preferredNamespaceURI <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	void:uriSpace "http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats".
+
+msfd-bsh:msfd-broad-scale-habitats a skos:Collection, reg:Register;
+	rdfs:label "Marine Strategy Framework Directive Broad Scale Habitats"@en;
+	reg:registerOwner msfd-bsh:orgEC;
+	reg:registerManager msfd-bsh:orgMI;
+	skos:member msfd-bsh:littoral-rock-and-biogenic-reef, 
+				msfd-bsh:littoral-sediment, 
+				msfd-bsh:infralittoral-rock-and-biogenic-reef, 
+				msfd-bsh:infralittoral-coarse-sediment,
+				msfd-bsh:infralittoral-mixed-sediment,
+				msfd-bsh:infralittoral-sand,
+				msfd-bsh:infralittoral-mud,
+				msfd-bsh:circalittoral-rock-and-biogenic-reef,
+				msfd-bsh:circalittoral-coarse-sediment,
+				msfd-bsh:offshore-circalittoral-sand, 
+				msfd-bsh:offshore-circalittoral-mixed-sediment, 
+				msfd-bsh:offshore-circalittoral-coarse-sediment, 
+				msfd-bsh:offshore-circalittoral-rock-and-biogenic-reef, 
+				msfd-bsh:circalittoral-mud, 
+				msfd-bsh:circalittoral-sand, 
+				msfd-bsh:circalittoral-mixed-sediment, 
+				msfd-bsh:upper-bathyal-rock-and-biogenic-reef, 
+				msfd-bsh:upper-bathyal-sediment,
+				msfd-bsh:lower-bathyal-rock-and-biogenic-reef, 
+				msfd-bsh:lower-bathyal-sediment,
+				msfd-bsh:abyssal;
+	skos:definition "Benthic broad habitat types including their associated biological communities (relevant for criteria under Descriptors 1 and 6 of the European Commission's Marine Strategy Framework Directive)."@en.
+
+msfd-bsh:msfd-ecosystem-components a skos:Collection, reg:Register;
+	rdfs:label "Marine Strategy Framework Directive Ecosystem Components"@en;
+	reg:registerOwner msfd-bsh:orgEC;
+	reg:registerManager msfd-bsh:orgMI;
+	skos:member msfd-bsh:benthic-habitats;
+	skos:definition "Top level ecosystem components for the European Commission's Marine Strategy Framework Directive. Should not be used for markup."@en.
+
+msfd-bsh:benthic-habitats a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18";
+	rdfs:label "Benthic habitats"@en;
+	reg:register msfd-bsh:msfd-ecosystem-components;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:scopeNote "Should not be used for markup - use one of the narrower terms instead."@en;
+	skos:topConceptOf <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Benthic habitats"@en;
+	skos:narrower msfd-bsh:littoral-rock-and-biogenic-reef, 
+					msfd-bsh:littoral-sediment, 
+					msfd-bsh:infralittoral-rock-and-biogenic-reef, 
+					msfd-bsh:infralittoral-coarse-sediment,
+					msfd-bsh:infralittoral-mixed-sediment,
+					msfd-bsh:infralittoral-sand,
+					msfd-bsh:infralittoral-mud,
+					msfd-bsh:circalittoral-rock-and-biogenic-reef,
+					msfd-bsh:circalittoral-coarse-sediment,
+					msfd-bsh:offshore-circalittoral-sand, 
+					msfd-bsh:offshore-circalittoral-mixed-sediment, 
+					msfd-bsh:offshore-circalittoral-coarse-sediment, 
+					msfd-bsh:offshore-circalittoral-rock-and-biogenic-reef, 
+					msfd-bsh:circalittoral-mud, 
+					msfd-bsh:circalittoral-sand, 
+					msfd-bsh:circalittoral-mixed-sediment,
+					msfd-bsh:upper-bathyal-rock-and-biogenic-reef, 
+					msfd-bsh:upper-bathyal-sediment,
+					msfd-bsh:lower-bathyal-rock-and-biogenic-reef, 
+					msfd-bsh:lower-bathyal-sediment,
+					msfd-bsh:abyssal.
+
+msfd-bsh:littoral-rock-and-biogenic-reef a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Littoral rock and biogenic reef"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Littoral rock and biogenic reef"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:littoral-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Littoral sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Littoral sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:infralittoral-rock-and-biogenic-reef a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Infralittoral rock and biogenic reef"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Infralittoral rock and biogenic reef"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:infralittoral-coarse-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Infralittoral coarse sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Infralittoral coarse sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+	
+msfd-bsh:infralittoral-mixed-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Infralittoral mixed sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Infralittoral mixed sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:infralittoral-sand a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Infralittoral sand"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Infralittoral sand"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:infralittoral-mud a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Infralittoral mud"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Infralittoral mud"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:circalittoral-rock-and-biogenic-reef a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Circalittoral rock and biogenic reef"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Circalittoral rock and biogenic reef"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:circalittoral-coarse-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Circalittoral coarse sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Circalittoral coarse sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:circalittoral-mixed-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Circalittoral mixed sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Circalittoral mixed sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:circalittoral-sand a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Circalittoral sand"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Circalittoral sand"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:circalittoral-mud a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Circalittoral mud"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Circalittoral mud"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:offshore-circalittoral-rock-and-biogenic-reef a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Offshore circalittoral rock and biogenic reef"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Offshore circalittoral rock and biogenic reef"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:offshore-circalittoral-coarse-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Offshore circalittoral coarse sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Offshore circalittoral coarse sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+	
+msfd-bsh:offshore-circalittoral-mixed-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Offshore circalittoral mixed sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Offshore circalittoral mixed sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+	
+msfd-bsh:offshore-circalittoral-sand a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Offshore circalittoral sand"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Offshore circalittoral sand"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+	
+msfd-bsh:offshore-circalittoral-mud a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Offshore circalittoral mud"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Offshore circalittoral mud"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:upper-bathyal-rock-and-biogenic-reef a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Upper bathyal rock and biogenic reef"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Upper bathyal rock and biogenic reef"@en;
+	skos:broader msfd-bsh:benthic-habitats;
+	skos:scopeNote "Where not specifically defined in the EUNIS classification, the boundary between the upper bathyal and lower bathyal may be set as a specified depth limit."@en.
+
+msfd-bsh:upper-bathyal-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Upper bathyal sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Upper bathyal sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:lower-bathyal-rock-and-biogenic-reef a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Lower bathyal rock and biogenic reef"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Lower bathyal rock and biogenic reef"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:lower-bathyal-sediment a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Lower bathyal sediment"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Lower bathyal sediment"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:abyssal a skos:Concept, reg:RegisterItem;
+	dct:datesubmitted "2020-09-18"^^xsd:date;
+	rdfs:label "Abyssal"@en;
+	reg:register msfd-bsh:msfd-broad-scale-habitats;
+	reg:submitter msfd-bsh:orgMI;
+	reg:status reg:statusValid;
+	skos:inScheme <http://purl.org/ie/national-marine-data-centre/voc/msfd-broad-scale-habitats>;
+	skos:prefLabel "Abyssal"@en;
+	skos:broader msfd-bsh:benthic-habitats.
+
+msfd-bsh:orgMI a foaf:Organization;
+	foaf:homepage <https://www.marine.ie>;
+	foaf:name "Marine Institute, Ireland"@en;
+	rdfs:label "Marine Institute, Ireland"@en.
+
+msfd-bsh:orgEC a foaf:Organization;
+	foaf:name "European Commission"@en;
+	rdfs:label "European Commission"@en.
